@@ -1,6 +1,6 @@
 {
  "profile": "rapid",
- "methodology_version": "0.75",
+ "methodology_version": "0.76",
  "description": "Rapid profile (v0.6 budget). Does not claim compliance with a full systematic review: partial dual extraction.",
  "search": {
   "sources": [
@@ -53,6 +53,20 @@
  "batching": {
   "max_parallel_agents": 20,
   "write_once_per_batch": true
+ },
+ "interests": {
+  "study_declarations": {
+   "A": "sonnet",
+   "B": "haiku",
+   "coverage": "double_extraction_coverage of the profile",
+   "arbiter": "sonnet"
+  },
+  "author_declarations": {
+   "A": "sonnet",
+   "B": "sonnet",
+   "arbiter": "opus"
+  },
+  "authors": "all"
  },
  "budget": {
   "max_output_tokens": 3000000,

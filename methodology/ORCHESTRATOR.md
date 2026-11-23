@@ -1,6 +1,6 @@
 # Orchestrator
 
-Version 0.75. The main session (Opus) conducts a review by following `pipeline.json`, the single source of the stages. The orchestrator (`python3 -m emet.orchestrate`) gives its status and the next action:
+Version 0.76. The main session (Opus) conducts a review by following `pipeline.json`, the single source of the stages. The orchestrator (`python3 -m emet.orchestrate`) gives its status and the next action:
 
 ```sh
 python3 -m emet.orchestrate status <topic>
@@ -41,7 +41,12 @@ A stage is done when all its outputs exist. Stages without a file output (checks
 | 16 | validate | script | `METHODOLOGY.md` | — |
 | 17 | fiche | session | `agents/writing.md` | PDF, PNG |
 | 18 | review-package | script | `schemas/review.schema.json` | `data/reviews/<topic>.json` (`python3 -m emet.migrate_review`, `python3 -m emet.check_review`) |
-| 19 | run-metadata | script | `METHODOLOGY.md` | tokens per stage |
+| 19 | interests-collect | script | `agents/declarations-of-interest.md` | `interests/study-sources.json`, `interests/studies/*.txt` |
+| 20 | interests-studies | agents A, partial B, arbiter | `agents/declarations-of-interest.md` | `interests/study-declarations-*.json` |
+| 21 | interests-authors-collect | script | `agents/declarations-of-interest.md` | `interests/author-candidates.json`, `interests/author-batches/` |
+| 22 | interests-authors | agents A/B + arbiter | `agents/declarations-of-interest.md` | `interests/author-assessment-*.json` |
+| 23 | interests-final | script | `agents/declarations-of-interest.md` | `interests/interests-final.json`, section `interests` of `data/reviews/<topic>.json` |
+| 24 | run-metadata | script | `METHODOLOGY.md` | tokens per stage |
 
 ## Launching agents
 

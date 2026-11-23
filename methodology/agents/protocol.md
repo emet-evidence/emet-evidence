@@ -11,6 +11,7 @@ Agent: main session (Opus), before any search. Output: `data/protocols/<topic>.j
 - Selection method (reference to the profile), risk-of-bias tools by study design.
 - `outcomes_grade`: outcomes rated with GRADE (id, label, importance `"critique"` (critical) or `"important"`; these values stay in French, see `METHODOLOGY.md`); `main_claim`: main claim of the gauge.
 - Synthesis rules (narrative, no pooling unless a statistical protocol is planned).
+- `interest_entities`: entities whose links of interest are relevant to the question (manufacturers, distributors and owners of the products or techniques of the compared arms, with their aliases), or an explicit empty list; optionally `interest_topic_query`, the PubMed query that defines the topic for the other publications of the authors (`declarations-of-interest.md`).
 - `deviations`: empty at registration.
 
 ## Deviations

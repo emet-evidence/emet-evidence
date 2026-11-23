@@ -55,10 +55,22 @@
   "claims": {"type": "object", "required": ["status", "n_claims"], "properties": {"status": {"type": "string", "enum": ["not_started", "in_progress", "verified"]}}},
   "flow": {"type": "object", "required": ["identified_total", "duplicates_removed", "records_screened", "records_excluded_titles", "records_assessed_abstracts",
    "records_excluded_abstracts", "reports_sought", "reports_not_retrieved", "reports_assessed", "reports_excluded", "reports_included", "studies_included", "units"]},
+  "interests": {"type": "object", "required": ["status", "items"],
+   "description": "Declarations of interest (agents/declarations-of-interest.md). Optional: reviews produced before methodology 0.76 do not have it.",
+   "properties": {"status": {"type": "string", "enum": ["not_assessed", "complete"]},
+                  "items": {"type": "array", "items": {"$ref": "#/$defs/interest_study"}},
+                  "correction_contact": {"type": ["string", "null"]}, "review_declaration": {"type": "object", "required": ["team", "coauthored_studies"]}}},
   "audit": {"type": "object"},
   "execution": {"type": "object", "required": ["models", "tokens", "cost_usd", "duration_seconds"]}
  },
  "$defs": {
+  "interest_study": {"type": "object", "required": ["study", "funding", "declaration", "other_publications", "badge"],
+   "properties": {"study": {"type": "string"}, "badge": {"type": "boolean"},
+                  "funding": {"type": "object", "required": ["status", "items"], "properties": {
+                   "status": {"type": "string", "enum": ["reported", "no_funding_declared", "not_reported", "not_accessible"]}, "items": {"type": "array"}}},
+                  "declaration": {"type": "object", "required": ["status", "links"], "properties": {
+                   "status": {"type": "string", "enum": ["links_declared", "no_link_declared", "not_reported", "not_accessible"]}, "links": {"type": "array"}}},
+                  "other_publications": {"type": "array", "items": {"type": "object", "required": ["author", "entity", "relevant_entity", "type", "quote", "source"]}}}},
   "status_list": {"type": "object", "required": ["status", "items"],
    "properties": {"status": {"type": "string", "enum": ["not_assessed", "not_extracted", "partial", "complete"]}, "items": {"type": "array"}, "note": {"type": "string"}}}
  }

@@ -96,10 +96,44 @@ def integrity(r):
     for label, got, expected in checks:
         if got != expected:
             errors.append(f'PRISMA: {label} ({got} ≠ {expected})')
+    errors += interests_integrity(r, studies)
     trials = [s for s in r['studies'] if s['randomized']]
     rob2 = {x['study'] for x in r['risk_of_bias'] if x['tool'] == 'RoB 2'}
     if {s['id'] for s in trials} != rob2:
         errors.append(f'randomized trials ≠ studies assessed with RoB 2 ({len(trials)} versus {len(rob2)})')
+    return errors
+
+
+def interests_integrity(r, studies):
+    """Declarations of interest: every included study covered, every displayed item sourced and quoted, badge consistent,
+    neutral wording, correction channel and review declaration present."""
+    from emet import interests
+    x = r.get('interests')
+    if not x or x['status'] == 'not_assessed':
+        return []
+    errors = []
+    covered = {i['study'] for i in x['items']}
+    if covered != studies:
+        errors.append(f'interests: {len(studies - covered)} included studies without an entry, {len(covered - studies)} unknown')
+    entity_ids = {e['id'] for e in x.get('entities', [])}
+    shown = 0
+    for i in x['items']:
+        for item in i['funding']['items'] + i['declaration']['links'] + i['other_publications']:
+            shown += 1
+            if not item.get('quote'):
+                errors.append(f'interests {i["study"]}: item {item.get("id")} without a quotation')
+            if item.get('relevant_entity') is not None and item['relevant_entity'] not in entity_ids:
+                errors.append(f'interests {i["study"]}: unknown relevant entity {item["relevant_entity"]!r}')
+        for item in i['other_publications']:
+            if not (item.get('source') or {}).get('url'):
+                errors.append(f'interests {i["study"]}: item {item.get("id")} without a source link')
+        if i['badge'] != interests.badge(i):
+            errors.append(f'interests {i["study"]}: badge inconsistent with its items')
+    errors += [f'interests wording: {e}' for e in interests.forbidden(x)]
+    if shown and not x.get('correction_contact'):
+        errors.append('interests: items displayed without a correction channel (interests.correction_contact in emet.json)')
+    if not (x.get('review_declaration') or {}).get('team'):
+        errors.append('interests: declaration of interest of the review missing (review_team in emet.json)')
     return errors
 
 

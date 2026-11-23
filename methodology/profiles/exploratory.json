@@ -1,8 +1,20 @@
 {
  "profile": "exploratory",
- "methodology_version": "0.75",
+ "methodology_version": "0.76",
  "inherits": "rapid",
  "description": "Exploration: must not be presented as a systematic review. Single reviewer at each stage, scripted checks kept.",
+ "interests": {
+  "study_declarations": {
+   "A": "sonnet",
+   "B": null,
+   "arbiter": null
+  },
+  "author_declarations": {
+   "A": "sonnet",
+   "B": null,
+   "arbiter": null
+  }
+ },
  "public_label": "Exploratory review (not systematic)",
  "screening": {
   "titles": {

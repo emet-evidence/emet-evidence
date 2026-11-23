@@ -2,7 +2,7 @@
 
 **An open-source framework for autonomous, reproducible and auditable evidence synthesis.**
 
-EMET Evidence orchestrates LLM agents and deterministic tools to produce systematic reviews: protocol, searches, dual screening, extraction, risk of bias, GRADE certainty, claim verification and open data packages. Every number shown to a reader must be traceable to a source passage, every exclusion to a decision, and every critical check must pass before publication.
+EMET Evidence orchestrates LLM agents and deterministic tools to produce systematic reviews: protocol, searches, dual screening, extraction, risk of bias, GRADE certainty, declarations of interest, claim verification and open data packages. Every number shown to a reader must be traceable to a source passage, every exclusion to a decision, and every critical check must pass before publication.
 
 EMET (אמת) means *truth* in Hebrew.
 
@@ -22,7 +22,7 @@ EMET (אמת) means *truth* in Hebrew.
 
 | Path | Content |
 |---|---|
-| `emet/` | The engine (Python ≥ 3.9, standard library only): search, screening, pre-filter, full-text retrieval, effects, cohort overlap, source and claim verification, structured review migration and validation, P0 rendering, orchestrator, run logs, i18n |
+| `emet/` | The engine (Python ≥ 3.9, standard library only): search, screening, pre-filter, full-text retrieval, effects, cohort overlap, declarations of interest, source and claim verification, structured review migration and validation, P0 rendering, orchestrator, run logs, i18n |
 | `methodology/` | The methodological constitution (`METHODOLOGY.md`), the orchestrator (`ORCHESTRATOR.md`, `pipeline.json`), one module per agent (`agents/`), review-depth profiles (`profiles/`), the review schema (`schemas/review.schema.json`) |
 | `examples/shoulder-surgery/` | A real example workspace: the review *Should the shoulder be immobilised after rotator cuff repair?* (protocol, structured review, effects, open data package) |
 | `tests/` | Deterministic tests (no network), including mutation tests of the integrity checks and a synthetic review |
@@ -46,7 +46,7 @@ pip install "emet-evidence @ git+https://github.com/emet-evidence/emet-evidence@
 
 The engine never stores review data. A **workspace** — the project that publishes reviews — holds:
 
-- `emet.json`: name, default review-depth profile, language, list of topics, and the workspace's own publication and validation commands (substituted in the pipeline as `{publish}` and `{validate}`);
+- `emet.json`: name, default review-depth profile, language, list of topics, and the workspace's own publication and validation commands (substituted in the pipeline as `{publish}` and `{validate}`); for the declarations of interest, the correction channel (`interests.correction_contact`) and the review team with its own declarations (`review_team`);
 - `topics/<id>.json`: search folder, published outputs, scripted title pre-filter rules (patterns combined with `all` / `any` / `not`), names of the compared arms for effect extraction;
 - `data/`: protocols, searches and screening decisions, cached records, structured reviews (`data/reviews/<id>.json`), run logs.
 

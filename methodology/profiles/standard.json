@@ -1,6 +1,6 @@
 {
  "profile": "standard",
- "methodology_version": "0.75",
+ "methodology_version": "0.76",
  "description": "Exhaustive dual independent screening and dual extraction. Does not by itself confer Cochrane compliance (subscription databases not searched).",
  "inherits": "rapid",
  "screening": {
@@ -25,6 +25,14 @@
   "B": "sonnet",
   "double_extraction_coverage": 1.0,
   "arbiter": "opus (disagreeing fields only)"
+ },
+ "interests": {
+  "study_declarations": {
+   "A": "sonnet",
+   "B": "sonnet",
+   "coverage": "double_extraction_coverage of the profile",
+   "arbiter": "opus"
+  }
  },
  "public_label": "Systematic review"
 }

@@ -1,5 +1,5 @@
 {
- "methodology_version": "0.75",
+ "methodology_version": "0.76",
  "note": "Single source of the orchestrator stages (python3 -m emet.orchestrate); described in ORCHESTRATOR.md. {s} = topic, {D} = search folder data/searches/<topic>-<date>, {S} = {D}/screening.",
  "stages": [
   {
@@ -200,6 +200,56 @@
    ],
    "run": "python3 -m emet.migrate_review {s} && python3 -m emet.check_review {s}",
    "do": "Exchange format v0.8: schema, links between entities, PRISMA identities; an error blocks publication."
+  },
+  {
+   "id": "interests-collect",
+   "module": "agents/declarations-of-interest.md",
+   "kind": "script",
+   "outputs": [
+    "{S}/interests/study-sources.json"
+   ],
+   "run": "python3 -m emet.interests collect {s}"
+  },
+  {
+   "id": "interests-studies",
+   "module": "agents/declarations-of-interest.md",
+   "kind": "agents",
+   "profile_key": "interests.study_declarations",
+   "outputs": [
+    "{S}/interests/study-declarations-A.json"
+   ],
+   "run": "python3 -m emet.interests check {s} studies",
+   "do": "Reviewer A on all studies, reviewer B on the double_extraction_coverage share of the profile: interests/studies/<study>.txt and the eligibility files of its reports; check; adjudication of the disagreeing studies (study-declarations-arbitration.json)."
+  },
+  {
+   "id": "interests-authors-collect",
+   "module": "agents/declarations-of-interest.md",
+   "kind": "script",
+   "outputs": [
+    "{S}/interests/author-candidates.json"
+   ],
+   "run": "python3 -m emet.interests authors {s}"
+  },
+  {
+   "id": "interests-authors",
+   "module": "agents/declarations-of-interest.md",
+   "kind": "agents",
+   "profile_key": "interests.author_declarations",
+   "outputs": [
+    "{S}/interests/author-assessment-A.json"
+   ],
+   "run": "python3 -m emet.interests check {s} authors",
+   "do": "Independent reviewers A and B on each interests/author-batches/batch-*.json (one output file per reviewer, all batches merged); check; adjudication of disagreements (author-assessment-arbitration.json), cautious decision not_retained."
+  },
+  {
+   "id": "interests-final",
+   "module": "agents/declarations-of-interest.md",
+   "kind": "script",
+   "outputs": [
+    "{S}/interests/interests-final.json"
+   ],
+   "run": "python3 -m emet.interests final {s} && python3 -m emet.migrate_review {s} && python3 -m emet.check_review {s}",
+   "do": "Then rerun the workspace publication command ({publish}) so that the badges and the section are rendered."
   },
   {
    "id": "run-metadata",

@@ -131,6 +131,17 @@ def effect_estimates(S, subject):
                       'disagreements; effects calculated by script (Katz RR, mean difference), without pooling across studies')}
 
 
+def interests(S):
+    path = S / 'interests/interests-final.json'
+    if not path.exists():
+        return {'status': 'not_assessed', 'items': [], 'note': _('declarations of interest not assessed for this review')}
+    data = load(path)
+    return {'status': 'complete', 'items': data['items'], 'levels': data['levels'], 'entities': data['entities'],
+            'window_months': data['window_months'], 'coverage': data['coverage'], 'corrections': data['corrections'],
+            'review_declaration': data['review_declaration'],
+            'correction_contact': (config().get('interests') or {}).get('correction_contact')}
+
+
 def main(subject):
     protocol_path = f'data/protocols/{subject}.json'
     protocol = load(ROOT / protocol_path)
@@ -248,6 +259,7 @@ def main(subject):
         'risk_of_bias': [{'study': next((st['id'] for st in studies if st['page_reference'] == R), None), 'page_reference': R, **v}
                          for R, v in page['risk_of_bias'].items()],
         'grade': page['grade'],
+        'interests': interests(S),
         'claims': {'status': 'verified' if report and report.get('passed') is True else ('in_progress' if claims else 'not_started'),
                    'n_claims': len(claims), 'report': {k: report[k] for k in ('pairs', 'verdicts', 'passed') if k in report} if report else None},
         'flow': flow,
