@@ -1,6 +1,6 @@
 {
  "profile": "enhanced",
- "methodology_version": "0.75",
+ "methodology_version": "0.76",
  "inherits": "standard",
  "description": "Exhaustive dual independent screening and dual extraction with different model families when available, adversarial search for missed studies, independent red team on the conclusion.",
  "screening": {
@@ -30,6 +30,19 @@
   "A": "sonnet",
   "B": "opus",
   "arbiter": "opus"
+ },
+ "interests": {
+  "study_declarations": {
+   "A": "sonnet",
+   "B": "opus",
+   "coverage": "double_extraction_coverage of the profile",
+   "arbiter": "opus"
+  },
+  "author_declarations": {
+   "A": "sonnet",
+   "B": "opus",
+   "arbiter": "opus"
+  }
  },
  "extra_steps": [
   "adversarial-search (agent searching for missed studies through previous reviews and citations)",

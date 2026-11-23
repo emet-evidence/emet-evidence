@@ -1,6 +1,6 @@
 # Methodology — constitution
 
-Version 0.75 · 20 November 2026 · Methodological lead: Dr Mikaël Chelli.
+Version 0.76 · 23 November 2026 · Methodological lead: Dr Mikaël Chelli.
 This file sets the principles common to all stages. The workflow is in `ORCHESTRATOR.md`; each agentic module has its file in `agents/`; the depth parameters are in `profiles/`; the history is in `CHANGELOG.md`. The public methodology (`methodologie.md`, in French) is its readable version and carries the same number.
 
 Language: this English text is the reference version of the engine methodology. Some controlled values that agents write and scripts match (claim-verification verdicts, access levels, risk-of-bias judgements, GRADE importance and certainty levels, eligibility-file headers, claim kinds) remain in French for compatibility with existing data; they are quoted as is, with an English gloss, and will be normalised later.
@@ -50,5 +50,6 @@ Any change to the methodology changes its version, in this file, in `methodologi
 | Extraction | `agents/extraction.md` | Data, provenance, randomised trials |
 | Risk of bias | `agents/risk-of-bias.md` | Tools by study design, domains, overall judgement |
 | GRADE | `agents/grade.md` | Certainty by outcome, main claim |
+| Declarations of interest | `agents/declarations-of-interest.md` | Funding and declarations of interest of the included studies and of their authors, badge, declaration of the review |
 | Writing | `agents/writing.md` | Page, tables, timeline, infographics, summary sheet |
 | Verification | `agents/claim-verification.md` | Claim ↔ source, verbatim quotation |

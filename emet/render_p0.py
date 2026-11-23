@@ -6,6 +6,8 @@ No model call: everything is derived from the locked data. Components:
 - grade_summary(review, page): GRADE by outcome, visible, with sample sizes and reasons for downgrading;
 - study_explorer(review, page): filterable table of studies (type, outcome, risk of bias, access);
 - rob_matrix(review, page): risk of bias by study and by domain, per tool, filterable by outcome;
+- interest_badge(review, study), interests_section(review), review_declaration(review): declarations of interest (empty or
+  "not assessed" when the review has no `interests` section);
 - downloads(subject): open data files (written by export_package);
 - export_package(subject): writes <open_data_dir>/<topic>/ (emet.json, default open-data) (CSV, JSON, SHA-256 manifest, zip archive).
 
@@ -201,7 +203,7 @@ def study_explorer(review, page, base):
         lv = LEVEL.get(level, (N_('Not assessable'), '–'))
         trial = f'{fmt(s["randomized"]["n"])}' if s['randomized'] and isinstance(s['randomized']['n'], int) else (_('n.r.') if s['randomized'] else '')
         rows.append(f'''<tr data-kind="{s['kind']}" data-access="{acc}" data-rob="{level}" data-outcomes="{' '.join(s['outcomes'])}" data-rct="{'1' if s['randomized'] else '0'}">
-            <th scope="row"><a href="#{s['page_reference']}">{escape(s['label'])}</a></th><td>{escape(s['design'])}</td><td>{_(KIND[s['kind']])}</td>
+            <th scope="row"><a href="#{s['page_reference']}">{escape(s['label'])}</a>{interest_badge(review, s['id'])}</th><td>{escape(s['design'])}</td><td>{_(KIND[s['kind']])}</td>
             <td>{_(ACCESS[acc]) if acc in ACCESS else acc}</td><td>{trial}</td><td>{' '.join(s['outcomes'])}</td>
             <td class="p0-robcell"><span class="p0-rob p0-rob-{level}" title="{escape(r.get('overall', ''))}">{lv[1]}</span><span><strong>{escape(_(lv[0]))}</strong><small>{escape(r.get('tool') or '') if level != 'na' else _('registry record without results')}</small></span></td></tr>''')
     opt = lambda items: ''.join(f'<option value="{k}">{escape(v)}</option>' for k, v in items)
@@ -248,7 +250,7 @@ def rob_matrix(review, page):
                 lv = judgement_level(d['judgement'])
                 cells.append(f'<td><span class="p0-rob p0-rob-{lv}" title="{labelled(escape(d["name"]), escape(d["judgement"]))}" tabindex="0">{LEVEL[lv][1]}</span><span class="sr">{escape(d["judgement"])}</span></td>')
             lv = overall_level(r)
-            rows.append(f'''<tr data-outcomes="{' '.join(s['outcomes'])}"><th scope="row"><a href="#{s['page_reference']}">{escape(s['label'])}</a></th>{"".join(cells)}
+            rows.append(f'''<tr data-outcomes="{' '.join(s['outcomes'])}"><th scope="row"><a href="#{s['page_reference']}">{escape(s['label'])}</a>{interest_badge(review, s['id'])}</th>{"".join(cells)}
                 <td><span class="p0-rob p0-rob-{lv}">{LEVEL[lv][1]}</span> {escape(r.get('overall', ''))}<details><summary>{_('Rationale')}</summary><p>{escape(r.get('rationale', ''))}</p></details></td></tr>''')
         blocks.append(f'''<div class="study-context"><div class="table-scroll" role="region" tabindex="0" aria-label="{_('Risk of bias, {tool}', tool=escape(tool))}"><table class="p0-table p0-robm"><caption>{_('{tool} · {n} studies', tool=escape(tool), n=len(items))}</caption>
             <thead><tr><th scope="col">{_('Study')}</th>{head}<th scope="col">{_('Overall')}</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div></div>''')
@@ -481,6 +483,8 @@ FILES = [('review.json', N_('Complete structured review (exchange format v0.8, s
          ('audit.json', N_('Agreement (kappa), pre-filter audit, claim verification')),
          ('execution.json', N_('Models, tokens used (estimate), duration')),
          ('MANIFEST.json', N_('SHA-256 fingerprints, versions, licences'))]
+# Written only for the reviews whose declarations of interest were assessed.
+OPTIONAL_FILES = [('declarations-interets.csv', N_('Funding and declarations of interest by study, with their sources'))]
 
 
 def csv_text(header, rows):
@@ -521,6 +525,9 @@ def export_package(subject):
         'audit.json': json.dumps({'audit': review['audit'], 'claims': review['claims'], 'flow': review['flow']}, ensure_ascii=False, indent=1),
         'execution.json': json.dumps(review['execution'], ensure_ascii=False, indent=1),
     }
+    if (review.get('interests') or {}).get('status') == 'complete':
+        files['declarations-interets.csv'] = csv_text(columns('study', 'label', 'level', 'author', 'entity', 'relevant_entity', 'type', 'source', 'url', 'quote'),
+                                                      interest_rows(review))
     # Lists behind the PRISMA boxes.
     main, other = branches(review)
     t, a, e = resolved(review, 'titles'), resolved(review, 'abstracts'), resolved(review, 'eligibility')
@@ -564,7 +571,8 @@ def export_package(subject):
 def downloads(subject, base):
     out = ROOT / config(ROOT).get('open_data_dir', 'open-data') / subject
     size = lambda n: _('{n} KB', n=max(1, (out / n).stat().st_size // 1024)) if (out / n).exists() else ''
-    items = ''.join(f'<li class="method-tile"><a href="{base}/{n}" download>{escape(n)}</a><small>{size(n)} · {escape(_(d))}</small></li>' for n, d in FILES)
+    listed = FILES + [(n, d) for n, d in OPTIONAL_FILES if (out / n).exists()]
+    items = ''.join(f'<li class="method-tile"><a href="{base}/{n}" download>{escape(n)}</a><small>{size(n)} · {escape(_(d))}</small></li>' for n, d in listed)
     return f'''<div class="p0-block" id="telechargements"><h3>{_('Open data')}</h3>
         <p><a class="p0-button" href="{base}/paquet-revue.zip" download>{_('Download the full package · .zip, {size}', size=size("paquet-revue.zip"))}</a></p>
         <ul class="p0-files">{items}</ul>
@@ -622,6 +630,8 @@ STYLE = '''<style>
 @media print{.p0-seg,.p0-rob,.p0-gap{-webkit-print-color-adjust:exact;print-color-adjust:exact}.p0-filters,.p0-list,.p0-button{display:none}.p0-block tr[hidden]{display:table-row}}
 .p0-forest small{display:block;font-size:11px;color:var(--muted);font-weight:400}.p0-forest tbody th{min-width:190px}.p0-fp-cell{min-width:270px}
 .p0-fp{width:260px;height:24px;display:block}.p0-fp-null{stroke:var(--muted);stroke-dasharray:3 3}.p0-fp-ci{stroke:var(--foreground);stroke-width:1.6}.p0-fp-pt{fill:var(--primary)}.p0-fp-arrow{fill:var(--foreground)}
+.p0-interest{display:inline-block;margin:3px 0 0 6px;padding:1px 8px;border:1px solid var(--warning);border-radius:12px;background:var(--accent-surface);color:var(--warning);font-size:11px;font-weight:700;text-decoration:none;white-space:nowrap}
+.p0-interests td{vertical-align:top;font-size:12px}.p0-interests ul{margin:4px 0 0;padding-left:16px}.p0-interests q{display:block;color:var(--muted);font-style:italic}.p0-interests small{display:block;color:var(--muted)}
 .p0-fp-num{white-space:nowrap}.p0-fp-warn{color:var(--accent)!important;white-space:normal;max-width:220px}
 </style>'''
 
@@ -712,7 +722,7 @@ def forest_plot(review, page):
                 plot = svg_md(c)
             better = {True: _('higher value = better'), False: _('lower value = better')}.get(e.get('higher_is_better'), '')
             warn = f'<small class="p0-fp-warn">⚠ {escape(c["warning"])}</small>' if c.get('warning') else ''
-            trs.append(f'''<tr><th scope="row"><a href="#{s.get('page_reference', '')}">{escape(s.get('label', e['study']))}</a><small>{escape(e.get('measure_label', ''))} · {escape(str(e.get('timepoint', '')))}</small></th>
+            trs.append(f'''<tr><th scope="row"><a href="#{s.get('page_reference', '')}">{escape(s.get('label', e['study']))}</a>{interest_badge(review, e['study'])}<small>{escape(e.get('measure_label', ''))} · {escape(str(e.get('timepoint', '')))}</small></th>
                 <td>{escape(data)}<small>{escape(e.get('access', ''))}{' · ' + better if better else ''}</small></td><td class="p0-fp-cell">{plot}</td>
                 <td class="p0-fp-num"><strong>{_('MD') if c['measure'] == 'MD' else c['measure']} {num(c['value'])}</strong><small>{_('[{low}, {high}]', low=num(c['ci_low']), high=num(c['ci_high']))}</small>{warn}</td></tr>''')
         blocks.append(f'''<div class="study-context"><div class="table-scroll" role="region" tabindex="0" aria-label="{_('Effects by study, {outcome}', outcome=oid)}"><table class="p0-table p0-forest">
@@ -724,6 +734,148 @@ def forest_plot(review, page):
         <p class="p0-lead">{_('No pooled effect calculated: each row is a trial, no overall effect is calculated. RR = relative risk ({intervention} / {comparator}, logarithmic scale from 0.05 to 20, vertical line = 1); MD = mean difference ({intervention} − {comparator}), scale specific to each row because the units differ, vertical line = 0.', intervention=escape(arms['intervention']['short']), comparator=escape(arms['comparator']['short']))}</p>
         {"".join(blocks)}
         <p class="table-note">{_('{n} computable effects out of {total} results extracted from the randomized trials ({narrative} results only described in words, without usable numbers; the others lack sample sizes or standard deviations by arm). Extraction: reviewer A on all outcomes, reviewer B on the critical outcomes, adjudication; each number is checked against a word-for-word quotation of the source. Sample sizes are those reported for the analysis, otherwise those randomized.', n=len(items), total=n_all, narrative=narrative)}</p></div>'''
+
+
+# ---- Declarations of interest (methodology/agents/declarations-of-interest.md) ------------------------------
+
+FUNDING_STATUS = {'reported': N_('funding reported'), 'no_funding_declared': N_('no funding declared by the source'),
+                  'not_reported': N_('funding not reported'), 'not_accessible': N_('statement not accessible (source read on the abstract only)')}
+DECLARATION_STATUS = {'links_declared': N_('links of interest declared'), 'no_link_declared': N_('no link of interest declared by the source'),
+                      'not_reported': N_('no declaration of interest in the source'), 'not_accessible': N_('statement not accessible (source read on the abstract only)')}
+FUNDER_TYPE = {'industry': N_('company'), 'public': N_('public funder'), 'non_profit': N_('non-profit organisation'),
+               'institutional': N_('institution'), 'other': N_('other')}
+LINK_TYPE = {'employment': N_('employment'), 'consultancy': N_('consultancy'), 'speaker': N_('speaker fees'), 'advisory_board': N_('advisory board'),
+             'royalties': N_('royalties'), 'research_support': N_('research support'), 'equity': N_('shares or equity'), 'patent': N_('patent'),
+             'travel_or_hospitality': N_('travel or hospitality'), 'material_support': N_('material support'), 'other': N_('other link'),
+             'unspecified': N_('type of link not specified')}
+
+
+def interest_entry(review, study):
+    x = review.get('interests') or {}
+    if x.get('status') != 'complete':
+        return None
+    return next((i for i in x['items'] if study in (i['study'], i.get('page_reference'))), None)
+
+
+def interest_badge(review, study):
+    """Badge shown next to a study (id or page reference) when the review lists a possible link of interest for it; else ''."""
+    entry = interest_entry(review, study)
+    if not entry or not entry['badge']:
+        return ''
+    return (f'<a class="p0-interest" href="#interets-{escape(entry["study"])}" title="{_("See the declarations of interest of this study")}">'
+            f'<span aria-hidden="true">◆</span> {_("possible link of interest")}</a>')
+
+
+def contact_link(contact):
+    href = f'mailto:{contact}' if '@' in contact and '://' not in contact else contact
+    return f'<a href="{escape(href)}">{_("Request a correction")}</a>'
+
+
+def _quote(text):
+    return f'<q>{escape(text)}</q>' if text else ''
+
+
+def _located(item):
+    link = f' · <a href="{escape(item["url"])}">{_("source")}</a>' if item.get('url') else ''
+    return f'<small>{escape(item.get("location") or "")}{link}</small>'
+
+
+def _statement(item):
+    if not item.get('author_statement'):
+        return ''
+    return f'<small>{_("Statement of the author: {text}", text=escape(item["author_statement"]))}</small>'
+
+
+def _link(item):
+    return _('{author}: {entity}', author=escape(item['author']), entity=escape(item['entity'])) + f' ({escape(_(LINK_TYPE.get(item.get("type"), "unspecified")))})'
+
+
+def interest_cells(i, entity):
+    f, d = i['funding'], i['declaration']
+    funding = ''
+    for it in f['items']:
+        relevant = f' · {escape(entity.get(it["relevant_entity"], ""))}' if it.get('relevant_entity') else ''
+        funding += (f'<li>{escape(it["name"])} ({escape(_(FUNDER_TYPE.get(it.get("type"), "other")))}){relevant}'
+                    f'{_quote(it.get("quote"))}{_located(it)}{_statement(it)}</li>')
+    links = ''.join(f'<li>{_link(it)}{_quote(it.get("quote"))}{_located(it)}{_statement(it)}</li>' for it in d['links'])
+    own = '' if d['links'] else _quote(d.get('quote')) + (_located(d) if d.get('location') else '')
+    other = ''
+    for it in i['other_publications']:
+        src = it['source']
+        title = f'<a href="{escape(src["url"])}">{escape(src.get("title") or src["pmid"])}</a>'
+        where = _('declared in {title} ({year})', title=title, year=escape(str(src.get('year') or '')))
+        other += f'<li>{_link(it)}<small>{where} · {escape(src.get("location") or "")}</small>{_quote(it.get("quote"))}{_statement(it)}</li>'
+    return (escape(_(FUNDING_STATUS[f['status']])) + (f'<ul>{funding}</ul>' if funding else ''),
+            escape(_(DECLARATION_STATUS[d['status']])) + (f'<ul>{links}</ul>' if links else own),
+            f'<ul>{other}</ul>' if other else escape(_('none retained')))
+
+
+def interests_section(review):
+    """Funding and declarations of interest of each included study, then the links declared by the same authors in their
+    other publications on the topic; each item with its source and verbatim quotation, without comment and without amounts."""
+    x = review.get('interests') or {}
+    title = _('Declarations of interest')
+    if x.get('status') != 'complete':
+        return f'<div class="p0-block" id="declarations-interets"><h3>{title}</h3><p class="p0-lead">{_("Not assessed for this review.")}</p></div>'
+    entity = {e['id']: e['name'] for e in x.get('entities', [])}
+    contact = x.get('correction_contact')
+    rows = []
+    for i in x['items']:
+        funding, declaration, other = interest_cells(i, entity)
+        shown = i['funding']['items'] or i['declaration']['links'] or i['other_publications']
+        correction = f'<small>{contact_link(contact)}</small>' if contact and shown else ''
+        rows.append(f'<tr id="interets-{escape(i["study"])}"><th scope="row">{escape(i["label"])}{interest_badge(review, i["study"])}{correction}</th>'
+                    f'<td>{funding}</td><td>{declaration}</td><td>{other}</td></tr>')
+    c = x.get('coverage', {})
+    names = ', '.join(escape(e['name']) for e in x.get('entities', [])) or _('none')
+    lead = _('For each included study: its funding and the declaration of interest of its authors, as stated by the sources, then the links of interest '
+             'that the same authors declare in their other publications on the topic, up to {months} months before or after the study. Only the links '
+             'with the entities listed in the protocol ({entities}) carry the badge. The absence of a badge does not mean the absence of a link of interest.',
+             months=x.get('window_months', ''), entities=names)
+    counts = _('{accessible} of {n} studies with an accessible declaration · {authors} authors searched · {links} possible links found in other '
+               'publications · {badges} studies with the badge.', accessible=fmt(c.get('declaration_accessible')), n=fmt(c.get('studies')),
+               authors=fmt(c.get('authors')), links=fmt(c.get('possible_links')), badges=fmt(c.get('with_badge')))
+    note = _('Items are reproduced from their source, with a verbatim quotation, without comment. Amounts are never shown: follow the link to the '
+             'source. An author is matched to another publication only on the same name and at least one other criterion (ORCID, institution or '
+             'co-author); otherwise nothing is shown.')
+    if contact:
+        note += ' ' + _('Any person concerned can request the correction or removal of an item ({link}); the item is no longer displayed during the '
+                        'examination.', link=contact_link(contact))
+    head = ''.join(f'<th scope="col">{h}</th>' for h in (_('Study'), _('Funding'), _('Declaration of the study'),
+                                                          _('Declarations of the same authors in other publications on the topic')))
+    return f'''<div class="p0-block" id="declarations-interets"><h3>{title}</h3><p class="p0-lead">{lead}</p><p class="p0-plain">{counts}</p>
+        <div class="study-context"><div class="table-scroll" role="region" tabindex="0" aria-label="{title}"><table class="p0-table p0-interests"><caption>{_('Funding and declarations of interest by study')}</caption>
+        <thead><tr>{head}</tr></thead><tbody>{"".join(rows)}</tbody></table></div></div>
+        <p class="table-note">{note}</p></div>'''
+
+
+def review_declaration(review):
+    """Declaration of interest of the review itself: review team, included studies co-authored by its members, models used."""
+    x = review.get('interests') or {}
+    if x.get('status') != 'complete':
+        return ''
+    rd = x.get('review_declaration') or {}
+    team = ''
+    for m in rd.get('team', []):
+        who = f'<strong>{escape(m["name"])}</strong>' + (f' ({escape(m["role"])})' if m.get('role') else '')
+        when = f'<small>{_("declared on {date}", date=escape(m["declared_at"]))}</small>' if m.get('declared_at') else ''
+        team += f'<li>{labelled(who, escape(m.get("declaration") or _("no declaration provided")))}{when}</li>'
+    authored = ''.join(f'<li>{_("{study}: co-authored by {member}", study=escape(s["label"]), member=escape(s["member"]))}</li>'
+                       for s in rd.get('coauthored_studies', []))
+    return f'''<div class="p0-block" id="declaration-revue"><h3>{_('Declaration of interest of this review')}</h3><ul class="p0-plain">{team}</ul>
+        <h4 class="p0-sub">{_('Included studies co-authored by a member of the review team')}</h4><ul class="p0-plain">{authored or "<li>" + _("None") + "</li>"}</ul>
+        <h4 class="p0-sub">{_('Language models used')}</h4><p class="p0-plain">{escape(review['execution'].get('models') or _('not available'))}</p></div>'''
+
+
+def interest_rows(review):
+    for i in review['interests']['items']:
+        for level, items in (('funding', i['funding']['items']), ('study_declaration', i['declaration']['links'])):
+            for it in items:
+                yield [i['study'], i['label'], level, it.get('author', ''), it.get('entity') or it.get('name'), it.get('relevant_entity'),
+                       it.get('type'), it.get('location'), it.get('url'), it.get('quote')]
+        for it in i['other_publications']:
+            yield [i['study'], i['label'], 'other_publication', it['author'], it['entity'], it['relevant_entity'], it['type'],
+                   it['source'].get('location'), it['source']['url'], it['quote']]
 
 
 def cohort_note(review):

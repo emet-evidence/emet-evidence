@@ -1,6 +1,6 @@
 {
  "profile": "maximum",
- "methodology_version": "0.75",
+ "methodology_version": "0.76",
  "inherits": "enhanced",
  "description": "Multiple independent search strategies, full audit of exclusions, multiple checks and cross-model adjudication.",
  "screening": {
