@@ -1,0 +1,13 @@
+{
+ "models": "Sonnet et Haiku, sessions séparées",
+ "tokens": {
+  "input_tokens": 1150,
+  "cache_creation_input_tokens": 6345184,
+  "cache_read_input_tokens": 30486392,
+  "output_tokens": 1498501,
+  "messages": 575
+ },
+ "tokens_source": "scripts/usage_baseline.py (transcripts, attribution par mots-clés, approximative)",
+ "cost_usd": null,
+ "duration_seconds": null
+}

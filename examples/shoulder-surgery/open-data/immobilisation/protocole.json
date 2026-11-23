@@ -1,0 +1,168 @@
+{
+ "schema_version": 1,
+ "id": "immobilisation",
+ "title": "Faut-il immobiliser l'épaule après une réparation de la coiffe des rotateurs ?",
+ "question": "Chez l'adulte opéré d'une réparation de la coiffe des rotateurs, une immobilisation postopératoire (attelle ou écharpe sans mobilisation, ou mobilisation retardée) améliore-t-elle la cicatrisation tendineuse et le résultat clinique par rapport à une mobilisation précoce ou à une immobilisation plus courte ou absente, et cet effet varie-t-il selon la taille de la rupture, le stade de rétraction tendineuse ou d'autres caractéristiques de la lésion et du patient ?",
+ "category": "Coiffe des rotateurs",
+ "registered": "2026-11-18",
+ "registration": "Commit Git du présent fichier (horodatage et empreinte), avant toute requête bibliographique",
+ "status": "prospectif : protocole commité avant la première recherche",
+ "pico": {
+  "population": "Adultes opérés d'une réparation (arthroscopique, mini-open ou à ciel ouvert) d'une rupture de la coiffe des rotateurs, transfixiante ou partielle, quel que soit le tendon. Les réparations associées à un geste complémentaire (acromioplastie, ténodèse ou ténotomie du biceps, renfort) sont incluses. Exclus : reconstruction capsulaire supérieure, transfert tendineux, prothèse, débridement sans réparation, patients non opérés.",
+  "intervention": "Immobilisation postopératoire ou mobilisation retardée : attelle, écharpe ou coussin d'abduction sans mobilisation passive (ou avec mouvements limités au coude, au poignet et à la main) pendant une durée définie, ou immobilisation plus longue.",
+  "comparator": "Mobilisation passive précoce (manuelle, autopassive ou arthromoteur), absence d'immobilisation ou écharpe de confort sans restriction, ou immobilisation plus courte. Les comparaisons sont analysées séparément : (1) mobilisation précoce contre immobilisation ou mobilisation retardée ; (2) absence d'écharpe ou écharpe de confort contre immobilisation stricte ; (3) durées d'immobilisation différentes.",
+  "outcomes": "Cicatrisation ou rerupture (échographie, IRM, arthro-IRM, arthroscanner) ; fonction (Constant, ASES, SST, UCLA, WORC, DASH, Oxford, SANE…) ; mobilité (amplitudes passives et actives) et raideur postopératoire, y compris capsulite, arthrolyse ou mobilisation sous anesthésie ; douleur ; complications et réinterventions ; retour au travail.",
+  "timing": "Court terme (jusqu'à 3 mois), moyen terme (plus de 3 mois à moins de 12 mois), long terme (12 mois et plus). La cicatrisation est retenue au délai d'imagerie le plus tardif ; la fonction au délai le plus proche de 12 mois pour GRADE ; la mobilité à 3 mois (le plus proche) et à 12 mois. Les autres délais sont rapportés."
+ },
+ "subgroups": {
+  "objective": "Répondre séparément selon les caractéristiques de la lésion et du patient, à la demande de l'auteur de la question.",
+  "prespecified": [
+   "Taille de la rupture : petite ou moyenne (moins de 3 cm, DeOrio et Cofield) contre grande ou massive (3 cm et plus, ou au moins deux tendons)",
+   "Rétraction tendineuse : stade de Patte 1, 2 et 3 (ou mesure de la rétraction en millimètres)",
+   "Infiltration graisseuse (Goutallier ou Fuchs) et atrophie musculaire",
+   "Nombre et identité des tendons rompus (supra-épineux isolé, atteinte de l'infra-épineux, du sous-scapulaire)",
+   "Rupture partielle contre transfixiante",
+   "Âge (moins de 60 ans contre 60 ans et plus, ou seuil des auteurs)",
+   "Technique de réparation (simple rang, double rang, suture-bridge ; réparation complète ou partielle)",
+   "Durée de l'immobilisation (2 semaines ou moins, 3 à 4 semaines, 6 semaines et plus)"
+  ],
+  "sources_of_subgroup_data": "Par ordre de crédibilité : (1) analyses de sous-groupes ou interactions rapportées dans les essais randomisés ; (2) essais randomisés restreints à une catégorie de lésion (ex. grandes ruptures seulement), comparés entre eux ; (3) méta-analyses stratifiées publiées ; (4) études non randomisées. La crédibilité d'un effet de sous-groupe est discutée (prédéfini ou non, comparaison intra-essai ou entre essais, test d'interaction, cohérence) ; un sous-groupe sans donnée est déclaré tel quel : « aucune étude ».",
+  "grading": "GRADE séparé pour la rerupture et la fonction dans les ruptures petites ou moyennes et dans les ruptures grandes ou massives quand les essais le permettent ; pour le stade de rétraction et les autres paramètres, synthèse narrative avec la crédibilité de l'effet de sous-groupe."
+ },
+ "inclusion": [
+  "Essai contrôlé randomisé (y compris quasi randomisé) comparant, après réparation de la coiffe, une immobilisation ou une mobilisation retardée à une mobilisation précoce, à l'absence d'immobilisation ou à une immobilisation de durée différente",
+  "Étude comparative non randomisée (cohorte prospective ou rétrospective avec groupe témoin) répondant au même PICO",
+  "Revue systématique ou méta-analyse sur l'immobilisation ou la mobilisation précoce après réparation de la coiffe (rapportée dans la section « Revues systématiques », non comptée comme preuve indépendante)"
+ ],
+ "exclusion_codes": {
+  "E1": "Population hors champ : patients non opérés, chirurgie sans réparation de coiffe (débridement seul, acromioplastie seule, stabilisation, prothèse, fracture), reconstruction capsulaire supérieure ou transfert tendineux, autre articulation",
+  "E2": "Comparaison hors champ : les deux groupes ont le même calendrier d'immobilisation et de mobilisation (ex. type d'attelle, coussin d'abduction contre écharpe à durée égale, arthromoteur contre mobilisation manuelle, rééducation supervisée contre à domicile, kinésithérapie aquatique, électrothérapie, cryothérapie, bloc anesthésique)",
+  "E3": "Pas de groupe comparateur (série de cas, cas clinique, étude avant-après sans témoin)",
+  "E4": "Pas de données originales (revue narrative, éditorial, lettre, enquête de pratique, protocole sans résultats, résumé de congrès sans résultats exploitables), sauf revue systématique",
+  "E5": "Doublon ou publication redondante (même essai rapporté plusieurs fois : la publication la plus complète retenue par critère et par délai, les autres signalées)",
+  "E6": "Hors sujet (étude animale, cadavérique, biomécanique, in vitro, autre question)",
+  "E8": "Aucun critère de jugement retenu (cicatrisation, fonction, mobilité, raideur, douleur, complications)"
+ },
+ "scope_decisions": [
+  "2026-11-18 : la question porte sur la nécessité d'une immobilisation après réparation de coiffe, c'est-à-dire le calendrier de mobilisation (précoce contre retardée, avec ou sans écharpe, durée). Le type d'orthèse à durée égale (coussin d'abduction contre écharpe simple), la modalité de rééducation à calendrier égal (arthromoteur contre mobilisation manuelle, supervisée contre à domicile), le moment du renforcement ou de la mobilisation active seule sans différence d'immobilisation relèvent d'autres questions (E2).",
+  "2026-11-18 : les études animales sont exclues (question clinique) ; elles ne sont pas utilisées pour justifier une réponse chez le patient.",
+  "2026-11-18 : la réponse est détaillée selon la taille de la rupture, le stade de rétraction de Patte, l'infiltration graisseuse, le nombre de tendons, l'âge, la technique de réparation et la durée de l'immobilisation, à la demande de l'auteur de la question ; une catégorie sans donnée est déclarée sans donnée, sans extrapolation depuis une autre catégorie.",
+  "2026-11-18 : les ruptures partielles réparées sont incluses ; les débridements sans réparation sont exclus."
+ ],
+ "outcomes_grade": [
+  {
+   "id": "O1",
+   "label": "Rerupture ou défaut de cicatrisation en imagerie : mobilisation précoce contre immobilisation (ou mobilisation retardée), toutes ruptures",
+   "importance": "critique"
+  },
+  {
+   "id": "O2",
+   "label": "Fonction de l'épaule à 12 mois ou plus : mobilisation précoce contre immobilisation (ou mobilisation retardée), toutes ruptures",
+   "importance": "critique"
+  },
+  {
+   "id": "O3",
+   "label": "Mobilité et raideur postopératoire à court terme (jusqu'à 3 mois) et à 12 mois : mobilisation précoce contre immobilisation",
+   "importance": "importante"
+  },
+  {
+   "id": "O4",
+   "label": "Douleur postopératoire (court et moyen terme) : mobilisation précoce contre immobilisation",
+   "importance": "importante"
+  },
+  {
+   "id": "O5",
+   "label": "Rerupture et fonction selon la taille de la rupture : ruptures petites ou moyennes et ruptures grandes ou massives, séparément",
+   "importance": "critique"
+  },
+  {
+   "id": "O6",
+   "label": "Absence d'écharpe ou écharpe de confort contre immobilisation stricte : rerupture, fonction, mobilité",
+   "importance": "importante"
+  },
+  {
+   "id": "O7",
+   "label": "Complications et réinterventions (dont raideur nécessitant une arthrolyse ou une mobilisation sous anesthésie)",
+   "importance": "importante"
+  }
+ ],
+ "main_claim": "Après une réparation de la coiffe des rotateurs, une mobilisation précoce n'augmente pas le risque de rerupture par rapport à une immobilisation.",
+ "sources": [
+  "PubMed (E-utilities) : requêtes du manifeste de recherche, puis itérations références/articles citants (ELink) jusqu'à saturation",
+  "Europe PMC (API REST) : PubMed, PMC, prépublications, revues Cochrane, une partie de la littérature grise",
+  "ClinicalTrials.gov (API v2) : essais terminés sans publication (biais de publication)",
+  "Consensus (Semantic Scholar, OpenAlex) : une recherche large",
+  "Recherche des articles rétractés (PubMed, Crossref)"
+ ],
+ "screening": "Budget v0.6 : tri des titres par pré-filtre scripté (mots-clés : coiffe/supra-épineux et réparation/chirurgie, et immobilisation/mobilisation/rééducation/écharpe/attelle dans le titre ou le résumé), puis double lecture agentique (A Sonnet, B Haiku) ; doute au tri des titres = passage à l'étape suivante ; tri des résumés et éligibilité par A Sonnet et B Haiku, arbitrage Sonnet ; kappa de Cohen à chaque étape. Éligibilité sur texte intégral quand il est accessible, sinon sur le résumé.",
+ "extraction": "Extraction par un agent Sonnet avec provenance de chaque chiffre (texte intégral ou résumé, emplacement exact) ; seconde extraction indépendante (Haiku) et arbitrage sur toutes les études primaires des critères critiques (O1, O2, O5) et sur un échantillon aléatoire de 20 % des revues ; kappa rapporté. Relevés : plan, effectif randomisé et analysé, âge, taille de la rupture (cm, classification), rétraction (Patte ou mm), infiltration graisseuse, tendons atteints, technique de réparation, gestes associés, protocole de chaque groupe (type et durée d'immobilisation, début et type de mobilisation passive, active, renforcement), mode et délai d'imagerie, taux de rerupture par groupe, scores fonctionnels, amplitudes, douleur, raideur, complications, réinterventions, analyses de sous-groupes (taille, rétraction, infiltration graisseuse, âge…) avec effectifs et tests d'interaction, perdus de vue, financement.",
+ "risk_of_bias": {
+  "Essai randomisé": "RoB 2",
+  "Intervention non randomisée (cohorte comparative)": "ROBINS-I",
+  "Revue systématique": "AMSTAR 2"
+ },
+ "certainty": "GRADE par critère de jugement, par comparaison et, pour O5, par catégorie de taille de rupture : départ élevé pour les essais randomisés et les études évaluées par ROBINS-I ; abaissement pour risque de biais (absence d'aveugle de l'évaluateur de l'imagerie, perdus de vue), incohérence, caractère indirect (population mixte, protocoles de mobilisation différents, durée d'immobilisation courte dans le groupe témoin), imprécision (événements rares, IC incluant un doublement ou une division par deux du risque de rerupture, ou franchissant la différence minimale cliniquement importante des scores), biais de publication. Double évaluation agentique et arbitrage ; la proposition principale reçoit la certitude de O1.",
+ "synthesis": "Synthèse narrative structurée par comparaison, critère et délai, puis par sous-groupe ; pas de méta-analyse propre ; les méta-analyses publiées sont rapportées avec leur évaluation AMSTAR 2 et le chevauchement de leurs études. Distinguer différence statistique et pertinence clinique, différences transitoires (mobilité à 3 mois) et durables. Ne pas appeler l'absence de différence significative « équivalence ». Pour chaque sous-groupe : nombre d'essais et de patients, source de la donnée (intra-essai ou entre essais), crédibilité. Les articles rétractés sont signalés et exclus des preuves.",
+ "languages": "Pas de restriction de langue ; titres et résumés en anglais requis pour le tri.",
+ "not_searched": "Embase, Cochrane CENTRAL, Web of Science, WHO ICTRP : non accessibles dans cet environnement.",
+ "deviations": [
+  {
+   "date": "2026-11-18",
+   "change": "Désaccords A/B au tri des titres (399 notices) transmis d'office à la lecture des résumés, sans arbitre.",
+   "reason": "Règle « doute au tri des titres = étape suivante » du protocole."
+  },
+  {
+   "date": "2026-11-18",
+   "change": "Résumés de 39 notices Consensus repris de la réponse Consensus archivée (consensus.txt).",
+   "reason": "Notices absentes de PubMed et sans résumé dans Europe PMC."
+  },
+  {
+   "date": "2026-11-18",
+   "change": "Publications multiples d'un même essai (fiches de registre, résumés de congrès, thèse, prépublication) repérées par l'arbitre après une inclusion concordante, exclues en E5 (publication conservée nommée). Le résumé de congrès EPMC:PMC:PMC8562612 (même cohorte de 61 contre 61 réparations transtendineuses) a été repéré à l'extraction et rattaché à 34864154.",
+   "reason": "Repérées en comparant numéros de registre, titres, auteurs et effectifs sur l'ensemble des inclusions.",
+   "late_duplicates": {
+    "EPMC:PMC:PMC4968349": "28111006",
+    "EPMC:ETH:797886": "CONS:w:0b6c7e78-6e20-4d10-ac49-f6d31839e3d0",
+    "CONS:w:e31e0c63-f8da-42df-bd2b-0418794f983a": "30893230",
+    "CONS:w:615d0ea3-dc0a-4494-aefd-36001d95314d": "30893230",
+    "CONS:w:57ad82bb-7400-4435-b5d1-06573b862a66": "30893230",
+    "NCT02943005": "30893230",
+    "NCT01741272": "26330594",
+    "NCT01333527": "30827428",
+    "NCT00756015": "24382719",
+    "EPMC:PPR:PPR714024": "38049792",
+    "EPMC:PMC:PMC8562612": "34864154"
+   }
+  },
+  {
+   "date": "2026-11-18",
+   "change": "Deux inclusions exclues après l'extraction arbitrée (E2) : 40053065 (mobilisation passive dès le jour 0 dans les deux groupes, sans immobilisation décrite ; seuls la mobilisation active et le renforcement diffèrent) et 26510584 (revue générale de la rééducation sans comparaison de calendrier d'immobilisation).",
+   "reason": "Calendrier d'immobilisation identique, constaté à la lecture complète par l'arbitre (règle de périmètre de l'addendum d'extraction).",
+   "late_exclusions": {
+    "40053065": {
+     "code": "E2",
+     "reason": "Après extraction : même calendrier d'immobilisation et de mobilisation passive ; seuls l'actif et le renforcement diffèrent"
+    },
+    "26510584": {
+     "code": "E2",
+     "reason": "Après extraction : revue générale de la rééducation, sans comparaison de calendrier d'immobilisation"
+    }
+   }
+  },
+  {
+   "date": "2026-11-18",
+   "change": "Extraction et risque de biais en double sur toutes les études primaires (44) et sur 6 des 30 revues tirées au sort (graine 20261118) ; fiches de registre extraites par un seul relecteur ; arbitrage Sonnet sur les champs en désaccord et vérification des chiffres de rerupture et de fonction contre la source.",
+   "reason": "Budget v0.6 : critères O1, O2 et O5 critiques."
+  },
+  {
+   "date": "2026-11-18",
+   "change": "GRADE : critère O5 scindé en O5a (ruptures petites ou moyennes) et O5b (grandes ou massives), et synthèse narrative O5c (rétraction, infiltration graisseuse, âge, technique, durée d'immobilisation) sans ligne GRADE quand aucune donnée n'existe ; arbitrage des quatre critères en désaccord (O2, O3, O4, O5c) par la session principale (Opus), cotation la plus prudente retenue.",
+   "reason": "Le protocole prévoyait un GRADE séparé par catégorie de taille et une synthèse narrative pour les autres paramètres ; les deux relecteurs Sonnet divergeaient d'un niveau sur quatre critères."
+  },
+  {
+   "date": "2026-11-19",
+   "change": "Vérification des affirmations (étage 2) : les 5 verdicts rejetés pour citation inexacte (R9 ×3, R64 ×2) ont été refaits par l'arbitre (Opus) sur la source archivée lue en entier, et non par un vérificateur Sonnet (verdicts/014.json) ; verdicts inchangés, citations recopiées mot pour mot.",
+   "reason": "Écarts de forme seulement (« Fig. 7 » pour « Fig 7 », « analog » pour « analogue ») ; nouvelle passe Sonnet jugée inutile pour 5 paires."
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "profile": "maximum",
+ "methodology_version": "0.75",
+ "inherits": "enhanced",
+ "description": "Multiple independent search strategies, full audit of exclusions, multiple checks and cross-model adjudication.",
+ "screening": {
+  "exclusion_audit": "independent re-review of all exclusions at the abstract and eligibility stages"
+ },
+ "extra_steps": [
+  "independent-search-strategies (≥ 2 strategies written without seeing each other)",
+  "exclusion-audit",
+  "inter-model arbitration (another model family)"
+ ],
+ "budget": {
+  "max_output_tokens": null,
+  "note": "to be set per project"
+ },
+ "status": "defined, not yet executable: requires a second model provider (v0.9)"
+}

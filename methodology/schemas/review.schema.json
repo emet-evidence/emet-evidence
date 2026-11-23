@@ -1,0 +1,65 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://emet-evidence.github.io/schemas/review/0.8.0-draft.1",
+ "title": "EMET Evidence — structured review (exchange format)",
+ "description": "Format independent of the rendering and of the model provider. Missing data stay missing: null or an explicit status, never an invented value.",
+ "type": "object",
+ "required": ["schema_version", "review", "protocol", "searches", "records", "screening_decisions", "reports", "studies", "cohorts", "outcomes", "effect_estimates", "risk_of_bias", "grade", "claims", "flow", "audit", "execution"],
+ "properties": {
+  "schema_version": {"type": "string", "enum": ["0.8.0-draft.1"]},
+  "review": {
+   "type": "object",
+   "required": ["id", "title", "question", "methodology_version", "review_depth", "search_date", "public_status"],
+   "properties": {
+    "id": {"type": "string"}, "title": {"type": "string"}, "question": {"type": "string"},
+    "methodology_version": {"type": "string"}, "review_depth": {"type": "string", "enum": ["exploratory", "rapid", "standard", "enhanced", "maximum"]},
+    "search_date": {"type": "string"}, "public_status": {"type": "string", "enum": ["AI-generated", "AI-verified", "Externally validated"]}
+   }
+  },
+  "protocol": {
+   "type": "object",
+   "required": ["path", "commit", "committed_at", "registered", "deviations", "external_registration"],
+   "properties": {"path": {"type": "string"}, "commit": {"type": ["string", "null"]}, "committed_at": {"type": ["string", "null"]},
+                  "registered": {"type": ["string", "null"]}, "deviations": {"type": "array"}, "external_registration": {"type": ["string", "null"]}}
+  },
+  "searches": {"type": "array", "items": {"type": "object", "required": ["id", "source", "query", "retrieved_at", "n_results", "file"],
+   "properties": {"id": {"type": "string"}, "source": {"type": ["string", "null"]}, "query": {"type": ["string", "null"]},
+                  "retrieved_at": {"type": ["string", "null"]}, "n_results": {"type": ["integer", "null"]}, "file": {"type": "string"}}}},
+  "records": {"type": "array", "items": {"type": "object", "required": ["id", "title", "year", "sources"],
+   "properties": {"id": {"type": "string"}, "title": {"type": ["string", "null"]}, "year": {"type": ["string", "integer", "null"]}, "sources": {"type": "array"}}}},
+  "screening_decisions": {"type": "array", "items": {"type": "object", "required": ["record", "stage", "reviewer", "decision"],
+   "properties": {
+    "record": {"type": "string"},
+    "stage": {"type": "string", "enum": ["prefilter", "prefilter-low-zone", "titles", "abstracts", "eligibility"]},
+    "reviewer": {"type": "string", "enum": ["script", "single", "A", "B", "arbiter", "resolved"]},
+    "decision": {"type": "string", "enum": ["include", "exclude", "deprioritize", "not_retrieved", "undetermined"]},
+    "code": {"type": ["string", "null"]}, "reason": {"type": ["string", "null"]}}}},
+  "reports": {"type": "array", "items": {"type": "object", "required": ["id", "study", "role", "access"],
+   "properties": {"id": {"type": "string"}, "study": {"type": "string"},
+                  "role": {"type": "string", "enum": ["primary_report", "secondary_report", "duplicate", "registry"]},
+                  "access": {"type": "string", "enum": ["full_text", "abstract", "registry", "title_only", "unknown"]}}}},
+  "studies": {"type": "array", "items": {"type": "object", "required": ["id", "label", "year", "design", "kind", "reports", "outcomes", "randomized"],
+   "properties": {"id": {"type": "string"}, "label": {"type": "string"}, "year": {"type": ["integer", "null"]}, "design": {"type": "string"},
+                  "kind": {"type": "string", "enum": ["primary", "systematic_review", "registry", "unknown"]},
+                  "reports": {"type": "array", "items": {"type": "string"}}, "rob_tool": {"type": ["string", "null"]},
+                  "outcomes": {"type": "array", "items": {"type": "string"}},
+                  "randomized": {"type": ["object", "null"], "required": ["n", "source"], "properties": {"n": {"type": ["integer", "null"]}, "source": {"type": "string"}}}}}},
+  "cohorts": {"$ref": "#/$defs/status_list"},
+  "outcomes": {"type": "array", "items": {"type": "object", "required": ["id", "label", "importance"],
+   "properties": {"id": {"type": "string"}, "label": {"type": "string"}, "importance": {"type": "string", "enum": ["critical", "important"]}}}},
+  "effect_estimates": {"$ref": "#/$defs/status_list"},
+  "risk_of_bias": {"type": "array", "items": {"type": "object", "required": ["study", "tool", "domains", "overall", "level"],
+   "properties": {"study": {"type": ["string", "null"]}, "tool": {"type": "string"}, "domains": {"type": "array"}, "overall": {"type": "string"},
+                  "level": {"type": "string", "enum": ["low", "some", "high", "critical", "unclear"]}}}},
+  "grade": {"type": "object", "required": ["outcomes", "main"]},
+  "claims": {"type": "object", "required": ["status", "n_claims"], "properties": {"status": {"type": "string", "enum": ["not_started", "in_progress", "verified"]}}},
+  "flow": {"type": "object", "required": ["identified_total", "duplicates_removed", "records_screened", "records_excluded_titles", "records_assessed_abstracts",
+   "records_excluded_abstracts", "reports_sought", "reports_not_retrieved", "reports_assessed", "reports_excluded", "reports_included", "studies_included", "units"]},
+  "audit": {"type": "object"},
+  "execution": {"type": "object", "required": ["models", "tokens", "cost_usd", "duration_seconds"]}
+ },
+ "$defs": {
+  "status_list": {"type": "object", "required": ["status", "items"],
+   "properties": {"status": {"type": "string", "enum": ["not_assessed", "not_extracted", "partial", "complete"]}, "items": {"type": "array"}, "note": {"type": "string"}}}
+ }
+}

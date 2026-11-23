@@ -1,0 +1,10 @@
+{
+ "name": "shoulder-surgery.eu (example)",
+ "description": "Example workspace: one review of shoulder-surgery.eu.",
+ "profile": "rapid",
+ "language": "fr",
+ "topics": [
+  "immobilisation"
+ ],
+ "open_data_dir": "open-data"
+}

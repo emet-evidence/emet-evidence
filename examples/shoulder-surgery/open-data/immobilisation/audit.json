@@ -1,0 +1,143 @@
+{
+ "audit": {
+  "agreement": {
+   "titles": {
+    "stage": "titles",
+    "n": 3537,
+    "agreement": 0.8872,
+    "kappa": 0.554,
+    "disagreements": 399,
+    "A_include": 313,
+    "B_include": 706
+   },
+   "abstracts": {
+    "stage": "abstracts",
+    "n": 709,
+    "agreement": 0.969,
+    "kappa": 0.893,
+    "disagreements": 22,
+    "A_include": 126,
+    "B_include": 124
+   },
+   "fulltext": {
+    "stage": "fulltext",
+    "n": 119,
+    "agreement": 0.8992,
+    "kappa": 0.696,
+    "disagreements": 12,
+    "A_include": 94,
+    "B_include": 94
+   },
+   "rob": {
+    "n": 47,
+    "agreement": 0.7872340425531915,
+    "kappa": 0.655,
+    "same_tool": 47,
+    "note": "jugement global, extractions A (Sonnet) et B (Haiku) avant arbitrage ; 47 évaluations en double parmi les études incluses : toutes les études primaires et 6 revues tirées au sort (graine 20261118) ; fiches de registre évaluées par un seul relecteur"
+   }
+  },
+  "prefilter": {
+   "subject": "immobilisation",
+   "excluded_by_title_prefilter": 2071,
+   "with_abstract": 2038,
+   "no_abstract": 25,
+   "not_pubmed": 8,
+   "rescued_by_abstract_rule": 1867,
+   "keyword_rule_on_abstracts": "non discriminante : la règle du titre appliquée au titre + résumé repêche 1 867 notices sur 2 038 ; abandonnée",
+   "llm_audit": {
+    "date": "2026-11-19",
+    "reader": "claude-haiku-5-5, lecture simple titre + résumé, règles du tri des résumés (screening-instructions-immobilisation.md), doute = include",
+    "assessed": 2071,
+    "branches": {
+     "bases": 1570,
+     "itérations de citations": 501
+    },
+    "retained": [
+     "27831676",
+     "4812158",
+     "31599763",
+     "21628649"
+    ],
+    "retained_double_abstract_screening": {
+     "A": "claude-sonnet-5-5",
+     "B": "claude-haiku-5-5",
+     "result": "3 exclusions concordantes (21628649 et 31599763 : recommandations AAOS, E4 ; 4812158 : série de 1974 sans comparaison, E2/E3)"
+    },
+    "empty_records": [
+     "27831676",
+     "27831675",
+     "21028756"
+    ],
+    "empty_records_note": "notices PubMed sans titre ni résumé (type Review) : non évaluables sur le fond ; comptées parmi les exclusions des titres en v0.7",
+    "eligible_lost": 0,
+    "conclusion": "Aucune étude éligible perdue par le pré-filtre des titres (2 071 notices relues : 1 570 de la recherche principale, 501 des itérations de citations). Lecture simple : une erreur du lecteur reste possible."
+   }
+  },
+  "double_extraction": "jugement global, extractions A (Sonnet) et B (Haiku) avant arbitrage ; 47 évaluations en double parmi les études incluses : toutes les études primaires et 6 revues tirées au sort (graine 20261118) ; fiches de registre évaluées par un seul relecteur"
+ },
+ "claims": {
+  "status": "verified",
+  "n_claims": 243,
+  "report": {
+   "pairs": 528,
+   "verdicts": {
+    "soutient": 215,
+    "soutient en partie": 313,
+    "ne soutient pas": 0,
+    "contredit": 0,
+    "source illisible": 0
+   },
+   "passed": true
+  }
+ },
+ "flow": {
+  "identified_by_source": {
+   "PubMed : requêtes": 3269,
+   "PubMed : références et articles citants": 0,
+   "Europe PMC": 541,
+   "ClinicalTrials.gov": 137,
+   "Consensus": 199
+  },
+  "identified_total": 4146,
+  "duplicates_removed": 609,
+  "records_screened": 3537,
+  "records_deprioritized_by_prefilter": 2071,
+  "records_low_zone_single_read": 2071,
+  "records_excluded_titles": 2828,
+  "records_assessed_abstracts": 709,
+  "records_excluded_abstracts": 593,
+  "abstracts_excluded_by_code": {
+   "E1": 28,
+   "E2": 262,
+   "E3": 92,
+   "E4": 100,
+   "E6": 108,
+   "E8": 3
+  },
+  "other_methods": {
+   "identified": 703,
+   "deprioritized": 501,
+   "titles_dual": 202,
+   "abstracts_assessed": 135,
+   "reports_sought": 3,
+   "note": "itérations de références et de citations, dédoublonnées contre la branche principale"
+  },
+  "reports_sought_from_databases": 116,
+  "reports_sought": 119,
+  "reports_not_retrieved": 1,
+  "reports_assessed": 118,
+  "reports_excluded": 40,
+  "reports_excluded_by_code": {
+   "E2": 11,
+   "E4": 14,
+   "E5": 15
+  },
+  "reports_included": 78,
+  "studies_included": 78,
+  "units": {
+   "records": "notices après dédoublonnage",
+   "reports": "publications ou fiches évaluées",
+   "studies": "études uniques"
+  }
+ }
+}

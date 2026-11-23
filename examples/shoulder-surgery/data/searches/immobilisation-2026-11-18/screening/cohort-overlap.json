@@ -1,0 +1,59 @@
+{
+ "status": "partial",
+ "items": [
+  {
+   "studies": [
+    "S-30827428",
+    "S-26330594"
+   ],
+   "labels": [
+    "Sheps · 2019",
+    "Sheps · 2015"
+   ],
+   "score": 3,
+   "shared_authors": [
+    "balyk r",
+    "beaupre l",
+    "bouliane m",
+    "glasgow r",
+    "sheps d",
+    "silveira a",
+    "styles-tripp f"
+   ],
+   "shared_registries": [],
+   "same_randomized_n": false,
+   "status": "resolved",
+   "resolution": {
+    "decision": "distinct",
+    "evidence": "2019 : « 206 patients » après réparation arthroscopique ; 2015 : « 189 patients » après « mini-open rotator cuff repair ». Techniques chirurgicales et effectifs randomisés différents ; aucune mention de suite ou d'analyse secondaire. Périodes de recrutement absentes des résumés.",
+    "reviewer": "claude-sonnet-5-5",
+    "date": "2026-11-19"
+   }
+  },
+  {
+   "studies": [
+    "S-21478659",
+    "S-25637728"
+   ],
+   "labels": [
+    "Düzgün · 2011",
+    "Düzgün · 2014"
+   ],
+   "score": 2,
+   "shared_authors": [
+    "atay o",
+    "baltacı g"
+   ],
+   "shared_registries": [],
+   "same_randomized_n": false,
+   "status": "candidate",
+   "resolution": {
+    "decision": "uncertain",
+    "evidence": "Même protocole « slow » vs « accelerated » (AROM semaine 3 vs 6), même chirurgie arthroscopique ; 2011 : « 29 patients », 2014 : « 40 patients » « quasi-randomly assigned ». Aucune mention de recrutement, centre ni lien entre les deux ; chevauchement non exclu.",
+    "reviewer": "claude-sonnet-5-5",
+    "date": "2026-11-19"
+   }
+  }
+ ],
+ "note": "42 études primaires comparées par paires (auteurs communs, registres, effectifs, années) ; 2 paires candidates à trancher ; aucune addition d’effectifs entre études n’est faite dans cette revue"
+}

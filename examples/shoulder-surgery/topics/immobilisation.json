@@ -1,0 +1,47 @@
+{
+ "id": "immobilisation",
+ "search_folder": "immobilisation-2026-11-18",
+ "protocol": "data/protocols/immobilisation.json",
+ "outputs": {
+  "page": "coiffe-des-rotateurs/immobilisation-apres-reparation-coiffe.html",
+  "data": "data/question-immobilisation.json",
+  "references": "data/references-immobilisation.json"
+ },
+ "prefilter": {
+  "screen_all_unless_only_from": [
+   "europepmc",
+   "pubmed-query"
+  ],
+  "specific_queries": [
+   "a",
+   "b"
+  ],
+  "patterns": {
+   "immobilisation": "immobili|sling|brace|bracing|orthos|orthotic|splint|pillow|early|delay|accelerat|aggressive|conservative|mobili[sz]|motion|rehabilit|physiother|physical therap|protocol|exercise|stiff|retear|re-tear|healing|integrity|post-?operative|after .*repair|timing"
+  },
+  "title_rules": [
+   {
+    "rule": "immobilisation"
+   }
+  ],
+  "exclusion": {
+   "code": "E2",
+   "by": "pré-filtre scripté (notice des requêtes larges, d'Europe PMC ou de la requête des rétractations dont le titre ne nomme ni immobilisation, écharpe, attelle, mobilisation, mouvement, rééducation, exercice, raideur, cicatrisation, ni période postopératoire)"
+  },
+  "reading_chunks": 6
+ },
+ "effects": {
+  "arms": {
+   "intervention": {
+    "key": "early",
+    "label": "Mobilisation précoce",
+    "short": "précoce"
+   },
+   "comparator": {
+    "key": "delayed",
+    "label": "immobilisation",
+    "short": "immobilisation"
+   }
+  }
+ }
+}

@@ -1,0 +1,6925 @@
+[
+ {
+  "study": "S-22287641",
+  "report": "22287641",
+  "outcome": "O1",
+  "measure_label": "décollement (défaut de cicatrisation) de la coiffe réparée, imagerie (échographie, IRM ou arthroscanner)",
+  "timepoint": "dernier délai d'imagerie (non précisé)",
+  "timepoint_months": null,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive précoce (groupe 1)",
+    "n": 56,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "pas de mobilisation passive (orthèse 4-5 sem., groupe 2)",
+    "n": 49,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".429",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": "12 %",
+   "delayed": "18 %"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "Detachment of the repaired cuff was identified in 12% of group 1 and 18% of group 2 (P = .429).",
+  "notes": "Effectifs randomisés ; effectif analysé et délai d'imagerie non donnés dans le résumé.",
+  "computed": null
+ },
+ {
+  "study": "S-22287641",
+  "report": "22287641",
+  "outcome": "O2",
+  "measure_label": "score de Constant",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive précoce (groupe 1)",
+    "n": 56,
+    "events": null,
+    "mean": "69.81",
+    "sd": "3.43",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "pas de mobilisation passive (groupe 2)",
+    "n": 49,
+    "events": null,
+    "mean": "69.83",
+    "sd": "6.24",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".854",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "Constant score, 69.81 ± 3.43 versus 69.83 ± 6.24 (P = .854); SST, 9.00 ± 2.12 versus 9.00 ± 2.59 (P = .631); and ASES score, 73.29 ± 18.48 versus 82.90 ± 12.35 (P = .216).",
+  "notes": "Valeurs « moyenne ± » supposées être écart-type (non précisé) ; effectifs randomisés.",
+  "arbitration": "A confirmé : 69.81 ± 3.43 contre 69.83 ± 6.24 conformes ; l'écart signalé vient d'un appariement avec l'ASES de B.",
+  "computed": {
+   "measure": "MD",
+   "value": -0.01999999999999602,
+   "ci_low": -1.9846322760252069,
+   "ci_high": 1.9446322760252148
+  }
+ },
+ {
+  "study": "S-22287641",
+  "report": "22287641",
+  "outcome": "O2",
+  "measure_label": "Simple Shoulder Test (SST)",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive précoce (groupe 1)",
+    "n": 56,
+    "events": null,
+    "mean": "9.00",
+    "sd": "2.12",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "pas de mobilisation passive (groupe 2)",
+    "n": 49,
+    "events": null,
+    "mean": "9.00",
+    "sd": "2.59",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".631",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "Constant score, 69.81 ± 3.43 versus 69.83 ± 6.24 (P = .854); SST, 9.00 ± 2.12 versus 9.00 ± 2.59 (P = .631); and ASES score, 73.29 ± 18.48 versus 82.90 ± 12.35 (P = .216).",
+  "notes": "Valeurs « moyenne ± » supposées être écart-type ; effectifs randomisés.",
+  "arbitration": "A confirmé : SST 9.00 ± 2.12 contre 9.00 ± 2.59 du résumé, équivalent de l'entrée B.",
+  "computed": {
+   "measure": "MD",
+   "value": 0.0,
+   "ci_low": -0.9133624034303143,
+   "ci_high": 0.9133624034303143
+  }
+ },
+ {
+  "study": "S-22287641",
+  "report": "22287641",
+  "outcome": "O2",
+  "measure_label": "score ASES",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive précoce (groupe 1)",
+    "n": 56,
+    "events": null,
+    "mean": "73.29",
+    "sd": "18.48",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "pas de mobilisation passive (groupe 2)",
+    "n": 49,
+    "events": null,
+    "mean": "82.90",
+    "sd": "12.35",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".216",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "Constant score, 69.81 ± 3.43 versus 69.83 ± 6.24 (P = .854); SST, 9.00 ± 2.12 versus 9.00 ± 2.59 (P = .631); and ASES score, 73.29 ± 18.48 versus 82.90 ± 12.35 (P = .216).",
+  "notes": "Valeurs « moyenne ± » supposées être écart-type ; effectifs randomisés.",
+  "arbitration": "A confirmé : 69.81 ± 3.43 contre 69.83 ± 6.24 conformes ; l'écart signalé vient d'un appariement avec l'ASES de B.",
+  "computed": {
+   "measure": "MD",
+   "value": -9.61,
+   "ci_low": -15.558560955390806,
+   "ci_high": -3.6614390446091925,
+   "warning": "incohérent avec p = .216 rapporté (effectifs analysés probablement différents) : à interpréter avec prudence"
+  }
+ },
+ {
+  "study": "S-22287641",
+  "report": "22287641",
+  "outcome": "O3",
+  "measure_label": "amplitudes articulaires (ROM)",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive précoce (groupe 1)",
+    "n": 56,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "pas de mobilisation passive (groupe 2)",
+    "n": 49,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "There were no statistical differences between the 2 groups in ROM or VAS for pain at each time point.",
+  "notes": "Aucun chiffre ; ROM mesurée à 3, 6 et 12 mois ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-22287641",
+  "report": "22287641",
+  "outcome": "O3",
+  "measure_label": "amplitudes articulaires (ROM)",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive précoce (groupe 1)",
+    "n": 56,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "pas de mobilisation passive (groupe 2)",
+    "n": 49,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "There were no statistical differences between the 2 groups in ROM or VAS for pain at each time point.",
+  "notes": "Aucun chiffre ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-22287641",
+  "report": "22287641",
+  "outcome": "O4",
+  "measure_label": "douleur, EVA",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive précoce (groupe 1)",
+    "n": 56,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "pas de mobilisation passive (groupe 2)",
+    "n": 49,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "There were no statistical differences between the 2 groups in ROM or VAS for pain at each time point.",
+  "notes": "Aucun chiffre ; EVA mesurée à 3, 6 et 12 mois ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-22287641",
+  "report": "22287641",
+  "outcome": "O4",
+  "measure_label": "douleur, EVA",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive précoce (groupe 1)",
+    "n": 56,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "pas de mobilisation passive (groupe 2)",
+    "n": 49,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "There were no statistical differences between the 2 groups in ROM or VAS for pain at each time point.",
+  "notes": "Aucun chiffre ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-28111006",
+  "report": "28111006",
+  "outcome": "O1",
+  "measure_label": "déchirure (défaut) de la réparation à l'IRM",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (début à 2-3 jours)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation retardée (début à 28 jours)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".78",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": "34 %",
+   "delayed": "31 %"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "The proportions of patients with tears on the 6-month postoperative magnetic resonance imaging scan were comparable (31% in delayed group vs 34% in early group, P = .78).",
+  "notes": "Résumé : 73 randomisés, effectifs par bras et analysés non donnés. Pourcentages différents de ceux du résumé de congrès.",
+  "arbitration": "A confirmé : publication de revue ; 34 % contre 31 %, p .78, effectifs non donnés.",
+  "computed": null
+ },
+ {
+  "study": "S-28111006",
+  "report": "28111006",
+  "outcome": "O2",
+  "measure_label": "WORC (index de Western Ontario Rotator Cuff, échelle des auteurs)",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (début à 2-3 jours)",
+    "n": null,
+    "events": null,
+    "mean": "325",
+    "sd": "400",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation retardée (début à 28 jours)",
+    "n": null,
+    "events": null,
+    "mean": "529",
+    "sd": "472",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".08",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "There was no statistically significant difference in WORC scores at 6 months (529 ± 472 in delayed group vs 325 ± 400 in early group, P = .08).",
+  "notes": "Sens de l'échelle non précisé (plus bas = meilleur apparemment) ; 73 randomisés, effectifs analysés non donnés ; pas de mesure à 12 mois dans le résumé.",
+  "computed": null
+ },
+ {
+  "study": "S-28111006",
+  "report": "28111006",
+  "outcome": "O2",
+  "measure_label": "WORC, différence estimée par analyse à effets mixtes sur l'ensemble du suivi",
+  "timepoint": "ensemble du suivi postopératoire (jusqu'à 1 an)",
+  "timepoint_months": null,
+  "unit": "points",
+  "type": "reported_effect",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (début à 2-3 jours)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation retardée (début à 28 jours)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": "MD",
+   "value": "191",
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".04",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "Mixed-effects analysis indicated the early group maintained lower WORC scores throughout the postoperative period (estimated difference of 191, P = .04).",
+  "notes": "Direction de la différence : score WORC plus bas dans le groupe précoce ; sens clinique non précisé.",
+  "computed": null
+ },
+ {
+  "study": "S-38428476",
+  "report": "38428476",
+  "outcome": "O1",
+  "measure_label": "rerupture à l'IRM (grandes ruptures postéro-supérieures, réinsertion avec rerouting du biceps)",
+  "timepoint": "IRM à 12 mois minimum",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe I)",
+    "n": 53,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation retardée (groupe II)",
+    "n": 48,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".826",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": "22.6 %",
+   "delayed": "20.8 %"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "Notably, retear rates were similar between groups (group I: 22.6%, group II: 20.8%, P = .826).",
+  "notes": "Effectifs randomisés ; analysés non donnés. Suivi moyen 16,2 et 15,5 mois.",
+  "computed": null
+ },
+ {
+  "study": "S-38428476",
+  "report": "38428476",
+  "outcome": "O2",
+  "measure_label": "score UCLA (valeur finale, passage préopératoire vers postopératoire)",
+  "timepoint": "dernier suivi (moyenne 16,2 et 15,5 mois)",
+  "timepoint_months": null,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe I)",
+    "n": 53,
+    "events": null,
+    "mean": "31.4",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation retardée (groupe II)",
+    "n": 48,
+    "events": null,
+    "mean": "30.6",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".331",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "visual analog scale score (group I: 4.0-1.6, group II: 3.7-1.4, P = .501), University of California-Los Angeles shoulder score (group I: 21.5-31.4, group II: 22.4-30.6, P = .331)",
+  "notes": "Moyennes finales recopiées (préop 21.5 et 22.4) ; écart-type absent ; effectifs randomisés.",
+  "arbitration": "A confirmé : UCLA 21.5-31.4 contre 22.4-30.6 écrits dans le résumé ; moyennes finales 31.4 et 30.6 valides, sans écart-type.",
+  "computed": null
+ },
+ {
+  "study": "S-38428476",
+  "report": "38428476",
+  "outcome": "O3",
+  "measure_label": "flexion antérieure active",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe I)",
+    "n": 53,
+    "events": null,
+    "mean": "140.1",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation retardée (groupe II)",
+    "n": 48,
+    "events": null,
+    "mean": "119.2",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".006",
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "Active range of movements (ROM) were not significantly different between groups, except for active forward flexion at 3 months (group I: 140.1°, group II: 119.2°, P = .006)",
+  "notes": "Seule différence de mobilité significative ; écart-type absent ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-38428476",
+  "report": "38428476",
+  "outcome": "O3",
+  "measure_label": "amplitudes actives",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe I)",
+    "n": 53,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation retardée (groupe II)",
+    "n": 48,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Conclusion",
+  "access": "résumé",
+  "quote": "no clinically discernible differences in active range of motion at 1-year follow-up between patients who underwent ABR for semirigid, large, posterosuperior RCTs",
+  "notes": "Aucun chiffre à 12 mois ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-38428476",
+  "report": "38428476",
+  "outcome": "O4",
+  "measure_label": "douleur, EVA (valeur finale, passage préopératoire vers postopératoire)",
+  "timepoint": "dernier suivi (moyenne 16,2 et 15,5 mois)",
+  "timepoint_months": null,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe I)",
+    "n": 53,
+    "events": null,
+    "mean": "1.6",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation retardée (groupe II)",
+    "n": 48,
+    "events": null,
+    "mean": "1.4",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".501",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "visual analog scale score (group I: 4.0-1.6, group II: 3.7-1.4, P = .501), University of California-Los Angeles shoulder score (group I: 21.5-31.4, group II: 22.4-30.6, P = .331)",
+  "notes": "Moyennes finales ; préop 4.0 et 3.7 ; échelle supposée 0-10 ; écart-type absent.",
+  "computed": null
+ },
+ {
+  "study": "S-38428476",
+  "report": "38428476",
+  "outcome": "O5",
+  "measure_label": "rerupture à l'IRM, grandes ruptures seulement",
+  "timepoint": "IRM à 12 mois minimum",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe I)",
+    "n": 53,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation retardée (groupe II)",
+    "n": 48,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".826",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": "22.6 %",
+   "delayed": "20.8 %"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "Notably, retear rates were similar between groups (group I: 22.6%, group II: 20.8%, P = .826).",
+  "notes": "Population entièrement de grandes ruptures postéro-supérieures semi-rigides ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-38428476",
+  "report": "38428476",
+  "outcome": "O5",
+  "measure_label": "score UCLA (valeur finale), grandes ruptures seulement",
+  "timepoint": "dernier suivi (moyenne 16,2 et 15,5 mois)",
+  "timepoint_months": null,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe I)",
+    "n": 53,
+    "events": null,
+    "mean": "31.4",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation retardée (groupe II)",
+    "n": 48,
+    "events": null,
+    "mean": "30.6",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".331",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "visual analog scale score (group I: 4.0-1.6, group II: 3.7-1.4, P = .501), University of California-Los Angeles shoulder score (group I: 21.5-31.4, group II: 22.4-30.6, P = .331)",
+  "notes": "Population entièrement de grandes ruptures ; moyennes finales ; écart-type absent ; effectifs randomisés.",
+  "arbitration": "A confirmé : population entièrement en grandes ruptures ; mêmes valeurs écrites que O2, strate O5b voulue.",
+  "computed": null
+ },
+ {
+  "study": "S-30195953",
+  "report": "30195953",
+  "outcome": "O1",
+  "measure_label": "cicatrisation de la coiffe à l'IRM (patients cicatrisés)",
+  "timepoint": "1 an",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "immobilisation 3 semaines, écharpe simple (groupe A)",
+    "n": null,
+    "events": "50",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 6 semaines, orthèse avec petit coussin d'abduction (groupe B)",
+    "n": null,
+    "events": "50",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": {
+   "early": "89 % cicatrisés (50 patients)",
+   "delayed": "89 % cicatrisés (50 patients)"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "MRI after 1 year showed 50 (89%) patients in each group with healed RC repair.",
+  "notes": "Résultat exprimé en cicatrisés, non en reruptures ; dénominateurs non donnés ; 118 évalués sur 120 randomisés.",
+  "arbitration": "50 (89 %) par bras écrits dans le résumé ; événements = cicatrisés (pas reruptures), conservés tels que rapportés ; n par bras non donné.",
+  "computed": null
+ },
+ {
+  "study": "S-30195953",
+  "report": "30195953",
+  "outcome": "O2",
+  "measure_label": "WORC (pourcentage du score maximal, critère principal)",
+  "timepoint": "1 an",
+  "timepoint_months": 12,
+  "unit": "%",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "immobilisation 3 semaines, écharpe simple (groupe A)",
+    "n": null,
+    "events": null,
+    "mean": "83",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 6 semaines, orthèse (groupe B)",
+    "n": null,
+    "events": null,
+    "mean": "87",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": "MD",
+   "value": "-4",
+   "ci_low": "-9",
+   "ci_high": "-4",
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "with mean percent scores of 83% in group A and 87% in group B (mean difference = -4; 95% one-sided CI -9, -4)",
+  "notes": "IC unilatéral à 95 % recopié tel quel ; analyse de non-infériorité ; 118 évalués, effectifs par bras non donnés.",
+  "arbitration": "A confirmé : 83 % contre 87 %, DM -4, IC unilatéral -9 ; -4 recopiés ; B identique.",
+  "computed": null
+ },
+ {
+  "study": "S-30195953",
+  "report": "30195953",
+  "outcome": "O2",
+  "measure_label": "score de Constant-Murley ajusté sur l'âge",
+  "timepoint": "1 an",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "immobilisation 3 semaines, écharpe simple (groupe A)",
+    "n": null,
+    "events": null,
+    "mean": "86",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 6 semaines, orthèse (groupe B)",
+    "n": null,
+    "events": null,
+    "mean": "90",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": "MD",
+   "value": "-4",
+   "ci_low": "-13",
+   "ci_high": "5",
+   "p": ".37",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "Age-adjusted CM scores were also similar, with means of 86 in group A and 90 in group B (mean difference = -4; 95% CI -13, 5; P = .37).",
+  "notes": "Effectifs par bras non donnés (118 évalués) ; scores ajustés sur l'âge.",
+  "computed": null
+ },
+ {
+  "study": "S-30195953",
+  "report": "30195953",
+  "outcome": "O7",
+  "measure_label": "complications (infection, capsulite, réintervention)",
+  "timepoint": "1 an",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "immobilisation 3 semaines, écharpe simple (groupe A)",
+    "n": null,
+    "events": "4",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 6 semaines, orthèse (groupe B)",
+    "n": null,
+    "events": "0",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "Four patients in group A had complications: 1 acute postoperative infection, 2 cases of postoperative capsulitis treated with corticosteroid injections, and 1 repeat operation because of a loose anchor and subacromial pain. No patients in group B had complications.",
+  "notes": "Effectifs par bras non donnés (120 randomisés au total, 118 évalués) ; 4 patients A : 1 infection, 2 capsulites, 1 réintervention.",
+  "computed": null
+ },
+ {
+  "study": "S-33471547",
+  "report": "33471547",
+  "outcome": "O1",
+  "measure_label": "rerupture à 1 an",
+  "timepoint": "1 an",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "exercice actif progressif (PR)",
+    "n": 41,
+    "events": "6",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "exercice passif limité (soins usuels, UC)",
+    "n": 41,
+    "events": "7",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "In total, there were 13 retears (16%) at 1-year follow-up: 6 in the PR group and 7 in the UC group.",
+  "notes": "n randomisés ; 79 patients suivis à 1 an, répartition non donnée. Comparaison active précoce contre passive limitée, calendrier d'immobilisation non décrit.",
+  "computed": {
+   "measure": "RR",
+   "value": 0.857142857142857,
+   "ci_low": 0.3150619152194723,
+   "ci_high": 2.3319031658879874
+  }
+ },
+ {
+  "study": "S-33471547",
+  "report": "33471547",
+  "outcome": "O2",
+  "measure_label": "WORC à 1 an",
+  "timepoint": "1 an",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "exercice actif progressif (PR)",
+    "n": 41,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "exercice passif limité (UC)",
+    "n": 41,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "there was no between-group difference for the secondary outcomes including the WORC score at 1 year and the DASH score, pain, range of motion, and strength at 12 weeks and 1 year",
+  "notes": "Aucun chiffre ; effectifs randomisés (79 suivis à 1 an).",
+  "computed": null
+ },
+ {
+  "study": "S-33471547",
+  "report": "33471547",
+  "outcome": "O3",
+  "measure_label": "amplitudes articulaires",
+  "timepoint": "12 semaines",
+  "timepoint_months": 3,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "exercice actif progressif (PR)",
+    "n": 41,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "exercice passif limité (UC)",
+    "n": 41,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "there was no between-group difference for the secondary outcomes including the WORC score at 1 year and the DASH score, pain, range of motion, and strength at 12 weeks and 1 year",
+  "notes": "Aucun chiffre ; effectifs randomisés (82 évalués à 12 semaines).",
+  "computed": null
+ },
+ {
+  "study": "S-33471547",
+  "report": "33471547",
+  "outcome": "O3",
+  "measure_label": "amplitudes articulaires",
+  "timepoint": "1 an",
+  "timepoint_months": 12,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "exercice actif progressif (PR)",
+    "n": 41,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "exercice passif limité (UC)",
+    "n": 41,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "there was no between-group difference for the secondary outcomes including the WORC score at 1 year and the DASH score, pain, range of motion, and strength at 12 weeks and 1 year",
+  "notes": "Aucun chiffre ; effectifs randomisés (79 suivis à 1 an).",
+  "computed": null
+ },
+ {
+  "study": "S-33471547",
+  "report": "33471547",
+  "outcome": "O4",
+  "measure_label": "douleur",
+  "timepoint": "12 semaines",
+  "timepoint_months": 3,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "exercice actif progressif (PR)",
+    "n": 41,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "exercice passif limité (UC)",
+    "n": 41,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "there was no between-group difference for the secondary outcomes including the WORC score at 1 year and the DASH score, pain, range of motion, and strength at 12 weeks and 1 year",
+  "notes": "Aucun chiffre ; échelle de douleur non précisée ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-33471547",
+  "report": "33471547",
+  "outcome": "O4",
+  "measure_label": "douleur",
+  "timepoint": "1 an",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "exercice actif progressif (PR)",
+    "n": 41,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "exercice passif limité (UC)",
+    "n": 41,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "there was no between-group difference for the secondary outcomes including the WORC score at 1 year and the DASH score, pain, range of motion, and strength at 12 weeks and 1 year",
+  "notes": "Aucun chiffre ; échelle de douleur non précisée ; effectifs randomisés (79 suivis à 1 an).",
+  "computed": null
+ },
+ {
+  "study": "S-26435245",
+  "report": "26435245",
+  "outcome": "O1",
+  "measure_label": "cicatrisation à l'échographie (exclusion des échecs précoces)",
+  "timepoint": "6 semaines",
+  "timepoint_months": 1.5,
+  "unit": "patients",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive immédiate quotidienne",
+    "n": 79,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines avant kinésithérapie",
+    "n": 51,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé",
+  "access": "résumé",
+  "quote": "Ultrasound didn't show a difference in healing at 6 w in either of both groups.",
+  "notes": "Aucun chiffre ; seule imagerie à 6 semaines ; effectifs de la randomisation.",
+  "computed": null
+ },
+ {
+  "study": "S-26435245",
+  "report": "26435245",
+  "outcome": "O3",
+  "measure_label": "amplitudes passives",
+  "timepoint": "6 semaines",
+  "timepoint_months": 1.5,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive immédiate quotidienne",
+    "n": 79,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines avant kinésithérapie",
+    "n": 51,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé",
+  "access": "résumé",
+  "quote": "We noted no significant difference between the two groups regarding range of motion at 6 weeks and range of motion, strength and functional outcome scores at 4 months.",
+  "notes": "Aucun chiffre ; effectifs de la randomisation.",
+  "computed": null
+ },
+ {
+  "study": "S-26435245",
+  "report": "26435245",
+  "outcome": "O3",
+  "measure_label": "amplitudes passives",
+  "timepoint": "4 mois",
+  "timepoint_months": 4,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive immédiate quotidienne",
+    "n": 79,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines avant kinésithérapie",
+    "n": 51,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé",
+  "access": "résumé",
+  "quote": "We noted no significant difference between the two groups regarding range of motion at 6 weeks and range of motion, strength and functional outcome scores at 4 months.",
+  "notes": "Aucun chiffre ; effectifs de la randomisation.",
+  "computed": null
+ },
+ {
+  "study": "S-19482895",
+  "report": "19482895",
+  "outcome": "O2",
+  "measure_label": "score de Constant",
+  "timepoint": "24 mois",
+  "timepoint_months": 24,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "groupe progressif (activation musculaire dès J1, passif J1, immobilisation 4 sem.)",
+    "n": 7,
+    "events": null,
+    "mean": "82",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "groupe traditionnel (immobilisation 6 sem., passif J1, sans exercices spécifiques)",
+    "n": 7,
+    "events": null,
+    "mean": "77",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "Using Constant score, the groups attained 82/77 points respectively.",
+  "notes": "Pilote de 14 patients ; effectifs randomisés ; écart-type absent ; passif dès J1 dans les deux groupes, différence de chargement et durée d'immobilisation.",
+  "computed": null
+ },
+ {
+  "study": "S-19482895",
+  "report": "19482895",
+  "outcome": "O3",
+  "measure_label": "abduction active en position debout",
+  "timepoint": "24 mois",
+  "timepoint_months": 24,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "groupe progressif",
+    "n": 7,
+    "events": null,
+    "mean": "170",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "groupe traditionnel",
+    "n": 7,
+    "events": null,
+    "mean": "175",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "The groups attained 170/175 degrees in active abduction in standing and 70/90 degrees in passive external rotation while lying in supine.",
+  "notes": "Valeurs (progressif/traditionnel) ; sd absent ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-19482895",
+  "report": "19482895",
+  "outcome": "O3",
+  "measure_label": "rotation externe passive en décubitus dorsal",
+  "timepoint": "24 mois",
+  "timepoint_months": 24,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "groupe progressif",
+    "n": 7,
+    "events": null,
+    "mean": "70",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "groupe traditionnel",
+    "n": 7,
+    "events": null,
+    "mean": "90",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "The groups attained 170/175 degrees in active abduction in standing and 70/90 degrees in passive external rotation while lying in supine.",
+  "notes": "Valeurs (progressif/traditionnel) ; sd absent ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-19482895",
+  "report": "19482895",
+  "outcome": "O4",
+  "measure_label": "douleur à l'activité, EVA (mm)",
+  "timepoint": "24 mois",
+  "timepoint_months": 24,
+  "unit": "mm",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "groupe progressif",
+    "n": 7,
+    "events": null,
+    "mean": "2",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "groupe traditionnel",
+    "n": 7,
+    "events": null,
+    "mean": "0",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "At two years follow-up, the progressive group and traditional group scored pain during activity visual analogue scale (VAS) 2/0 mm and pain at rest 0/0 mm, respectively.",
+  "notes": "Valeurs (progressif/traditionnel) ; sd absent ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-19482895",
+  "report": "19482895",
+  "outcome": "O4",
+  "measure_label": "douleur au repos, EVA (mm)",
+  "timepoint": "24 mois",
+  "timepoint_months": 24,
+  "unit": "mm",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "groupe progressif",
+    "n": 7,
+    "events": null,
+    "mean": "0",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "groupe traditionnel",
+    "n": 7,
+    "events": null,
+    "mean": "0",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "At two years follow-up, the progressive group and traditional group scored pain during activity visual analogue scale (VAS) 2/0 mm and pain at rest 0/0 mm, respectively.",
+  "notes": "Valeurs (progressif/traditionnel) ; sd absent ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-22554876",
+  "report": "22554876",
+  "outcome": "O1",
+  "measure_label": "cicatrisation du tendon à l'échographie (taux de cicatrisation)",
+  "timepoint": "12 mois ou plus",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive dès J2",
+    "n": 33,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation passive à 6 semaines",
+    "n": 35,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": {
+   "early": "85 %",
+   "delayed": "91 %"
+  },
+  "higher_is_better": true,
+  "location": "résumé, Conclusions",
+  "access": "résumé",
+  "quote": "There was a slightly higher rotator cuff healing rate in the delayed passive range of motion group compared with the early passive range of motion group (91% vs 85%).",
+  "notes": "Pourcentages de cicatrisation seuls ; effectifs randomisés ; pas de p pour ce critère (différence dite non significative).",
+  "computed": null
+ },
+ {
+  "study": "S-22554876",
+  "report": "22554876",
+  "outcome": "O2",
+  "measure_label": "score ASES postopératoire (0-100)",
+  "timepoint": "12 mois minimum",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive dès J2",
+    "n": 33,
+    "events": null,
+    "mean": "91.9",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation passive à 6 semaines",
+    "n": 35,
+    "events": null,
+    "mean": "92.8",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "Both groups had similar improvements in preoperative to postoperative American Shoulder and Elbow Surgeons scores (early group: 43.9 to 91.9, P < .0001; delayed group: 41.0 to 92.8, P < .0001)",
+  "notes": "Moyennes postopératoires recopiées ; P cités = comparaison avant/après par bras ; pas d'écart-type ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-22554876",
+  "report": "22554876",
+  "outcome": "O2",
+  "measure_label": "Simple Shoulder Test postopératoire (0-12)",
+  "timepoint": "12 mois minimum",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive dès J2",
+    "n": 33,
+    "events": null,
+    "mean": "11.1",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation passive à 6 semaines",
+    "n": 35,
+    "events": null,
+    "mean": "11.1",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "Simple Shoulder Test scores (early group: 5.5 to 11.1, P < .0001; delayed group: 5.1 to 11.1, P < .0001)",
+  "notes": "Moyennes postopératoires ; pas d'écart-type ; P = avant/après par bras ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-22554876",
+  "report": "22554876",
+  "outcome": "O3",
+  "measure_label": "amplitudes articulaires (mobilité)",
+  "timepoint": "12 mois environ",
+  "timepoint_months": 12,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive dès J2",
+    "n": 33,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "mobilisation passive à 6 semaines",
+    "n": 35,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "There were no significant differences in patient satisfaction, rotator cuff healing, or range of motion between the early and delayed groups.",
+  "notes": "Aucun chiffre d'amplitude dans le résumé ; pas de résultat à 3 mois.",
+  "computed": null
+ },
+ {
+  "study": "S-33330218",
+  "report": "33330218",
+  "outcome": "O1",
+  "measure_label": "rerupture à l'IRM (Sugaya IV-V)",
+  "timepoint": "6 à 15 mois (moyenne 10,4)",
+  "timepoint_months": 10.4,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "rééducation passive précoce J2 (attelle d'abduction 6 sem.)",
+    "n": 38,
+    "events": 4,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation passive retardée à 3 sem. (attelle d'abduction 6 sem.)",
+    "n": 38,
+    "events": 4,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.400",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "texte intégral, Result",
+  "access": "texte intégral",
+  "quote": "Both groups showed the same retear rate of 4 cases each: 3 of 23 medium size tears (13.0%) and 1 of 7 large size tears (14.3%) in the early ROM group, and 1 of 22 medium size tears (4.6%) and 3 of 10 large size tears (30.0%) in the delayed ROM group ( p =0.400; Table 3 ).",
+  "notes": "Immobilisation par attelle de 6 semaines dans les deux bras ; seule la mobilisation passive diffère. Effectifs randomisés (analysés non précisés).",
+  "computed": {
+   "measure": "RR",
+   "value": 1.0,
+   "ci_low": 0.26956172867943956,
+   "ci_high": 3.7097254306051406
+  }
+ },
+ {
+  "study": "S-33330218",
+  "report": "33330218",
+  "outcome": "O2",
+  "measure_label": "score de Constant (0-100)",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "rééducation passive précoce J2",
+    "n": 38,
+    "events": null,
+    "mean": "88.0",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation passive retardée à 3 sem.",
+    "n": 38,
+    "events": null,
+    "mean": "91.0",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.166",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "texte intégral, Table 4",
+  "access": "texte intégral",
+  "quote": "Constant score 88.0 91.0 0.166",
+  "notes": "Pas d'écart-type ; effectifs randomisés ; attelle 6 sem. dans les deux bras.",
+  "arbitration": "A confirmé : 32.3 contre 32.4, p 0.904 du tableau 4 ; écart-type non donné.",
+  "computed": null
+ },
+ {
+  "study": "S-33330218",
+  "report": "33330218",
+  "outcome": "O2",
+  "measure_label": "score UCLA (0-35)",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "rééducation passive précoce J2",
+    "n": 38,
+    "events": null,
+    "mean": "32.3",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation passive retardée à 3 sem.",
+    "n": 38,
+    "events": null,
+    "mean": "32.4",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.904",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "texte intégral, Table 4",
+  "access": "texte intégral",
+  "quote": "UCLA score 32.3 32.4 0.904",
+  "notes": "Pas d'écart-type ; effectifs randomisés.",
+  "arbitration": "A confirmé : 32.3 contre 32.4, p 0.904 du tableau 4 ; écart-type non donné.",
+  "computed": null
+ },
+ {
+  "study": "S-33330218",
+  "report": "33330218",
+  "outcome": "O3",
+  "measure_label": "antéflexion passive/active (goniomètre, degrés)",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "rééducation passive précoce J2",
+    "n": 38,
+    "events": null,
+    "mean": "159.3",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation passive retardée à 3 sem.",
+    "n": 38,
+    "events": null,
+    "mean": "159.7",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.953",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "texte intégral, Result, Table 5",
+  "access": "texte intégral",
+  "quote": "group 1 showed similar average forward flexion of 159.3° (range, 80°–180°) compared to the 159.7° (range, 80°–180°) in group 2, whereas abduction averaged 155.7° (range, 80°–180°) in group 1 and 159.7° (range, 80°–180°) in group 2 ( p =0.953)",
+  "notes": "Antéflexion ; p commun antéflexion/abduction ; type d'amplitude (passive/active) non précisé.",
+  "computed": null
+ },
+ {
+  "study": "S-33330218",
+  "report": "33330218",
+  "outcome": "O3",
+  "measure_label": "abduction (goniomètre, degrés)",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "rééducation passive précoce J2",
+    "n": 38,
+    "events": null,
+    "mean": "155.7",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation passive retardée à 3 sem.",
+    "n": 38,
+    "events": null,
+    "mean": "159.7",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.953",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "texte intégral, Result, Table 5",
+  "access": "texte intégral",
+  "quote": "group 1 showed similar average forward flexion of 159.3° (range, 80°–180°) compared to the 159.7° (range, 80°–180°) in group 2, whereas abduction averaged 155.7° (range, 80°–180°) in group 1 and 159.7° (range, 80°–180°) in group 2 ( p =0.953)",
+  "notes": "p commun antéflexion/abduction.",
+  "computed": null
+ },
+ {
+  "study": "S-33330218",
+  "report": "33330218",
+  "outcome": "O3",
+  "measure_label": "antéflexion (goniomètre, degrés)",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "rééducation passive précoce J2",
+    "n": 38,
+    "events": null,
+    "mean": "174.7",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation passive retardée à 3 sem.",
+    "n": 38,
+    "events": null,
+    "mean": "174.6",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.956",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "texte intégral, Result, Table 5",
+  "access": "texte intégral",
+  "quote": "Group 1 showed similar average forward flexion of 174.7° (range, 155°–180°) as compared with 174.6° (range, 160°–180°) in group 2; abduction averaged 174.8° (range, 155°–180°) in group 1 and 174.6° (range, 160°–180°) in group 2 ( p =0.956)",
+  "notes": "p commun antéflexion/abduction.",
+  "computed": null
+ },
+ {
+  "study": "S-33330218",
+  "report": "33330218",
+  "outcome": "O3",
+  "measure_label": "abduction (goniomètre, degrés)",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "rééducation passive précoce J2",
+    "n": 38,
+    "events": null,
+    "mean": "174.8",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation passive retardée à 3 sem.",
+    "n": 38,
+    "events": null,
+    "mean": "174.6",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.956",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "texte intégral, Result, Table 5",
+  "access": "texte intégral",
+  "quote": "Group 1 showed similar average forward flexion of 174.7° (range, 155°–180°) as compared with 174.6° (range, 160°–180°) in group 2; abduction averaged 174.8° (range, 155°–180°) in group 1 and 174.6° (range, 160°–180°) in group 2 ( p =0.956)",
+  "notes": "p commun antéflexion/abduction.",
+  "computed": null
+ },
+ {
+  "study": "S-33330218",
+  "report": "33330218",
+  "outcome": "O4",
+  "measure_label": "douleur EVA 0-10",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "rééducation passive précoce J2",
+    "n": 38,
+    "events": null,
+    "mean": "2.8",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation passive retardée à 3 sem.",
+    "n": 38,
+    "events": null,
+    "mean": "2.6",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.717",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "texte intégral, Result, Table 6",
+  "access": "texte intégral",
+  "quote": "At 3 months and 6 months after surgery, group 1 showed similar average VAS of 2.8 and 1.4, respectively, as compared to 2.6 and 1.6, respectively, in group 2 ( p =0.717 and p =0.746, respectively).",
+  "notes": "Pas d'écart-type.",
+  "computed": null
+ },
+ {
+  "study": "S-33330218",
+  "report": "33330218",
+  "outcome": "O4",
+  "measure_label": "douleur EVA 0-10",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "rééducation passive précoce J2",
+    "n": 38,
+    "events": null,
+    "mean": "1.4",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation passive retardée à 3 sem.",
+    "n": 38,
+    "events": null,
+    "mean": "1.6",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.746",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "texte intégral, Result, Table 6",
+  "access": "texte intégral",
+  "quote": "At 3 months and 6 months after surgery, group 1 showed similar average VAS of 2.8 and 1.4, respectively, as compared to 2.6 and 1.6, respectively, in group 2 ( p =0.717 and p =0.746, respectively).",
+  "notes": "Pas d'écart-type.",
+  "computed": null
+ },
+ {
+  "study": "S-33330218",
+  "report": "33330218",
+  "outcome": "O4",
+  "measure_label": "douleur EVA 0-10",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "rééducation passive précoce J2",
+    "n": 38,
+    "events": null,
+    "mean": "0.9",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation passive retardée à 3 sem.",
+    "n": 38,
+    "events": null,
+    "mean": "1.2",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.287",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "texte intégral, Result, Table 6",
+  "access": "texte intégral",
+  "quote": "At 1 year after surgery, group 1 showed a slightly lower average VAS of 0.9 compared with 1.2 obtained in group 2 ( p =0.287).",
+  "notes": "Pas d'écart-type.",
+  "computed": null
+ },
+ {
+  "study": "S-33330218",
+  "report": "33330218",
+  "outcome": "O5",
+  "measure_label": "rerupture IRM, ruptures moyennes (Sugaya IV-V)",
+  "timepoint": "6 à 15 mois (moyenne 10,4)",
+  "timepoint_months": 10.4,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "rééducation passive précoce J2",
+    "n": 23,
+    "events": 3,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation passive retardée à 3 sem.",
+    "n": 22,
+    "events": 1,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.400",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": "13.0 %",
+   "delayed": "4.6 %"
+  },
+  "higher_is_better": null,
+  "location": "texte intégral, Table 3",
+  "access": "texte intégral",
+  "quote": "Retear * 0.400 Small 0 (0) 0 (0) Medium 3 (13.0) 1 (4.6) Large 1 (14.3) 3 (30.0)",
+  "notes": "p de 0.400 global (toutes tailles), non spécifique à la strate ; strate non randomisée séparément.",
+  "arbitration": "A confirmé : 0/8 contre 0/6 : 0 (0) du tableau 3, effectifs du tableau 1.",
+  "computed": {
+   "measure": "RR",
+   "value": 2.869565217391304,
+   "ci_low": 0.3223000199020288,
+   "ci_high": 25.548880013612962
+  }
+ },
+ {
+  "study": "S-33330218",
+  "report": "33330218",
+  "outcome": "O5",
+  "measure_label": "rerupture IRM, grandes ruptures (Sugaya IV-V)",
+  "timepoint": "6 à 15 mois (moyenne 10,4)",
+  "timepoint_months": 10.4,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "rééducation passive précoce J2",
+    "n": 7,
+    "events": 1,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation passive retardée à 3 sem.",
+    "n": 10,
+    "events": 3,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.400",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": "14.3 %",
+   "delayed": "30.0 %"
+  },
+  "higher_is_better": null,
+  "location": "texte intégral, Table 3",
+  "access": "texte intégral",
+  "quote": "Retear * 0.400 Small 0 (0) 0 (0) Medium 3 (13.0) 1 (4.6) Large 1 (14.3) 3 (30.0)",
+  "notes": "Grandes ruptures (moins de 5 cm) ; p global ; très petits effectifs ; ruptures massives exclues.",
+  "arbitration": "A confirmé : 0/8 contre 0/6 : 0 (0) du tableau 3, effectifs du tableau 1.",
+  "computed": {
+   "measure": "RR",
+   "value": 0.47619047619047616,
+   "ci_low": 0.06150207546950923,
+   "ci_high": 3.686987274550295
+  }
+ },
+ {
+  "study": "S-33330218",
+  "report": "33330218",
+  "outcome": "O5",
+  "measure_label": "rerupture IRM, petites ruptures (Sugaya IV-V)",
+  "timepoint": "6 à 15 mois (moyenne 10,4)",
+  "timepoint_months": 10.4,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "rééducation passive précoce J2",
+    "n": 8,
+    "events": 0,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation passive retardée à 3 sem.",
+    "n": 6,
+    "events": 0,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.400",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "texte intégral, Table 3 et Table 1",
+  "access": "texte intégral",
+  "quote": "Retear * 0.400 Small 0 (0) 0 (0) Medium 3 (13.0) 1 (4.6) Large 1 (14.3) 3 (30.0)",
+  "notes": "Effectifs 8 et 6 pris au Tableau 1 (petites ruptures) ; p global.",
+  "arbitration": "A confirmé : 0/8 contre 0/6 : 0 (0) du tableau 3, effectifs du tableau 1.",
+  "computed": null
+ },
+ {
+  "study": "S-CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "report": "CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "outcome": "O1",
+  "measure_label": "rerupture (imagerie non précisée), grandes ruptures",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe observation)",
+    "n": 66,
+    "events": 6,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation (groupe contrôle)",
+    "n": 66,
+    "events": 4,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "P>0.05",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "Six patients in the observation group and four patients in the control group appeared re-tear, the differences were not statistically significant (P>0.05).",
+  "notes": "Effectifs randomisés ; délai de la rerupture non précisé (suivi à 3, 6, 12 mois) ; imagerie non précisée.",
+  "computed": {
+   "measure": "RR",
+   "value": 1.5,
+   "ci_low": 0.4435987903125628,
+   "ci_high": 5.072150892058643
+  }
+ },
+ {
+  "study": "S-CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "report": "CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "outcome": "O2",
+  "measure_label": "scores UCLA et Constant au dernier suivi",
+  "timepoint": "12 mois (dernier suivi)",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe observation)",
+    "n": 66,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation (groupe contrôle)",
+    "n": 66,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "P>0.05",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "However, there was no significant difference between the two groups in VAS score, muscle strength, UCLA shoulder score and Constant shoulder score at the final follow-up period (P>0.05).",
+  "notes": "Aucune valeur de score dans le résumé ; délai du dernier suivi supposé 12 mois (non explicite).",
+  "computed": null
+ },
+ {
+  "study": "S-CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "report": "CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "outcome": "O3",
+  "measure_label": "amplitudes articulaires",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe observation)",
+    "n": 66,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation (groupe contrôle)",
+    "n": 66,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "P>0.05",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "At 12 months after arthroscopic rotator cuff repair, the two groups showed no significant difference in the range of motion (P>0.05).",
+  "notes": "Pas de valeurs ; pas de résultat chiffré à 3 mois dans le résumé.",
+  "computed": null
+ },
+ {
+  "study": "S-CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "report": "CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "outcome": "O3",
+  "measure_label": "raideur postopératoire (incidence)",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe observation)",
+    "n": 66,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation (groupe contrôle)",
+    "n": 66,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "P<0.05",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": "15.15 %",
+   "delayed": "36.36 %"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "the incidence of stiffness in the control group was significantly higher than that in the observation group (36.36% vs. 15.15%, P<0.05)",
+  "notes": "Pourcentages seuls, événements non déduits ; définition de la raideur et délai non précisés (supposé 12 mois).",
+  "computed": null
+ },
+ {
+  "study": "S-CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "report": "CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "outcome": "O4",
+  "measure_label": "douleur EVA au dernier suivi",
+  "timepoint": "12 mois (dernier suivi)",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe observation)",
+    "n": 66,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation (groupe contrôle)",
+    "n": 66,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "P>0.05",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "However, there was no significant difference between the two groups in VAS score, muscle strength, UCLA shoulder score and Constant shoulder score at the final follow-up period (P>0.05).",
+  "notes": "Aucune valeur de douleur dans le résumé.",
+  "computed": null
+ },
+ {
+  "study": "S-CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "report": "CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "outcome": "O5",
+  "measure_label": "rerupture, grandes ruptures (population exclusive de l'essai)",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe observation)",
+    "n": 66,
+    "events": 6,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation (groupe contrôle)",
+    "n": 66,
+    "events": 4,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "P>0.05",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Methods et Results",
+  "access": "résumé",
+  "quote": "Six patients in the observation group and four patients in the control group appeared re-tear, the differences were not statistically significant (P>0.05).",
+  "notes": "Essai restreint aux grandes ruptures (catégorie O5b) ; même donnée que O1.",
+  "arbitration": "Entrée B correcte, citation exacte du résumé ; fonction en grandes ruptures absente chez A.",
+  "computed": {
+   "measure": "RR",
+   "value": 1.5,
+   "ci_low": 0.4435987903125628,
+   "ci_high": 5.072150892058643
+  }
+ },
+ {
+  "study": "S-CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "report": "CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "outcome": "O7",
+  "measure_label": "raideur postopératoire (complication)",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe observation)",
+    "n": 66,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation (groupe contrôle)",
+    "n": 66,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "P<0.05",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": "15.15 %",
+   "delayed": "36.36 %"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "the incidence of stiffness in the control group was significantly higher than that in the observation group (36.36% vs. 15.15%, P<0.05)",
+  "notes": "Même donnée que O3 ; aucune réintervention ni arthrolyse rapportée dans le résumé.",
+  "computed": null
+ },
+ {
+  "study": "S-39732211",
+  "report": "39732211",
+  "outcome": "O1",
+  "measure_label": "rerupture du supra-épineux à l'IRM 3 T",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "écharpe simple 2 semaines",
+    "n": null,
+    "events": 5,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "orthèse 6 semaines",
+    "n": null,
+    "events": 5,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "The evaluation of magnetic resonance imaging scans identified 5 patients in each group with a supraspinatus tendon re-rupture, with no statistical difference in the re-rupture rate between the 2 groups.",
+  "notes": "Effectifs par bras non donnés (110 randomisés au total) ; p non donné.",
+  "computed": null
+ },
+ {
+  "study": "S-39732211",
+  "report": "39732211",
+  "outcome": "O4",
+  "measure_label": "douleur EVA",
+  "timepoint": "6 semaines, 3 et 6 mois",
+  "timepoint_months": 6,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "écharpe simple 2 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "orthèse 6 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "No difference was retrieved between the 2 groups at any follow-up in terms of pain, functional, and general health scores.",
+  "notes": "Aucun chiffre ; comparaison écharpe courte contre orthèse 6 semaines.",
+  "computed": null
+ },
+ {
+  "study": "S-39732211",
+  "report": "39732211",
+  "outcome": "O6",
+  "measure_label": "rerupture à l'IRM : écharpe 2 sem. contre orthèse 6 sem.",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "écharpe simple 2 semaines",
+    "n": null,
+    "events": 5,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "orthèse 6 semaines",
+    "n": null,
+    "events": 5,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "The evaluation of magnetic resonance imaging scans identified 5 patients in each group with a supraspinatus tendon re-rupture, with no statistical difference in the re-rupture rate between the 2 groups.",
+  "notes": "Même donnée que O1 ; effectifs par bras non donnés.",
+  "computed": null
+ },
+ {
+  "study": "S-39732211",
+  "report": "39732211",
+  "outcome": "O6",
+  "measure_label": "score de Constant : proportion atteignant la différence minimale cliniquement importante (14,5 points)",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "écharpe simple 2 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "orthèse 6 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": {
+   "early": "56.5 %",
+   "delayed": "61.2 %"
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "The minimal clinically important difference for the primary outcome was 14.5 points and was reached in 56.5% and 61.2% of patients in the sling and brace group, respectively.",
+  "notes": "Pourcentages seuls ; critère principal = Constant à 6 mois ; moyennes non données.",
+  "computed": null
+ },
+ {
+  "study": "S-CONS:w:0b6c7e78-6e20-4d10-ac49-f6d31839e3d0",
+  "report": "CONS:w:0b6c7e78-6e20-4d10-ac49-f6d31839e3d0",
+  "outcome": "O1",
+  "measure_label": "événements de rerupture à l'échographie",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "événements",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "rééducation précoce",
+    "n": null,
+    "events": 5,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation conservatrice",
+    "n": null,
+    "events": 1,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "The number of re-tear events was higher in the early group (5 vs 1), and of these only two patients reported symptoms at 12 months.",
+  "notes": "20 patients randomisés au total, effectifs par bras non donnés ; petit échantillon.",
+  "computed": null
+ },
+ {
+  "study": "S-CONS:w:0b6c7e78-6e20-4d10-ac49-f6d31839e3d0",
+  "report": "CONS:w:0b6c7e78-6e20-4d10-ac49-f6d31839e3d0",
+  "outcome": "O3",
+  "measure_label": "flexion de l'épaule (cinématique 3D), médiane",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "rééducation précoce",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": "152.1",
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation conservatrice",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": "140.0",
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "at six months patients in the early group had better range of motion (ROM) than those in the conservative group, especially for shoulder flexion (Early: median = 152.1° vs Conservative: median = 140.0°)",
+  "notes": "Médianes sans IQR ; 20 patients randomisés, effectifs par bras non donnés ; la thèse EPMC:ETH:797886 (résumé tronqué) ne donne aucun chiffre.",
+  "computed": null
+ },
+ {
+  "study": "S-33305619",
+  "report": "33305619",
+  "outcome": "O1",
+  "measure_label": "rerupture de pleine épaisseur à l'échographie",
+  "timepoint": "12 semaines",
+  "timepoint_months": 3,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "rééducation précoce dirigée par le patient (sans écharpe dès que possible)",
+    "n": 23,
+    "events": 7,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe 4 semaines",
+    "n": 27,
+    "events": 11,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "texte intégral, Results",
+  "access": "texte intégral",
+  "quote": "Eighteen full-thickness re-tears were reported (early patient-directed rehabilitation = 7/23, standard rehabilitation = 11/27).",
+  "notes": "Essai pilote de faisabilité ; effectifs analysés à l'échographie (50 formulaires) ; imagerie à 12 semaines seulement ; pas de test.",
+  "computed": {
+   "measure": "RR",
+   "value": 0.7470355731225298,
+   "ci_low": 0.34682702220588063,
+   "ci_high": 1.609050367416972
+  }
+ },
+ {
+  "study": "S-33305619",
+  "report": "33305619",
+  "outcome": "O7",
+  "measure_label": "événements indésirables graves (événements, jusqu'à 12 semaines)",
+  "timepoint": "12 semaines",
+  "timepoint_months": 3,
+  "unit": "événements",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "rééducation précoce dirigée par le patient",
+    "n": 37,
+    "events": 2,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe 4 semaines",
+    "n": 36,
+    "events": 3,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "texte intégral, Results",
+  "access": "texte intégral",
+  "quote": "Twenty-one non-serious adverse events (early patient-directed rehabilitation = 7, standard rehabilitation = 14) and five serious adverse events (early patient-directed rehabilitation = 2, standard rehabilitation = 3) were reported.",
+  "notes": "Nombres d'événements et non de patients ; effectifs randomisés (37 et 36) ; événements non graves 7 contre 14.",
+  "computed": {
+   "measure": "RR",
+   "value": 0.6486486486486487,
+   "ci_low": 0.11506528106798433,
+   "ci_high": 3.6565770794504737
+  }
+ },
+ {
+  "study": "S-33305619",
+  "report": "33305619",
+  "outcome": "O7",
+  "measure_label": "rerupture symptomatique nécessitant une nouvelle chirurgie",
+  "timepoint": "12 semaines",
+  "timepoint_months": 3,
+  "unit": "événements",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "rééducation précoce dirigée par le patient",
+    "n": 37,
+    "events": 1,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe 4 semaines",
+    "n": 36,
+    "events": 1,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "texte intégral, Results",
+  "access": "texte intégral",
+  "quote": "Related serious adverse events were: symptomatic rotator cuff re-tear requiring further surgery (early patient-directed rehabilitation = 1, standard rehabilitation = 1).",
+  "notes": "Effectifs randomisés ; événements sérieux liés.",
+  "computed": {
+   "measure": "RR",
+   "value": 0.972972972972973,
+   "ci_low": 0.06322749868275968,
+   "ci_high": 14.97254241996445
+  }
+ },
+ {
+  "study": "S-21478659",
+  "report": "21478659",
+  "outcome": "O4",
+  "measure_label": "douleur au repos (EVA)",
+  "timepoint": "24 semaines (suivi postopératoire)",
+  "timepoint_months": 5.5,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "protocole accéléré (mobilité active à la semaine 3)",
+    "n": 13,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "protocole lent (mobilité active à la semaine 6)",
+    "n": 16,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "p>0.05",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "There was no significant difference between the slow and accelerated protocols with regard to pain at rest (p>0.05).",
+  "notes": "Le groupe accéléré a aussi suivi une rééducation préopératoire de 4-6 semaines ; délai exact non précisé ; effectifs randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-21478659",
+  "report": "21478659",
+  "outcome": "O4",
+  "measure_label": "douleur à l'activité et nocturne (EVA)",
+  "timepoint": "semaines 5 et 16",
+  "timepoint_months": 3.7,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "protocole accéléré (mobilité active à la semaine 3)",
+    "n": 13,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "protocole lent (mobilité active à la semaine 6)",
+    "n": 16,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "p<0.05",
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "the accelerated protocol was associated with less pain during activity at weeks 5 and 16, and with less pain at night during week 5 (p<0.05)",
+  "notes": "Douleur à l'activité semaines 5 et 16 ; nocturne semaine 5 ; aucune valeur ; rééducation préopératoire dans le bras accéléré.",
+  "computed": null
+ },
+ {
+  "study": "S-22944392",
+  "report": "22944392",
+  "outcome": "O1",
+  "measure_label": "rupture récidivante au scanner-arthrographie (CT arthrography)",
+  "timepoint": "suivi final (moyenne 15 mois)",
+  "timepoint_months": 15,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive immédiate",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation stricte 6 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "non significatif (valeur non donnée)",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": "23.3%",
+   "delayed": "15.4%"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "recurrent tears in 15.4% versus 23.3% respectively",
+  "notes": "Ordre des bras déduit de la phrase précédente (immobilisation puis mobilisation). Imagerie chez 82 patients, effectifs par bras non donnés.",
+  "computed": null
+ },
+ {
+  "study": "S-22944392",
+  "report": "22944392",
+  "outcome": "O2",
+  "measure_label": "score de Constant (0-100)",
+  "timepoint": "suivi final (moyenne 15 mois)",
+  "timepoint_months": 15,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive immédiate",
+    "n": null,
+    "events": null,
+    "mean": "77.6",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation stricte 6 semaines",
+    "n": null,
+    "events": null,
+    "mean": "69.7",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.045",
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "a Constant score of 77.6 points versus 69.7 (P=0.045) respectively",
+  "notes": "Évaluation clinique chez 92 patients sur 100 ; effectifs par bras non donnés ; écart-type absent.",
+  "computed": null
+ },
+ {
+  "study": "S-22944392",
+  "report": "22944392",
+  "outcome": "O3",
+  "measure_label": "rotation externe passive (degrés)",
+  "timepoint": "suivi final (moyenne 15 mois)",
+  "timepoint_months": 15,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive immédiate",
+    "n": null,
+    "events": null,
+    "mean": "58.7",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation stricte 6 semaines",
+    "n": null,
+    "events": null,
+    "mean": "49.1",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.011",
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "a mean passive external rotation of 58.7° at the final follow-up versus 49.1° after immobilization (P=0.011)",
+  "notes": "Effectifs par bras et écarts-types non donnés.",
+  "computed": null
+ },
+ {
+  "study": "S-22944392",
+  "report": "22944392",
+  "outcome": "O3",
+  "measure_label": "élévation antérieure passive (degrés)",
+  "timepoint": "suivi final (moyenne 15 mois)",
+  "timepoint_months": 15,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive immédiate",
+    "n": null,
+    "events": null,
+    "mean": "172.4",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation stricte 6 semaines",
+    "n": null,
+    "events": null,
+    "mean": "163.3",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.094",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "a passive anterior elevation of 172.4° versus 163.3° (P=0.094) respectively",
+  "notes": "Différence non significative ; effectifs et écarts-types non donnés.",
+  "computed": null
+ },
+ {
+  "study": "S-22944392",
+  "report": "22944392",
+  "outcome": "O7",
+  "measure_label": "capsulite rétractile et syndrome douloureux régional complexe",
+  "timepoint": "suivi final (moyenne 15 mois)",
+  "timepoint_months": 15,
+  "unit": "patients",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive immédiate",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation stricte 6 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "and a lower rate of adhesive capsulitis and complex regional pain syndrome",
+  "notes": "Taux non chiffrés dans le résumé, sens en faveur de la mobilisation immédiate (sans p).",
+  "computed": null
+ },
+ {
+  "study": "S-41541303",
+  "report": "41541303",
+  "outcome": "O1",
+  "measure_label": "rerupture à l'IRM (Sugaya IV/V)",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive supervisée dans les 24 h (EMG)",
+    "n": 60,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation stricte 6 semaines (DMG)",
+    "n": 60,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.56",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": "3.3 %",
+   "delayed": "1.7 %"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "Re-tear rates did not differ significantly (EMG: 3.3 % vs. DMG: 1.7 %; p = 0.56).",
+  "notes": "n = effectif randomisé (60 par bras) ; effectif analysé non donné. Événements non donnés par bras (trois rerupture au total).",
+  "computed": null
+ },
+ {
+  "study": "S-41541303",
+  "report": "41541303",
+  "outcome": "O3",
+  "measure_label": "raideur postopératoire (stiffness)",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive supervisée dans les 24 h (EMG)",
+    "n": 60,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation stricte 6 semaines (DMG)",
+    "n": 60,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.03",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": "5 %",
+   "delayed": "15 %"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "EMG showed significantly lower pain (VAS: 1.7 ± 0.8 vs. 2.9 ± 1.1; p = 0.02), higher function (UCLA: 33.7 ± 2.1 vs. 29.4 ± 3.3; p = 0.01), greater ROM, and lower stiffness (5 % vs. 15 %; p = 0.03).",
+  "notes": "n = effectif randomisé ; définition de la raideur non donnée.",
+  "computed": null
+ },
+ {
+  "study": "S-41541303",
+  "report": "41541303",
+  "outcome": "O3",
+  "measure_label": "amplitude active (ROM)",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive supervisée dans les 24 h (EMG)",
+    "n": 60,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation stricte 6 semaines (DMG)",
+    "n": 60,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "EMG showed significantly lower pain (VAS: 1.7 ± 0.8 vs. 2.9 ± 1.1; p = 0.02), higher function (UCLA: 33.7 ± 2.1 vs. 29.4 ± 3.3; p = 0.01), greater ROM, and lower stiffness (5 % vs. 15 %; p = 0.03).",
+  "notes": "« greater ROM » sans chiffre ni p dans le résumé.",
+  "computed": null
+ },
+ {
+  "study": "S-41541303",
+  "report": "41541303",
+  "outcome": "O4",
+  "measure_label": "douleur EVA (VAS)",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive supervisée dans les 24 h (EMG)",
+    "n": 60,
+    "events": null,
+    "mean": "1.7",
+    "sd": "0.8",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation stricte 6 semaines (DMG)",
+    "n": 60,
+    "events": null,
+    "mean": "2.9",
+    "sd": "1.1",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.02",
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "EMG showed significantly lower pain (VAS: 1.7 ± 0.8 vs. 2.9 ± 1.1; p = 0.02), higher function (UCLA: 33.7 ± 2.1 vs. 29.4 ± 3.3; p = 0.01), greater ROM, and lower stiffness (5 % vs. 15 %; p = 0.03).",
+  "notes": "Échelle supposée 0-10 (non précisée) ; n = effectif randomisé.",
+  "computed": {
+   "measure": "MD",
+   "value": -1.2,
+   "ci_low": -1.5441646892598562,
+   "ci_high": -0.8558353107401437
+  }
+ },
+ {
+  "study": "S-41541303",
+  "report": "41541303",
+  "outcome": "O5",
+  "measure_label": "rerupture selon la taille de la rupture et l'infiltration graisseuse",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "patients",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive supervisée dans les 24 h (EMG)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation stricte 6 semaines (DMG)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "All three re-tears occurred in patients with large tears (>3 cm) and high-grade fatty infiltration (Goutallier ≥3).",
+  "notes": "Pas de résultats par catégorie de taille et par bras ; aucune donnée sur les ruptures petites ou moyennes.",
+  "computed": null
+ },
+ {
+  "study": "S-41541303",
+  "report": "41541303",
+  "outcome": "O7",
+  "measure_label": "raideur (complication) et rerupture",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive supervisée dans les 24 h (EMG)",
+    "n": 60,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation stricte 6 semaines (DMG)",
+    "n": 60,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.03",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": "5 %",
+   "delayed": "15 %"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "EMG showed significantly lower pain (VAS: 1.7 ± 0.8 vs. 2.9 ± 1.1; p = 0.02), higher function (UCLA: 33.7 ± 2.1 vs. 29.4 ± 3.3; p = 0.01), greater ROM, and lower stiffness (5 % vs. 15 %; p = 0.03).",
+  "notes": "Même donnée que l'entrée O3 (raideur) ; autres complications et réinterventions non chiffrées.",
+  "computed": null
+ },
+ {
+  "study": "S-40028412",
+  "report": "40028412",
+  "outcome": "O2",
+  "measure_label": "score de Constant-Murley (0-100)",
+  "timepoint": "1 an",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe (pendulaire passif)",
+    "n": 28,
+    "events": null,
+    "mean": "90.34",
+    "sd": "1.03",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe simple 4 semaines (colonne « Sling without pillow »)",
+    "n": null,
+    "events": null,
+    "mean": "90.20",
+    "sd": "4.28",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.321",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "Résultats, Tableau 3",
+  "access": "texte intégral",
+  "quote": "1st year | 90.34±1.03 | 91±9.92 | 90.20±4.28 | 0.321a",
+  "notes": "p à trois groupes. Effectif du bras écharpe : 32 (texte) ou 30 (Tableau 1), étiquettes incohérentes ; n laissé null. SD 1.03 douteux.",
+  "arbitration": "A confirmé : moyennes 90.34 et 90.20 du tableau 3 ; n du bras écharpe incohérent (32 texte, 30 tableau 1, libellés de colonnes discordants), n laissé null.",
+  "computed": null
+ },
+ {
+  "study": "S-40028412",
+  "report": "40028412",
+  "outcome": "O3",
+  "measure_label": "flexion antérieure (degrés)",
+  "timepoint": "45 jours",
+  "timepoint_months": 1.5,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe (pendulaire passif)",
+    "n": 28,
+    "events": null,
+    "mean": "103.25",
+    "sd": "26.21",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe simple 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": "135.27",
+    "sd": "20.61",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "<0.001",
+   "favours": "delayed"
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "Résultats, Tableau 4",
+  "access": "texte intégral",
+  "quote": "The shoulder anterior forward flexion angle was significantly lower in the nonsling group (103.25±26.21) on the 45 th day compared to the sling (135.27±20.61) and abduction pillow sling groups (131.44±28.53; p<0.000).",
+  "notes": "Écharpe avec coussin : 131.44±28.53. Effectif du bras écharpe ambigu (30 ou 32).",
+  "computed": null
+ },
+ {
+  "study": "S-40028412",
+  "report": "40028412",
+  "outcome": "O3",
+  "measure_label": "flexion antérieure (degrés)",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe (pendulaire passif)",
+    "n": 28,
+    "events": null,
+    "mean": "135.07",
+    "sd": "25.46",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe simple 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": "153.4",
+    "sd": "15.93",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.005",
+   "favours": "delayed"
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "Résultats, Tableau 4",
+  "access": "texte intégral",
+  "quote": "3rd month | 135.07±25.46 | 148.88±22.43 | 153.4±15.93 | 0.005‡",
+  "notes": "p à trois groupes ; différence post hoc sans écharpe contre écharpe simple. Écharpe avec coussin : 148.88±22.43.",
+  "computed": null
+ },
+ {
+  "study": "S-40028412",
+  "report": "40028412",
+  "outcome": "O3",
+  "measure_label": "flexion antérieure (degrés)",
+  "timepoint": "1 an",
+  "timepoint_months": 12,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe (pendulaire passif)",
+    "n": 28,
+    "events": null,
+    "mean": "165.91",
+    "sd": "17.43",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe simple 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": "167.5",
+    "sd": "14.79",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.175",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "Résultats, Tableau 4",
+  "access": "texte intégral",
+  "quote": "1st year | 165.91±17.43 | 167.55±14.59 | 167.5±14.79 | 0.175‡",
+  "notes": "p à trois groupes. Écharpe avec coussin : 167.55±14.59.",
+  "computed": null
+ },
+ {
+  "study": "S-40028412",
+  "report": "40028412",
+  "outcome": "O3",
+  "measure_label": "abduction (degrés)",
+  "timepoint": "45 jours",
+  "timepoint_months": 1.5,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe (pendulaire passif)",
+    "n": 28,
+    "events": null,
+    "mean": "85",
+    "sd": "20.29",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe simple 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": "91.07",
+    "sd": "18.19",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.408",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "Résultats, Tableau 5",
+  "access": "texte intégral",
+  "quote": "45th day | 85±20.29 | 92.03±20.03 | 91.07±18.19 | 0.408‡",
+  "notes": "p à trois groupes. Écharpe avec coussin : 92.03±20.03.",
+  "computed": null
+ },
+ {
+  "study": "S-40028412",
+  "report": "40028412",
+  "outcome": "O3",
+  "measure_label": "abduction (degrés)",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe (pendulaire passif)",
+    "n": 28,
+    "events": null,
+    "mean": "120.46",
+    "sd": "21.94",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe simple 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": "114.7",
+    "sd": "19.42",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.430",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "Résultats, Tableau 5",
+  "access": "texte intégral",
+  "quote": "3rd month | 120.46±21.94 | 121±21.07 | 114.7±19.42 | 0.430a",
+  "notes": "p à trois groupes. Écharpe avec coussin : 121±21.07.",
+  "computed": null
+ },
+ {
+  "study": "S-40028412",
+  "report": "40028412",
+  "outcome": "O3",
+  "measure_label": "abduction (degrés)",
+  "timepoint": "1 an",
+  "timepoint_months": 12,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe (pendulaire passif)",
+    "n": 28,
+    "events": null,
+    "mean": "151.09",
+    "sd": "17.11",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe simple 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": "149.4",
+    "sd": "12.98",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.301",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "Résultats, Tableau 5",
+  "access": "texte intégral",
+  "quote": "1st year | 151.09±17.11 | 152.68±11.7 | 149.4±12.98 | 0.301a",
+  "notes": "p à trois groupes. Écharpe avec coussin : 152.68±11.7.",
+  "computed": null
+ },
+ {
+  "study": "S-40028412",
+  "report": "40028412",
+  "outcome": "O4",
+  "measure_label": "douleur EVA 0-10",
+  "timepoint": "15 jours",
+  "timepoint_months": 0.5,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe (pendulaire passif)",
+    "n": 28,
+    "events": null,
+    "mean": "7.6",
+    "sd": "1.3",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe simple 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": "8.4",
+    "sd": "1.1",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.008",
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "Résultats, Tableau 2",
+  "access": "texte intégral",
+  "quote": "On the 15 th postoperative day, the VAS score was found to be significantly lower in the nonsling group (7.6±1.3) compared to the groups using a sling (8.4±1.1) and abduction pillow sling (8.5±1.2; p=0.023, Table 2).",
+  "notes": "p texte 0.023, tableau 0.008 (trois groupes). Écharpe avec coussin : 8.5±1.2.",
+  "computed": null
+ },
+ {
+  "study": "S-40028412",
+  "report": "40028412",
+  "outcome": "O4",
+  "measure_label": "douleur EVA 0-10",
+  "timepoint": "45 jours",
+  "timepoint_months": 1.5,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe (pendulaire passif)",
+    "n": 28,
+    "events": null,
+    "mean": "6.5",
+    "sd": "1.5",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe simple 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": "6.6",
+    "sd": "0.8",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.183",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "Résultats, Tableau 2",
+  "access": "texte intégral",
+  "quote": "45th day | 6.5±1.5 | 5.8±1.9 | 6.6±0.8 | 0.183a",
+  "notes": "p à trois groupes. Écharpe avec coussin : 5.8±1.9.",
+  "computed": null
+ },
+ {
+  "study": "S-40028412",
+  "report": "40028412",
+  "outcome": "O4",
+  "measure_label": "douleur EVA 0-10",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe (pendulaire passif)",
+    "n": 28,
+    "events": null,
+    "mean": "4.2",
+    "sd": "1",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe simple 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": "4.6",
+    "sd": "1",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.064",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "Résultats, Tableau 2",
+  "access": "texte intégral",
+  "quote": "3rd month | 4.2±1 | 3.9±1.3 | 4.6±1 | 0.064a",
+  "notes": "p à trois groupes. Écharpe avec coussin : 3.9±1.3.",
+  "computed": null
+ },
+ {
+  "study": "S-40028412",
+  "report": "40028412",
+  "outcome": "O4",
+  "measure_label": "douleur EVA 0-10",
+  "timepoint": "1 an",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe (pendulaire passif)",
+    "n": 28,
+    "events": null,
+    "mean": "1.9",
+    "sd": "1.3",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe simple 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": "2.2",
+    "sd": "1.1",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.092",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "Résultats, Tableau 2",
+  "access": "texte intégral",
+  "quote": "1st year | 1.9±1.3 | 1.8±1.1 | 2.2±1.1 | 0.092a",
+  "notes": "p à trois groupes. Écharpe avec coussin : 1.8±1.1.",
+  "computed": null
+ },
+ {
+  "study": "S-40028412",
+  "report": "40028412",
+  "outcome": "O6",
+  "measure_label": "score de Constant-Murley (0-100), absence d'écharpe contre écharpe",
+  "timepoint": "45 jours",
+  "timepoint_months": 1.5,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe (pendulaire passif)",
+    "n": 28,
+    "events": null,
+    "mean": "44.11",
+    "sd": "15.54",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe simple 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": "52.2",
+    "sd": "12.97",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.012",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "Résultats, Tableau 3",
+  "access": "texte intégral",
+  "quote": "45th day | 44.11±15.54 | 54.41±14.72 | 52.2±12.97 | 0.012‡",
+  "notes": "p à trois groupes ; différence post hoc significative sans écharpe contre écharpe avec coussin (54.41±14.72), non contre écharpe simple.",
+  "computed": null
+ },
+ {
+  "study": "S-38469925",
+  "report": "38469925",
+  "outcome": "O1",
+  "measure_label": "rerupture à l'IRM",
+  "timepoint": "au moins 12 mois",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "rééducation précoce",
+    "n": null,
+    "events": "2",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation retardée",
+    "n": null,
+    "events": "4",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "non significatif (valeur non donnée)",
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "Postoperative magnetic resonance imaging revealed six recurrent tears, two in the early group and four in the delayed group, with no statistical differences.",
+  "notes": "75 patients randomisés au total ; effectifs par bras non donnés dans le résumé ; IRM au minimum 12 mois.",
+  "computed": null
+ },
+ {
+  "study": "S-38469925",
+  "report": "38469925",
+  "outcome": "O2",
+  "measure_label": "scores UCLA, EVA et Constant",
+  "timepoint": "5 ans",
+  "timepoint_months": 60,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "rééducation précoce",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation retardée",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "At the postoperative 5-year mark, the early group showed better improvement in the visual analogue scale and UCLA score, while the delayed group had superior Constant scores.",
+  "notes": "Aucun chiffre ni p dans le résumé.",
+  "computed": null
+ },
+ {
+  "study": "S-38469925",
+  "report": "38469925",
+  "outcome": "O3",
+  "measure_label": "amplitudes articulaires",
+  "timepoint": "5 ans",
+  "timepoint_months": 60,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "rééducation précoce",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation retardée",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "Both groups demonstrated equivalent improvement in range of motion and pain scores with no statistical differences.",
+  "notes": "Délai précis de cette phrase non indiqué (suivi à 5 ans par défaut) ; aucun chiffre.",
+  "computed": null
+ },
+ {
+  "study": "S-38469925",
+  "report": "38469925",
+  "outcome": "O4",
+  "measure_label": "douleur (EVA)",
+  "timepoint": "5 ans",
+  "timepoint_months": 60,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "rééducation précoce",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation retardée",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "Both groups demonstrated equivalent improvement in range of motion and pain scores with no statistical differences.",
+  "notes": "Contradiction apparente avec « early group showed better improvement in the visual analogue scale » à 5 ans ; aucun chiffre.",
+  "computed": null
+ },
+ {
+  "study": "S-30827428",
+  "report": "30827428",
+  "outcome": "O1",
+  "measure_label": "rupture transfixiante à l'échographie",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation active précoce (EM, sevrage de l'écharpe)",
+    "n": 103,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe 6 semaines sans mobilisation active (SR)",
+    "n": 103,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "> .8",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": "30%",
+   "delayed": "33%"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "Fifty-two (25%) subjects (30% EM; 33% SR) had a full-thickness tear present at 12-month postoperative ultrasound testing (P > .8).",
+  "notes": "n = effectif randomisé ; 83 % suivis à 24 mois ; effectif analysé à l'échographie non donné.",
+  "computed": null
+ },
+ {
+  "study": "S-30827428",
+  "report": "30827428",
+  "outcome": "O3",
+  "measure_label": "flexion antérieure et abduction",
+  "timepoint": "6 semaines",
+  "timepoint_months": 1.5,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation active précoce (EM)",
+    "n": 103,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe 6 semaines (SR)",
+    "n": 103,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "At 6 weeks postoperatively, EM participants had significantly better forward flexion and abduction",
+  "notes": "Texte du résumé tronqué après « abduction (P  .08) » ; valeurs non données.",
+  "computed": null
+ },
+ {
+  "study": "S-30827428",
+  "report": "30827428",
+  "outcome": "O3",
+  "measure_label": "amplitudes articulaires",
+  "timepoint": "12 et 24 mois",
+  "timepoint_months": 12,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation active précoce (EM)",
+    "n": 103,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe 6 semaines (SR)",
+    "n": 103,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Conclusions",
+  "access": "résumé",
+  "quote": "EM did not show significant clinical benefits, but there was no compromise of postoperative ROM, pain, strength, or HRQOL.",
+  "notes": "Conclusion des auteurs, sans chiffre ; délai précis non indiqué.",
+  "computed": null
+ },
+ {
+  "study": "S-30827428",
+  "report": "30827428",
+  "outcome": "O4",
+  "measure_label": "douleur",
+  "timepoint": "6 semaines à 24 mois",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation active précoce (EM)",
+    "n": 103,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe 6 semaines (SR)",
+    "n": 103,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Conclusions",
+  "access": "résumé",
+  "quote": "EM did not show significant clinical benefits, but there was no compromise of postoperative ROM, pain, strength, or HRQOL.",
+  "notes": "Pas de différence de douleur ; valeurs non données.",
+  "computed": null
+ },
+ {
+  "study": "S-42457075",
+  "report": "42457075",
+  "outcome": "O2",
+  "measure_label": "fonction (score de Constant-Murley)",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "points",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "exercices précoces à faible activité du supra-épineux (dès 1 semaine)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "At long-term follow-up, no significant differences were observed between groups in range of motion, muscle strength, shoulder function, quality of life, or patient satisfaction.",
+  "notes": "30 patients randomisés au total ; effectifs par bras non donnés ; suivi 12 mois.",
+  "computed": null
+ },
+ {
+  "study": "S-42457075",
+  "report": "42457075",
+  "outcome": "O3",
+  "measure_label": "amplitudes articulaires",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "exercices précoces à faible activité du supra-épineux (dès 1 semaine)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "At long-term follow-up, no significant differences were observed between groups in range of motion, muscle strength, shoulder function, quality of life, or patient satisfaction.",
+  "notes": "Délai « long-term » supposé 12 mois ; aucun chiffre.",
+  "computed": null
+ },
+ {
+  "study": "S-42457075",
+  "report": "42457075",
+  "outcome": "O4",
+  "measure_label": "douleur nocturne EVA, différence moyenne",
+  "timepoint": "4 semaines",
+  "timepoint_months": 1,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "exercices précoces à faible activité du supra-épineux (dès 1 semaine)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": "MD",
+   "value": "2.56",
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".018",
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "At 4 weeks postoperatively, Group I reported significantly less night pain (mean difference = 2.56, P = .018) and pain during activity (mean difference = 2.73, P = .001) than Group II",
+  "notes": "Moyennes et effectifs par bras non donnés ; 30 patients randomisés au total.",
+  "computed": null
+ },
+ {
+  "study": "S-42457075",
+  "report": "42457075",
+  "outcome": "O4",
+  "measure_label": "douleur pendant l'activité EVA, différence moyenne",
+  "timepoint": "4 semaines",
+  "timepoint_months": 1,
+  "unit": "points",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "exercices précoces à faible activité du supra-épineux (dès 1 semaine)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": "MD",
+   "value": "2.73",
+   "ci_low": null,
+   "ci_high": null,
+   "p": ".001",
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": false,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "At 4 weeks postoperatively, Group I reported significantly less night pain (mean difference = 2.56, P = .018) and pain during activity (mean difference = 2.73, P = .001) than Group II",
+  "notes": "Moyennes et effectifs par bras non donnés ; 30 patients randomisés au total.",
+  "computed": null
+ },
+ {
+  "study": "S-25637728",
+  "report": "25637728",
+  "outcome": "O3",
+  "measure_label": "amplitude active, élévation totale active et autres mesures",
+  "timepoint": "12 semaines",
+  "timepoint_months": 3,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "protocole accéléré (mobilisation active dès la 3e semaine)",
+    "n": 19,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "protocole lent (mobilisation active dès la 6e semaine)",
+    "n": 21,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "<0.05",
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "there were no differences between groups, with the exception of active total elevation which was greater at all time point measurements in the ACCEL group (p<0.05)",
+  "notes": "Quasi-randomisé ; mesures aux semaines 3, 5, 8, 12 et 24 ; valeurs non données ; n = effectifs des groupes.",
+  "computed": null
+ },
+ {
+  "study": "S-25637728",
+  "report": "25637728",
+  "outcome": "O3",
+  "measure_label": "amplitude active, élévation totale active et autres mesures",
+  "timepoint": "24 semaines",
+  "timepoint_months": 6,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "protocole accéléré (mobilisation active dès la 3e semaine)",
+    "n": 19,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "protocole lent (mobilisation active dès la 6e semaine)",
+    "n": 21,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "<0.05",
+   "favours": "early"
+  },
+  "percentages_only": null,
+  "higher_is_better": true,
+  "location": "résumé, Résultats et Conclusion",
+  "access": "résumé",
+  "quote": "there were no differences between groups, with the exception of active total elevation which was greater at all time point measurements in the ACCEL group (p<0.05)",
+  "notes": "Délai 24 semaines (environ 5,5 mois) ; valeurs non données.",
+  "computed": null
+ },
+ {
+  "study": "S-24382719",
+  "report": "24382719",
+  "outcome": "O1",
+  "measure_label": "cicatrisation tendineuse en échographie (taux de réparations cicatrisées)",
+  "timepoint": "≥ 12 mois (échographie)",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "rééducation traditionnelle avec mobilisation précoce",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 6 semaines, mobilisation retardée",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.46",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "Ninety-two percent of the tears were healed, with no difference between rehabilitation protocols (p = 0.46).",
+  "notes": "92 % cicatrisées au total, pas de taux par bras. 124 randomisés, suivi clinique final 114 (92 %).",
+  "computed": null
+ },
+ {
+  "study": "S-24382719",
+  "report": "24382719",
+  "outcome": "O2",
+  "measure_label": "scores fonctionnels (ASES, SST, Constant relatif) aux délais tardifs",
+  "timepoint": "12 et 24 mois",
+  "timepoint_months": 24,
+  "unit": "score",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "rééducation traditionnelle avec mobilisation précoce",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 6 semaines, mobilisation retardée",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "No significant differences were seen in functional scores, active motion, and shoulder strength between rehabilitation groups at later time points.",
+  "notes": "Aucun chiffre par bras dans le résumé ; « later time points » = après 3 mois (6, 12, 24 mois).",
+  "arbitration": "A confirmé : non-différence narrative sans chiffre ; B identique avec délai 12 mois, délais non séparés dans le résumé.",
+  "computed": null
+ },
+ {
+  "study": "S-24382719",
+  "report": "24382719",
+  "outcome": "O3",
+  "measure_label": "élévation active et rotation externe",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "rééducation traditionnelle avec mobilisation précoce",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 6 semaines, mobilisation retardée",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "Active elevation and external rotation were better in the traditional rehabilitation group at three months.",
+  "notes": "Sans chiffres ni p dans le résumé.",
+  "computed": null
+ },
+ {
+  "study": "S-43009963",
+  "report": "43009963",
+  "outcome": "O1",
+  "measure_label": "rerupture à l'IRM (Sugaya)",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive dès le jour 1 (EPM)",
+    "n": 35,
+    "events": "1",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines puis mobilisation passive (DPM)",
+    "n": 35,
+    "events": "0",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": {
+   "early": "2.8%",
+   "delayed": "0%"
+  },
+  "higher_is_better": null,
+  "location": "texte intégral, Résultats, Tableau 3",
+  "access": "texte intégral",
+  "quote": "A single re-tear (2.8%) occurred in the EPM group in a medium-sized tear repaired with two anchors",
+  "notes": "n = effectif randomisé (aucune perte décrite). Événements 1 et 0 déduits du texte « single re-tear » et du Tableau 3. Pas de sangle dans les deux groupes.",
+  "computed": {
+   "measure": "RR",
+   "value": 3.0,
+   "ci_low": 0.12637033054656632,
+   "ci_high": 71.2192487039795
+  }
+ },
+ {
+  "study": "S-43009963",
+  "report": "43009963",
+  "outcome": "O2",
+  "measure_label": "score de Constant-Murley",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "score",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive dès le jour 1 (EPM)",
+    "n": 35,
+    "events": null,
+    "mean": "90",
+    "sd": "6.00",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines puis mobilisation passive (DPM)",
+    "n": 35,
+    "events": null,
+    "mean": "89",
+    "sd": "5.00",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.570",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "texte intégral, Résultats, Tableau 2",
+  "access": "texte intégral",
+  "quote": "Constant Score (12 months) 90 ± 6.00 89 ± 5.00 0.570",
+  "notes": "n = randomisés. Méthodes annoncent médiane et étendue, tableau donne moyenne ± écart (Mann-Whitney).",
+  "arbitration": "A confirmé : 32 ± 2.05 contre 31 ± 3.12, p 0.440 du tableau 2 ; 35 randomisés par bras.",
+  "computed": {
+   "measure": "MD",
+   "value": 1.0,
+   "ci_low": -1.5875393716811343,
+   "ci_high": 3.5875393716811343
+  }
+ },
+ {
+  "study": "S-43009963",
+  "report": "43009963",
+  "outcome": "O2",
+  "measure_label": "score UCLA",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "score",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive dès le jour 1 (EPM)",
+    "n": 35,
+    "events": null,
+    "mean": "32",
+    "sd": "2.05",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines puis mobilisation passive (DPM)",
+    "n": 35,
+    "events": null,
+    "mean": "31",
+    "sd": "3.12",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.440",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "texte intégral, Résultats, Tableau 2",
+  "access": "texte intégral",
+  "quote": "UCLA Score (12 months) 32 ± 2.05 31 ± 3.12 0.440",
+  "notes": "n = randomisés.",
+  "arbitration": "A confirmé : 32 ± 2.05 contre 31 ± 3.12, p 0.440 du tableau 2 ; 35 randomisés par bras.",
+  "computed": {
+   "measure": "MD",
+   "value": 1.0,
+   "ci_low": -0.2368161318482227,
+   "ci_high": 2.2368161318482227
+  }
+ },
+ {
+  "study": "S-43009963",
+  "report": "43009963",
+  "outcome": "O3",
+  "measure_label": "amplitude d'épaule (« Shoulder ROM recovery », degrés ; antépulsion)",
+  "timepoint": "6 semaines",
+  "timepoint_months": 1.5,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive dès le jour 1 (EPM)",
+    "n": 35,
+    "events": null,
+    "mean": "80",
+    "sd": "17.13",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines puis mobilisation passive (DPM)",
+    "n": 35,
+    "events": null,
+    "mean": "60",
+    "sd": "15.98",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.0013",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "texte intégral, Tableau 2",
+  "access": "texte intégral",
+  "quote": "Shoulder ROM recovery 6 weeks 80 ± 17.13 60 ± 15.98 0.0013*",
+  "notes": "Mouvement exact non précisé dans le tableau (flexion et rotation externe mesurées). n = randomisés.",
+  "computed": {
+   "measure": "MD",
+   "value": 20.0,
+   "ci_low": 12.23881506160303,
+   "ci_high": 27.761184938396973
+  }
+ },
+ {
+  "study": "S-43009963",
+  "report": "43009963",
+  "outcome": "O3",
+  "measure_label": "amplitude d'épaule (« Shoulder ROM recovery », degrés ; antépulsion)",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive dès le jour 1 (EPM)",
+    "n": 35,
+    "events": null,
+    "mean": "130",
+    "sd": "15.11",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines puis mobilisation passive (DPM)",
+    "n": 35,
+    "events": null,
+    "mean": "115",
+    "sd": "18.14",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.02",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "texte intégral, Tableau 2 et Résultats",
+  "access": "texte intégral",
+  "quote": "3 months 130 ± 15.11 115 ± 18.14 0.02 2*",
+  "notes": "Le texte donne 130° ± 15° vs 115° ± 18°. p imprimé « 0.02 2* » (typographie). n = randomisés.",
+  "computed": {
+   "measure": "MD",
+   "value": 15.0,
+   "ci_low": 7.178419738185895,
+   "ci_high": 22.821580261814105
+  }
+ },
+ {
+  "study": "S-43009963",
+  "report": "43009963",
+  "outcome": "O3",
+  "measure_label": "amplitude d'épaule (« Shoulder ROM recovery », degrés ; antépulsion)",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive dès le jour 1 (EPM)",
+    "n": 35,
+    "events": null,
+    "mean": "160",
+    "sd": "13.67",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines puis mobilisation passive (DPM)",
+    "n": 35,
+    "events": null,
+    "mean": "156",
+    "sd": "12.85",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.470",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "texte intégral, Tableau 2",
+  "access": "texte intégral",
+  "quote": "6 months 160 ± 13.67 156 ± 12.85 0.470",
+  "notes": "n = randomisés.",
+  "computed": {
+   "measure": "MD",
+   "value": 4.0,
+   "ci_low": -2.2156718111560547,
+   "ci_high": 10.215671811156055
+  }
+ },
+ {
+  "study": "S-43009963",
+  "report": "43009963",
+  "outcome": "O3",
+  "measure_label": "amplitude d'épaule (« Shoulder ROM recovery », degrés ; antépulsion)",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive dès le jour 1 (EPM)",
+    "n": 35,
+    "events": null,
+    "mean": "175",
+    "sd": "10.00",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines puis mobilisation passive (DPM)",
+    "n": 35,
+    "events": null,
+    "mean": "174",
+    "sd": "11.05",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.820",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "texte intégral, Tableau 2",
+  "access": "texte intégral",
+  "quote": "12 months 175 ± 10.00 174 ± 11.05 0.820",
+  "notes": "n = randomisés.",
+  "computed": {
+   "measure": "MD",
+   "value": 1.0,
+   "ci_low": -3.937405229470232,
+   "ci_high": 5.937405229470232
+  }
+ },
+ {
+  "study": "S-43009963",
+  "report": "43009963",
+  "outcome": "O4",
+  "measure_label": "douleur EVA 0-10",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "score",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive dès le jour 1 (EPM)",
+    "n": 35,
+    "events": null,
+    "mean": "1.2",
+    "sd": "0.5",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines puis mobilisation passive (DPM)",
+    "n": 35,
+    "events": null,
+    "mean": "1.3",
+    "sd": "0.6",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.680",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": false,
+  "location": "texte intégral, Tableau 2",
+  "access": "texte intégral",
+  "quote": "VAS Pain (12 months) 1.2 ± 0.5 1.3 ± 0.6 0.680",
+  "notes": "n = randomisés. Autres délais de douleur non rapportés.",
+  "computed": {
+   "measure": "MD",
+   "value": -0.10000000000000009,
+   "ci_low": -0.3587539371681135,
+   "ci_high": 0.1587539371681133
+  }
+ },
+ {
+  "study": "S-24647511",
+  "report": "24647511",
+  "outcome": "O1",
+  "measure_label": "rerupture transfixiante (IRM) : immobilisation 4 vs 8 semaines",
+  "timepoint": "suivi postopératoire (IRM, délai non précisé)",
+  "timepoint_months": null,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "immobilisation 4 semaines",
+    "n": null,
+    "events": "5",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 8 semaines",
+    "n": null,
+    "events": "4",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.726",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "There were five full-thickness retears in the four-week group and four in the eight-week group (p = 0.726).",
+  "notes": "Effectifs par bras non donnés : 100 randomisés, 88 analysés au total. Comparaison de durées d'immobilisation.",
+  "computed": null
+ },
+ {
+  "study": "S-24647511",
+  "report": "24647511",
+  "outcome": "O3",
+  "measure_label": "amplitudes et scores cliniques au dernier suivi",
+  "timepoint": "dernier suivi (moyenne 35 mois)",
+  "timepoint_months": 35,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "immobilisation 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 8 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "At the time of final follow-up, the two groups showed no differences in range of motion or clinical scores.",
+  "notes": "Sans chiffres. Suivi final par téléphone à 35 mois en moyenne (98 patients contactés).",
+  "computed": null
+ },
+ {
+  "study": "S-24647511",
+  "report": "24647511",
+  "outcome": "O3",
+  "measure_label": "proportion de patients avec raideur",
+  "timepoint": "dernier suivi",
+  "timepoint_months": null,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "immobilisation 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 8 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.038",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": "18%",
+   "delayed": "38%"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "the proportion showing stiffness was higher in the eight-week group (38% compared with 18%, p = 0.038)",
+  "notes": "Pourcentages seuls ; délai d'évaluation de la raideur non précisé.",
+  "computed": null
+ },
+ {
+  "study": "S-24647511",
+  "report": "24647511",
+  "outcome": "O7",
+  "measure_label": "raideur (complication)",
+  "timepoint": "dernier suivi",
+  "timepoint_months": null,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "immobilisation 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 8 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.038",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": "18%",
+   "delayed": "38%"
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "the proportion showing stiffness was higher in the eight-week group (38% compared with 18%, p = 0.038)",
+  "notes": "Même donnée que l'entrée O3 (raideur). Aucune arthrolyse ni autre complication rapportée dans le résumé.",
+  "computed": null
+ },
+ {
+  "study": "S-37608119",
+  "report": "37608119",
+  "outcome": "O1",
+  "measure_label": "reruptures (examen et échographie)",
+  "timepoint": "12 mois",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "physiothérapie précoce (première semaine)",
+    "n": null,
+    "events": "1",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "physiothérapie tardive (4 semaines)",
+    "n": null,
+    "events": "1",
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "One retear occurred in the intervention group and another in the controls, detected by examination and US evaluation.",
+  "notes": "Effectifs par bras non donnés. Intervention = physiothérapie précoce. Échographie Sugaya similaire (P = 0.07), délai exact non précisé.",
+  "arbitration": "Entrée B correcte, citation exacte du résumé ; résultat échographique absent chez A hors notes.",
+  "computed": null
+ },
+ {
+  "study": "S-37608119",
+  "report": "37608119",
+  "outcome": "O2",
+  "measure_label": "score de Constant-Murley",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "score",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "physiothérapie précoce (première semaine)",
+    "n": null,
+    "events": null,
+    "mean": "59.8",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "physiothérapie tardive (4 semaines)",
+    "n": null,
+    "events": null,
+    "mean": "48.9",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "< 0.05",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "only at the three month follow-up between-group difference met the minimal clinically important difference (MCID) (MCID = 10.4) (59.8 vs. 48.9)",
+  "notes": "Pas à 12 mois. Attribution des moyennes (précoce 59.8) déduite de l'ordre intervention/témoins. Sans écart-type ni effectifs.",
+  "computed": null
+ },
+ {
+  "study": "S-37608119",
+  "report": "37608119",
+  "outcome": "O2",
+  "measure_label": "score de Constant-Murley",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "score",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "physiothérapie précoce (première semaine)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "physiothérapie tardive (4 semaines)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "< 0.05",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "In three and six month follow-ups, CMS was significantly superior in the intervention group compared to controls (P < 0.05).",
+  "notes": "Résultat à 12 mois non rapporté dans le résumé ; différence à 6 mois sous le seuil MCID.",
+  "computed": null
+ },
+ {
+  "study": "S-37608119",
+  "report": "37608119",
+  "outcome": "O3",
+  "measure_label": "amplitudes de l'épaule",
+  "timepoint": "6 premiers mois",
+  "timepoint_months": 6,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "physiothérapie précoce (première semaine)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "physiothérapie tardive (4 semaines)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "< 0.05",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "Moreover, in the first six months, the shoulder ROM favoured the intervention group (P < 0.05).",
+  "notes": "Sans chiffres ; délai précis non indiqué.",
+  "computed": null
+ },
+ {
+  "study": "S-37608119",
+  "report": "37608119",
+  "outcome": "O4",
+  "measure_label": "douleur EVA",
+  "timepoint": "6 premiers mois (différence cliniquement pertinente à 3 mois)",
+  "timepoint_months": 6,
+  "unit": "score",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "physiothérapie précoce (première semaine)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "physiothérapie tardive (4 semaines)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "< 0.001",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": false,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "The intervention group experienced less pain than controls in the first six months (P < 0.001)",
+  "notes": "Sans chiffres. MCID douleur 1.4, atteint seulement à 3 mois.",
+  "computed": null
+ },
+ {
+  "study": "S-26330594",
+  "report": "26330594",
+  "outcome": "O2",
+  "measure_label": "résultats cliniques (scores fonctionnels)",
+  "timepoint": "24 mois",
+  "timepoint_months": 24,
+  "unit": "score",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce active sans douleur (sans immobilisation)",
+    "n": 97,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation standard (immobilisation 6 semaines)",
+    "n": 92,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": null,
+  "location": "résumé",
+  "access": "résumé",
+  "quote": "At 24 months post-operatively, patients who performed pain-free, early active mobilisation for activities of daily living showed no difference in clinical outcomes from patients immobilised for six weeks following MORCR.",
+  "notes": "n = randomisés ; effectifs analysés non donnés. Réparation mini-open. Registre NCT01741272 sans chiffres exploitables.",
+  "computed": null
+ },
+ {
+  "study": "S-26330594",
+  "report": "26330594",
+  "outcome": "O3",
+  "measure_label": "abduction et élévation dans le plan de la scapula",
+  "timepoint": "6 semaines",
+  "timepoint_months": 1.5,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce",
+    "n": 97,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation standard (immobilisation)",
+    "n": 92,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.002 (abduction) ; 0.006 (élévation plan scapula)",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "Six-week range of movement comparisons demonstrated significantly increased abduction (p = 0.002) and scapular plane elevation (p = 0.006) in the early mobilisation group",
+  "notes": "Sans moyennes. n = randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-26330594",
+  "report": "26330594",
+  "outcome": "O3",
+  "measure_label": "amplitudes (abduction, élévation dans le plan de la scapula)",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce",
+    "n": 97,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "rééducation standard (immobilisation)",
+    "n": 92,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "> 0.51",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "an effect which was not detectable at three months (p > 0.51) or afterwards.",
+  "notes": "Sans moyennes. n = randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-30893230",
+  "report": "30893230",
+  "outcome": "O1",
+  "measure_label": "intégrité de la réparation en échographie",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "patients",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "sans écharpe (mobilisation passive 4 semaines)",
+    "n": 40,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe (mobilisation passive 4 semaines)",
+    "n": 40,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.902",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "bursitis (p = 1.000), echogenicity (p = 0.422), or repair integrity (p = 0.902)",
+  "notes": "Comparaison écharpe contre pas d'écharpe (O6) ; mobilisation passive dans les deux bras. n = randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-30893230",
+  "report": "30893230",
+  "outcome": "O3",
+  "measure_label": "rotation externe (degrés)",
+  "timepoint": "1,5 mois",
+  "timepoint_months": 1.5,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe",
+    "n": 40,
+    "events": null,
+    "mean": "23.5",
+    "sd": "15.6",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe",
+    "n": 40,
+    "events": null,
+    "mean": "15.3",
+    "sd": "14.6",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.017",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "greater mean external rotation (23.5° ± 15.6° versus 15.3° ± 14.6°, p = 0.017)",
+  "notes": "n = randomisés ; effectif analysé non donné.",
+  "computed": {
+   "measure": "MD",
+   "value": 8.2,
+   "ci_low": 1.578506150421945,
+   "ci_high": 14.821493849578054
+  }
+ },
+ {
+  "study": "S-30893230",
+  "report": "30893230",
+  "outcome": "O3",
+  "measure_label": "élévation active (degrés)",
+  "timepoint": "1,5 mois",
+  "timepoint_months": 1.5,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe",
+    "n": 40,
+    "events": null,
+    "mean": "110.9",
+    "sd": "31.9",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe",
+    "n": 40,
+    "events": null,
+    "mean": "97.0",
+    "sd": "25.0",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.038",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "active elevation (110.9° ± 31.9° versus 97.0° ± 25.0°, p = 0.038) at 1.5 months",
+  "notes": "n = randomisés.",
+  "computed": {
+   "measure": "MD",
+   "value": 13.900000000000006,
+   "ci_low": 1.3398939335688773,
+   "ci_high": 26.460106066431134
+  }
+ },
+ {
+  "study": "S-30893230",
+  "report": "30893230",
+  "outcome": "O3",
+  "measure_label": "élévation active (degrés)",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "degrés",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe",
+    "n": 40,
+    "events": null,
+    "mean": "139.0",
+    "sd": "24.7",
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe",
+    "n": 40,
+    "events": null,
+    "mean": "125.8",
+    "sd": "24.4",
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.015",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "better mean active elevation (139.0° ± 24.7° versus 125.8° ± 24.4°, p = 0.015)",
+  "notes": "n = randomisés.",
+  "computed": {
+   "measure": "MD",
+   "value": 13.200000000000003,
+   "ci_low": 2.440287271492796,
+   "ci_high": 23.95971272850721
+  }
+ },
+ {
+  "study": "S-30893230",
+  "report": "30893230",
+  "outcome": "O3",
+  "measure_label": "rotation interne atteignant T12 ou au-dessus",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "patients",
+  "type": "dichotomous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe",
+    "n": 40,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe",
+    "n": 40,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.011",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": "50%",
+   "delayed": "28%"
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "internal rotation (T12 or above in 50% versus 28%, p = 0.011) at 3 months",
+  "notes": "Pourcentages seuls (la version Consensus donne 27.5 % au lieu de 28 %).",
+  "computed": null
+ },
+ {
+  "study": "S-30893230",
+  "report": "30893230",
+  "outcome": "O4",
+  "measure_label": "douleur (score numérique) à 10 jours",
+  "timepoint": "10 jours",
+  "timepoint_months": 0.3,
+  "unit": "score",
+  "type": "continuous",
+  "groups": {
+   "early": {
+    "label": "sans écharpe",
+    "n": 40,
+    "events": null,
+    "mean": "5.2",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe",
+    "n": 40,
+    "events": null,
+    "mean": "5.2",
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.996",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": false,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "mean pain score [and standard deviation], 5.2 ± 2.3 versus 5.2 ± 1.9, p = 0.996",
+  "notes": "Écarts-types 2.3 et 1.9 : attribution aux bras non précisée, laissée vide. n = randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-30893230",
+  "report": "30893230",
+  "outcome": "O4",
+  "measure_label": "douleur : effet de l'écharpe en analyse multivariable (bêta)",
+  "timepoint": "non précisé (suivi jusqu'à 6 mois)",
+  "timepoint_months": null,
+  "unit": "score",
+  "type": "reported_effect",
+  "groups": {
+   "early": {
+    "label": "sans écharpe",
+    "n": 40,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe",
+    "n": 40,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": "0.77",
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.022",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": false,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "pain increased with sling immobilization (beta, 0.77; p = 0.022)",
+  "notes": "Coefficient bêta de régression (pas OR/RR/DM) ; échelle et délai non précisés.",
+  "computed": null
+ },
+ {
+  "study": "S-30893230",
+  "report": "30893230",
+  "outcome": "O6",
+  "measure_label": "SANE : effet de l'écharpe en analyse multivariable (bêta)",
+  "timepoint": "non précisé (suivi jusqu'à 6 mois)",
+  "timepoint_months": null,
+  "unit": "score",
+  "type": "reported_effect",
+  "groups": {
+   "early": {
+    "label": "sans écharpe",
+    "n": 40,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe",
+    "n": 40,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": "-6.33",
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.014",
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "the Single Assessment Numeric Evaluation (SANE) decreased with sling immobilization (beta, -6.33; p = 0.014)",
+  "notes": "Bêta de régression, délai non précisé. ASES : pas d'effet de l'écharpe rapporté dans le résumé.",
+  "computed": null
+ },
+ {
+  "study": "S-30893230",
+  "report": "CONS:w:57ad82bb-7400-4435-b5d1-06573b862a66",
+  "outcome": "O4",
+  "measure_label": "douleur EVA",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "score",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "sans écharpe",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": false,
+  "location": "résumé de congrès (Consensus), Résultats",
+  "access": "résumé",
+  "quote": "reported lower VAS pain (0.8 ± 1.1 vs. 1.5 ± 1.6)",
+  "notes": "Phrase incohérente (« patients that wore slings » dans les deux bras) : attribution aux bras indéterminée, non extraite. Version préliminaire 2018.",
+  "computed": null
+ },
+ {
+  "study": "S-30893230",
+  "report": "CONS:w:57ad82bb-7400-4435-b5d1-06573b862a66",
+  "outcome": "O6",
+  "measure_label": "score SANE",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "score",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "sans écharpe",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "écharpe 4 semaines",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé de congrès (Consensus), Résultats",
+  "access": "résumé",
+  "quote": "as well as better SANE score (85.8 ± 10.7 vs. 79.4 ± 11.6) compared to patients that wore slings",
+  "notes": "Attribution aux bras ambiguë dans la source (85.8 vs 79.4) : non extraite. Résumé préliminaire.",
+  "computed": null
+ },
+ {
+  "study": "S-CONS:w:553c62aa-7063-4a26-8402-a28ac767f9b9",
+  "report": "CONS:w:553c62aa-7063-4a26-8402-a28ac767f9b9",
+  "outcome": "O3",
+  "measure_label": "amplitudes en flexion, abduction et rotation interne",
+  "timepoint": "6 semaines",
+  "timepoint_months": 1.5,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce débutée 2 semaines après l'opération (groupe A)",
+    "n": 15,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation immédiate, mobilisation à 6 semaines (groupe B)",
+    "n": 15,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "A significant increase in flexion, abduction and internal rotation ROM at 6 weeks, 3 months and 6 months was observed between groups in favor of Group A.",
+  "notes": "Sans chiffres ni p ; n = randomisés. Même citation pour 6 semaines, 3 et 6 mois.",
+  "computed": null
+ },
+ {
+  "study": "S-CONS:w:553c62aa-7063-4a26-8402-a28ac767f9b9",
+  "report": "CONS:w:553c62aa-7063-4a26-8402-a28ac767f9b9",
+  "outcome": "O3",
+  "measure_label": "amplitudes en flexion, abduction et rotation interne",
+  "timepoint": "3 mois",
+  "timepoint_months": 3,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce débutée 2 semaines après l'opération (groupe A)",
+    "n": 15,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation immédiate, mobilisation à 6 semaines (groupe B)",
+    "n": 15,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "A significant increase in flexion, abduction and internal rotation ROM at 6 weeks, 3 months and 6 months was observed between groups in favor of Group A.",
+  "notes": "Sans chiffres ni p ; n = randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-CONS:w:553c62aa-7063-4a26-8402-a28ac767f9b9",
+  "report": "CONS:w:553c62aa-7063-4a26-8402-a28ac767f9b9",
+  "outcome": "O3",
+  "measure_label": "amplitudes en flexion, abduction et rotation interne",
+  "timepoint": "6 mois",
+  "timepoint_months": 6,
+  "unit": "degrés",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce débutée 2 semaines après l'opération (groupe A)",
+    "n": 15,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation immédiate, mobilisation à 6 semaines (groupe B)",
+    "n": 15,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": "early"
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "A significant increase in flexion, abduction and internal rotation ROM at 6 weeks, 3 months and 6 months was observed between groups in favor of Group A.",
+  "notes": "Sans chiffres ni p ; n = randomisés.",
+  "computed": null
+ },
+ {
+  "study": "S-CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "report": "CONS:w:3e93118b-cc28-4589-b019-8a96f010924b",
+  "outcome": "O5",
+  "measure_label": "fonction : UCLA et Constant au dernier suivi, grandes ruptures",
+  "timepoint": "dernier suivi (12 mois selon le résumé)",
+  "timepoint_months": 12,
+  "unit": "patients",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation précoce (groupe observation)",
+    "n": 66,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation (groupe contrôle)",
+    "n": 66,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "P>0.05",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé, Results",
+  "access": "résumé",
+  "quote": "there was no significant difference between the two groups in VAS score, muscle strength, UCLA shoulder score and Constant shoulder score at the final follow-up period (P>0.05)",
+  "notes": "Essai entièrement en grandes ruptures ; aucune valeur chiffrée ; effectifs randomisés.",
+  "computed": null,
+  "arbitration": "Entrée B correcte, citation exacte du résumé ; fonction en grandes ruptures absente chez A."
+ },
+ {
+  "study": "S-37608119",
+  "report": "37608119",
+  "outcome": "O1",
+  "measure_label": "grade échographique des tendons supra- et infra-épineux",
+  "timepoint": "non précisé (suivi 12 mois)",
+  "timepoint_months": null,
+  "unit": "patients",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "physiothérapie précoce (première semaine)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "physiothérapie tardive (4 semaines)",
+    "n": null,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": "0.07",
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": null,
+  "location": "résumé, Résultats",
+  "access": "résumé",
+  "quote": "US grading of the supraspinatus and infraspinatus was similar between groups (P = 0.07).",
+  "notes": "Grade échographique Sugaya, sans chiffre par bras ; délai non précisé ; effectifs non donnés.",
+  "computed": null,
+  "arbitration": "Entrée B correcte, citation exacte du résumé ; résultat échographique absent chez A hors notes."
+ },
+ {
+  "study": "S-26435245",
+  "report": "26435245",
+  "outcome": "O2",
+  "measure_label": "fonction à 4 mois (Constant, SST, SPADI, UCLA ; sans valeur numérique)",
+  "timepoint": "4 mois",
+  "timepoint_months": 4,
+  "unit": "score",
+  "type": "narrative",
+  "groups": {
+   "early": {
+    "label": "mobilisation passive immédiate quotidienne",
+    "n": 79,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   },
+   "delayed": {
+    "label": "immobilisation 4 semaines avant kinésithérapie",
+    "n": 51,
+    "events": null,
+    "mean": null,
+    "sd": null,
+    "median": null,
+    "iqr": null
+   }
+  },
+  "reported_effect": {
+   "measure": null,
+   "value": null,
+   "ci_low": null,
+   "ci_high": null,
+   "p": null,
+   "favours": null
+  },
+  "percentages_only": {
+   "early": null,
+   "delayed": null
+  },
+  "higher_is_better": true,
+  "location": "résumé",
+  "access": "résumé",
+  "quote": "We noted no significant difference between the two groups regarding range of motion at 6 weeks and range of motion, strength and functional outcome scores at 4 months.",
+  "notes": "Non-différence rapportée sans valeur numérique ; délai le plus tardif disponible ; effectifs randomisés.",
+  "computed": null,
+  "arbitration": "Entrée B correcte, citation exacte du résumé ; critère O2 absent chez A."
+ }
+]

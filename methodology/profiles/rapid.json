@@ -1,0 +1,67 @@
+{
+ "profile": "rapid",
+ "methodology_version": "0.75",
+ "description": "Rapid profile (v0.6 budget). Does not claim compliance with a full systematic review: partial dual extraction.",
+ "search": {
+  "sources": [
+   "pubmed",
+   "europepmc",
+   "clinicaltrials.gov",
+   "consensus",
+   "crossref-retractions"
+  ],
+  "citation_iterations": "until saturation"
+ },
+ "screening": {
+  "prefilter": "prioritisation: low zone read by a single reviewer on title + abstract",
+  "low_zone_reader": "haiku",
+  "titles": {
+   "A": "sonnet",
+   "B": "haiku",
+   "disagreements": "passed on to abstract screening"
+  },
+  "abstracts": {
+   "A": "sonnet",
+   "B": "haiku",
+   "arbiter": "sonnet"
+  },
+  "eligibility": {
+   "A": "sonnet",
+   "B": "haiku",
+   "arbiter": "sonnet"
+  }
+ },
+ "extraction": {
+  "A": "sonnet",
+  "B": "haiku",
+  "double_extraction_coverage": 0.2,
+  "always_double": "studies of the critical outcomes",
+  "arbiter": "sonnet (disagreeing fields only)"
+ },
+ "risk_of_bias": {
+  "same_pass_as_extraction": true
+ },
+ "grade": {
+  "A": "sonnet",
+  "B": "sonnet",
+  "arbiter": "opus"
+ },
+ "claim_verification": {
+  "verifier": "sonnet",
+  "arbiter": "opus"
+ },
+ "batching": {
+  "max_parallel_agents": 20,
+  "write_once_per_batch": true
+ },
+ "budget": {
+  "max_output_tokens": 3000000,
+  "note": "cap per review (≈ 2 × the measured pilot review, 1.5 M), set on 20 November 2026; exceeding it = blocking of the next stage and an explicit decision, never a silent downgrade of the profile"
+ },
+ "non_disableable_checks": [
+  "verify_sources",
+  "workspace_validation",
+  "verify_claims"
+ ],
+ "public_label": "Rapid systematic review (partial dual extraction)"
+}

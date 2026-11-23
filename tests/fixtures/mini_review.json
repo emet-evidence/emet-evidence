@@ -1,0 +1,816 @@
+{
+ "schema_version": "0.8.0-draft.1",
+ "review": {
+  "id": "mini",
+  "title": "Revue fictive de test",
+  "question": "Question fictive : intervention A contre B ?",
+  "methodology_version": "0.73",
+  "review_depth": "rapid",
+  "search_date": "2026-01-01",
+  "public_status": "AI-generated"
+ },
+ "protocol": {
+  "path": "data/protocols/mini.json",
+  "commit": null,
+  "committed_at": null,
+  "registered": null,
+  "deviations": [],
+  "external_registration": null
+ },
+ "searches": [
+  {
+   "id": "a",
+   "source": "esearch",
+   "query": "fictif",
+   "retrieved_at": "2026-01-01T00:00:00+00:00",
+   "n_results": 10,
+   "file": "data/searches/mini/a.json"
+  }
+ ],
+ "records": [
+  {
+   "id": "M1",
+   "title": "Étude fictive 1",
+   "year": "2010",
+   "journal": "Revue fictive",
+   "sources": [
+    "pubmed-query"
+   ]
+  },
+  {
+   "id": "M2",
+   "title": "Étude fictive 2",
+   "year": "2011",
+   "journal": "Revue fictive",
+   "sources": [
+    "pubmed-query"
+   ]
+  },
+  {
+   "id": "M3",
+   "title": "Étude fictive 3",
+   "year": "2012",
+   "journal": "Revue fictive",
+   "sources": [
+    "pubmed-query"
+   ]
+  },
+  {
+   "id": "M4",
+   "title": "Étude fictive 4",
+   "year": "2013",
+   "journal": "Revue fictive",
+   "sources": [
+    "pubmed-query"
+   ]
+  },
+  {
+   "id": "M5",
+   "title": "Étude fictive 5",
+   "year": "2014",
+   "journal": "Revue fictive",
+   "sources": [
+    "pubmed-query"
+   ]
+  },
+  {
+   "id": "M6",
+   "title": "Étude fictive 6",
+   "year": "2015",
+   "journal": "Revue fictive",
+   "sources": [
+    "pubmed-query"
+   ]
+  },
+  {
+   "id": "M7",
+   "title": "Étude fictive 7",
+   "year": "2016",
+   "journal": "Revue fictive",
+   "sources": [
+    "pubmed-query"
+   ]
+  },
+  {
+   "id": "M8",
+   "title": "Étude fictive 8",
+   "year": "2017",
+   "journal": "Revue fictive",
+   "sources": [
+    "pubmed-query"
+   ]
+  },
+  {
+   "id": "C1",
+   "title": "Étude fictive 9",
+   "year": "2015",
+   "journal": "Revue fictive",
+   "sources": [
+    "citations-1"
+   ]
+  },
+  {
+   "id": "C2",
+   "title": "Étude fictive 10",
+   "year": "2016",
+   "journal": "Revue fictive",
+   "sources": [
+    "citations-1"
+   ]
+  },
+  {
+   "id": "C3",
+   "title": "Étude fictive 11",
+   "year": "2017",
+   "journal": "Revue fictive",
+   "sources": [
+    "citations-1"
+   ]
+  },
+  {
+   "id": "C4",
+   "title": "Étude fictive 12",
+   "year": "2018",
+   "journal": "Revue fictive",
+   "sources": [
+    "citations-1"
+   ]
+  }
+ ],
+ "screening_decisions": [
+  {
+   "record": "M1",
+   "stage": "prefilter",
+   "reviewer": "script",
+   "decision": "deprioritize",
+   "code": null,
+   "reason": "zone basse du pré-filtre"
+  },
+  {
+   "record": "M2",
+   "stage": "prefilter",
+   "reviewer": "script",
+   "decision": "deprioritize",
+   "code": null,
+   "reason": "zone basse du pré-filtre"
+  },
+  {
+   "record": "C1",
+   "stage": "prefilter",
+   "reviewer": "script",
+   "decision": "deprioritize",
+   "code": null,
+   "reason": "zone basse du pré-filtre"
+  },
+  {
+   "record": "M1",
+   "stage": "prefilter-low-zone",
+   "reviewer": "single",
+   "decision": "exclude",
+   "code": "E1",
+   "reason": "hors sujet"
+  },
+  {
+   "record": "M2",
+   "stage": "prefilter-low-zone",
+   "reviewer": "single",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "C1",
+   "stage": "prefilter-low-zone",
+   "reviewer": "single",
+   "decision": "exclude",
+   "code": "E1",
+   "reason": "hors sujet"
+  },
+  {
+   "record": "M1",
+   "stage": "titles",
+   "reviewer": "A",
+   "decision": "exclude",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M1",
+   "stage": "titles",
+   "reviewer": "B",
+   "decision": "exclude",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M1",
+   "stage": "titles",
+   "reviewer": "resolved",
+   "decision": "exclude",
+   "code": "E1",
+   "reason": null
+  },
+  {
+   "record": "M2",
+   "stage": "titles",
+   "reviewer": "A",
+   "decision": "exclude",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M2",
+   "stage": "titles",
+   "reviewer": "B",
+   "decision": "exclude",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M2",
+   "stage": "titles",
+   "reviewer": "resolved",
+   "decision": "exclude",
+   "code": "E1",
+   "reason": null
+  },
+  {
+   "record": "M3",
+   "stage": "titles",
+   "reviewer": "A",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M3",
+   "stage": "titles",
+   "reviewer": "B",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M3",
+   "stage": "titles",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M4",
+   "stage": "titles",
+   "reviewer": "A",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M4",
+   "stage": "titles",
+   "reviewer": "B",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M4",
+   "stage": "titles",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M5",
+   "stage": "titles",
+   "reviewer": "A",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M5",
+   "stage": "titles",
+   "reviewer": "B",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M5",
+   "stage": "titles",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M6",
+   "stage": "titles",
+   "reviewer": "A",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M6",
+   "stage": "titles",
+   "reviewer": "B",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M6",
+   "stage": "titles",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M7",
+   "stage": "titles",
+   "reviewer": "A",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M7",
+   "stage": "titles",
+   "reviewer": "B",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M7",
+   "stage": "titles",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M8",
+   "stage": "titles",
+   "reviewer": "A",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M8",
+   "stage": "titles",
+   "reviewer": "B",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M8",
+   "stage": "titles",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "C1",
+   "stage": "titles",
+   "reviewer": "A",
+   "decision": "exclude",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "C1",
+   "stage": "titles",
+   "reviewer": "B",
+   "decision": "exclude",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "C1",
+   "stage": "titles",
+   "reviewer": "resolved",
+   "decision": "exclude",
+   "code": "E1",
+   "reason": null
+  },
+  {
+   "record": "C2",
+   "stage": "titles",
+   "reviewer": "A",
+   "decision": "exclude",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "C2",
+   "stage": "titles",
+   "reviewer": "B",
+   "decision": "exclude",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "C2",
+   "stage": "titles",
+   "reviewer": "resolved",
+   "decision": "exclude",
+   "code": "E1",
+   "reason": null
+  },
+  {
+   "record": "C3",
+   "stage": "titles",
+   "reviewer": "A",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "C3",
+   "stage": "titles",
+   "reviewer": "B",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "C3",
+   "stage": "titles",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "C4",
+   "stage": "titles",
+   "reviewer": "A",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "C4",
+   "stage": "titles",
+   "reviewer": "B",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "C4",
+   "stage": "titles",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M3",
+   "stage": "abstracts",
+   "reviewer": "resolved",
+   "decision": "exclude",
+   "code": "E1",
+   "reason": null
+  },
+  {
+   "record": "M4",
+   "stage": "abstracts",
+   "reviewer": "resolved",
+   "decision": "exclude",
+   "code": "E2",
+   "reason": null
+  },
+  {
+   "record": "M5",
+   "stage": "abstracts",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M6",
+   "stage": "abstracts",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M7",
+   "stage": "abstracts",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M8",
+   "stage": "abstracts",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "C3",
+   "stage": "abstracts",
+   "reviewer": "resolved",
+   "decision": "exclude",
+   "code": "E2",
+   "reason": null
+  },
+  {
+   "record": "C4",
+   "stage": "abstracts",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M5",
+   "stage": "eligibility",
+   "reviewer": "resolved",
+   "decision": "not_retrieved",
+   "code": null,
+   "reason": "texte introuvable"
+  },
+  {
+   "record": "M6",
+   "stage": "eligibility",
+   "reviewer": "resolved",
+   "decision": "exclude",
+   "code": "E4",
+   "reason": "population non éligible"
+  },
+  {
+   "record": "M7",
+   "stage": "eligibility",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "M8",
+   "stage": "eligibility",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  },
+  {
+   "record": "C4",
+   "stage": "eligibility",
+   "reviewer": "resolved",
+   "decision": "include",
+   "code": null,
+   "reason": null
+  }
+ ],
+ "reports": [
+  {
+   "id": "M7",
+   "study": "S-M7",
+   "role": "primary_report",
+   "access": "full_text"
+  },
+  {
+   "id": "M8",
+   "study": "S-M7",
+   "role": "secondary_report",
+   "access": "registry"
+  },
+  {
+   "id": "C4",
+   "study": "S-C4",
+   "role": "primary_report",
+   "access": "abstract"
+  }
+ ],
+ "studies": [
+  {
+   "id": "S-M7",
+   "label": "Fictif · 2016",
+   "year": 2016,
+   "design": "Essai randomisé fictif",
+   "kind": "primary",
+   "reports": [
+    "M7",
+    "M8"
+   ],
+   "page_reference": "R1",
+   "rob_tool": "RoB 2",
+   "outcomes": [
+    "O1",
+    "O2"
+   ],
+   "randomized": {
+    "n": 60,
+    "source": "résumé fictif"
+   }
+  },
+  {
+   "id": "S-C4",
+   "label": "Fictif · 2018",
+   "year": 2018,
+   "design": "Cohorte fictive",
+   "kind": "primary",
+   "reports": [
+    "C4"
+   ],
+   "page_reference": "R2",
+   "rob_tool": "ROBINS-I",
+   "outcomes": [
+    "O1"
+   ],
+   "randomized": null
+  }
+ ],
+ "cohorts": {
+  "status": "not_assessed",
+  "items": []
+ },
+ "outcomes": [
+  {
+   "id": "O1",
+   "label": "Critère fictif 1",
+   "importance": "critical"
+  },
+  {
+   "id": "O2",
+   "label": "Critère fictif 2",
+   "importance": "important"
+  }
+ ],
+ "effect_estimates": {
+  "status": "not_extracted",
+  "items": []
+ },
+ "risk_of_bias": [
+  {
+   "study": "S-M7",
+   "page_reference": "R1",
+   "tool": "RoB 2",
+   "domains": [
+    {
+     "name": "Processus de randomisation",
+     "judgement": "faible"
+    },
+    {
+     "name": "Écarts par rapport aux interventions prévues",
+     "judgement": "préoccupations"
+    },
+    {
+     "name": "Données de résultat manquantes",
+     "judgement": "faible"
+    },
+    {
+     "name": "Mesure du critère de jugement",
+     "judgement": "faible"
+    },
+    {
+     "name": "Sélection du résultat rapporté",
+     "judgement": "non rapporté"
+    }
+   ],
+   "overall": "Préoccupations",
+   "level": "some",
+   "rationale": "Justification fictive."
+  },
+  {
+   "study": "S-C4",
+   "page_reference": "R2",
+   "tool": "ROBINS-I",
+   "domains": [
+    {
+     "name": "Confusion",
+     "judgement": "sérieux"
+    },
+    {
+     "name": "Sélection des participants",
+     "judgement": "modéré"
+    },
+    {
+     "name": "Classification des interventions",
+     "judgement": "modéré"
+    },
+    {
+     "name": "Écarts aux interventions prévues",
+     "judgement": "modéré"
+    },
+    {
+     "name": "Données manquantes",
+     "judgement": "modéré"
+    },
+    {
+     "name": "Mesure des résultats",
+     "judgement": "modéré"
+    },
+    {
+     "name": "Sélection du résultat rapporté",
+     "judgement": "modéré"
+    }
+   ],
+   "overall": "Sérieux",
+   "level": "high",
+   "rationale": "Justification fictive."
+  }
+ ],
+ "grade": {
+  "outcomes": [
+   {
+    "id": "O1",
+    "label": "Critère fictif 1",
+    "importance": "critique",
+    "references": [
+     "R1",
+     "R2"
+    ],
+    "certainty": "faible",
+    "statement": "Énoncé fictif.",
+    "domains": {
+     "risk_of_bias": {
+      "rating": -1,
+      "reason": "Motif fictif."
+     },
+     "inconsistency": {
+      "rating": 0,
+      "reason": ""
+     },
+     "indirectness": {
+      "rating": 0,
+      "reason": ""
+     },
+     "imprecision": {
+      "rating": -1,
+      "reason": "Motif fictif."
+     },
+     "publication_bias": {
+      "rating": 0,
+      "reason": ""
+     }
+    }
+   }
+  ],
+  "main": {
+   "statement": "Proposition fictive."
+  }
+ },
+ "claims": {
+  "status": "not_started",
+  "n_claims": 0
+ },
+ "flow": {
+  "identified_by_source": {
+   "Base fictive": 10,
+   "Citations fictives": 4
+  },
+  "identified_total": 14,
+  "duplicates_removed": 2,
+  "records_screened": 12,
+  "records_excluded_titles": 4,
+  "records_assessed_abstracts": 8,
+  "records_excluded_abstracts": 3,
+  "abstracts_excluded_by_code": {
+   "E1": 1,
+   "E2": 2
+  },
+  "other_methods": {
+   "reports_sought": 0
+  },
+  "reports_sought_from_databases": 5,
+  "reports_sought": 5,
+  "reports_not_retrieved": 1,
+  "reports_assessed": 4,
+  "reports_excluded": 1,
+  "reports_excluded_by_code": {
+   "E4": 1
+  },
+  "reports_included": 3,
+  "studies_included": 2,
+  "units": {
+   "records": "notices",
+   "reports": "publications",
+   "studies": "études"
+  }
+ },
+ "audit": {},
+ "execution": {
+  "models": "fictif",
+  "tokens": {},
+  "cost_usd": null,
+  "duration_seconds": null
+ }
+}

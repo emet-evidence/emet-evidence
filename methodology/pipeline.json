@@ -1,0 +1,212 @@
+{
+ "methodology_version": "0.75",
+ "note": "Single source of the orchestrator stages (python3 -m emet.orchestrate); described in ORCHESTRATOR.md. {s} = topic, {D} = search folder data/searches/<topic>-<date>, {S} = {D}/screening.",
+ "stages": [
+  {
+   "id": "protocol",
+   "module": "agents/protocol.md",
+   "kind": "session",
+   "role": "main session",
+   "outputs": [
+    "data/protocols/{s}.json",
+    "data/protocols/screening-instructions-{s}.md"
+   ],
+   "do": "Write the protocol and the screening instructions, then commit them alone before any query."
+  },
+  {
+   "id": "search",
+   "module": "agents/search.md",
+   "kind": "script+session",
+   "role": "main session",
+   "outputs": [
+    "{D}/consensus.txt"
+   ],
+   "do": "Protocol queries (python3 -m emet.search_pubmed, python3 -m emet.search_sources), Consensus (one broad search), retraction query; python3 -m emet.pubmed_cache."
+  },
+  {
+   "id": "dedup",
+   "module": "agents/screening.md#1",
+   "kind": "script",
+   "outputs": [
+    "{S}/records.json"
+   ],
+   "run": "python3 -m emet.screening records {s}"
+  },
+  {
+   "id": "prefilter",
+   "module": "agents/screening.md#2",
+   "kind": "script",
+   "outputs": [
+    "{S}/titles-prefilter.json",
+    "{S}/titles-grey-ids.json"
+   ],
+   "run": "python3 -m emet.prefilter {s}"
+  },
+  {
+   "id": "prefilter-low-zone",
+   "module": "agents/screening.md#2",
+   "kind": "agents",
+   "profile_key": "screening.low_zone_reader",
+   "outputs": [
+    "{S}/prefilter-audit.json",
+    "{S}/prefilter-audit-out-*.json"
+   ],
+   "run": "python3 -m emet.prefilter_audit {s}",
+   "do": "Batches of ~100 records (title + abstract), one single reviewer per batch, abstract screening rules, doubt = include; retained records join abstract screening."
+  },
+  {
+   "id": "titles",
+   "module": "agents/screening.md#3",
+   "kind": "agents",
+   "profile_key": "screening.titles",
+   "outputs": [
+    "{S}/titles-grey-A.json",
+    "{S}/titles-grey-B.json"
+   ],
+   "do": "Independent reviewers A and B on the titles-chunk-*.tsv batches."
+  },
+  {
+   "id": "titles-agreement",
+   "module": "agents/screening.md#6",
+   "kind": "script",
+   "outputs": [
+    "{S}/titles-agreement.json"
+   ],
+   "run": "python3 -m emet.screening agreement {s} titles"
+  },
+  {
+   "id": "abstracts",
+   "module": "agents/screening.md#4",
+   "kind": "agents",
+   "profile_key": "screening.abstracts",
+   "outputs": [
+    "{S}/abstracts.json",
+    "{S}/abstracts-A.json",
+    "{S}/abstracts-B.json",
+    "{S}/abstracts-arbitration.json"
+   ],
+   "run": "python3 -m emet.screening abstracts {s} titles",
+   "do": "Reviewers A and B on abstracts-chunk-*.tsv, agreement (python3 -m emet.screening agreement {s} abstracts), adjudication of disagreements (agents/arbitration.md)."
+  },
+  {
+   "id": "eligibility",
+   "module": "agents/screening.md#5",
+   "kind": "agents",
+   "profile_key": "screening.eligibility",
+   "outputs": [
+    "{S}/fulltext-A.json",
+    "{S}/fulltext-B.json",
+    "{S}/fulltext-arbitration.json"
+   ],
+   "run": "python3 -m emet.fulltext_stage {s} && python3 -m emet.retrieval_round2 {s}",
+   "do": "Reviewers A and B on the eligibility/<id>.txt files, instructions eligibility-instructions-{s}.md, agreement, adjudication."
+  },
+  {
+   "id": "flow",
+   "module": "agents/screening.md#6",
+   "kind": "script",
+   "outputs": [
+    "{S}/final.json"
+   ],
+   "run": "python3 -m emet.screening final {s}"
+  },
+  {
+   "id": "extraction",
+   "module": "agents/extraction.md",
+   "kind": "agents",
+   "profile_key": "extraction",
+   "outputs": [
+    "{S}/extraction-A.json",
+    "{S}/extraction-B.json",
+    "{S}/extraction-final.json",
+    "{S}/rob-agreement.json"
+   ],
+   "do": "A on all studies, B on the double_extraction_coverage share of the profile + critical outcomes; adjudication of disagreeing fields; risk of bias in the same pass (agents/risk-of-bias.md)."
+  },
+  {
+   "id": "effect-estimates",
+   "module": "agents/effect-extraction.md",
+   "kind": "agents",
+   "profile_key": "extraction",
+   "outputs": [
+    "{S}/effects/effects-final.json"
+   ],
+   "run": "python3 -m emet.effects check {s} && python3 -m emet.effects compare {s}",
+   "do": "Batches per randomised trial (effects/lot-A-*.json, lot-B-*.json): A all outcomes, B critical outcomes; check (verbatim quotes), compare, adjudication of disagreements (effects-arbitration.json), then python3 -m emet.effects final {s}."
+  },
+  {
+   "id": "grade",
+   "module": "agents/grade.md",
+   "kind": "agents",
+   "profile_key": "grade",
+   "outputs": [
+    "{S}/grade-A.json",
+    "{S}/grade-B.json",
+    "{S}/grade-final.json"
+   ],
+   "do": "Two independent reviewers, adjudication of disagreeing domains."
+  },
+  {
+   "id": "writing",
+   "module": "agents/writing.md",
+   "kind": "session",
+   "role": "main session",
+   "outputs": [
+    "{page_data}",
+    "{page_references}"
+   ],
+   "do": "Page data, template, infographic; workspace publication command ({publish})."
+  },
+  {
+   "id": "verify-sources",
+   "module": "agents/claim-verification.md",
+   "kind": "script",
+   "outputs": [],
+   "run": "python3 -m emet.verify_sources {s}"
+  },
+  {
+   "id": "verify-claims",
+   "module": "agents/claim-verification.md",
+   "kind": "agents",
+   "profile_key": "claim_verification",
+   "outputs": [
+    "data/verification/{s}/report.json"
+   ],
+   "run": "python3 -m emet.verify_claims extract {s}",
+   "do": "One verifier per batch in batches/, then python3 -m emet.verify_claims check {s}; adjudication of blocking pairs; correction, then re-verification of the modified claims only."
+  },
+  {
+   "id": "validate",
+   "module": "METHODOLOGY.md",
+   "kind": "script",
+   "outputs": [],
+   "run": "{publish} && {validate}"
+  },
+  {
+   "id": "fiche",
+   "module": "agents/writing.md#fiche",
+   "kind": "session",
+   "outputs": [
+    "{summary_sheet_outputs}"
+   ],
+   "run": "{summary_sheet}"
+  },
+  {
+   "id": "review-package",
+   "module": "schemas/review.schema.json",
+   "kind": "script",
+   "outputs": [
+    "data/reviews/{s}.json"
+   ],
+   "run": "python3 -m emet.migrate_review {s} && python3 -m emet.check_review {s}",
+   "do": "Exchange format v0.8: schema, links between entities, PRISMA identities; an error blocks publication."
+  },
+  {
+   "id": "run-metadata",
+   "module": "METHODOLOGY.md",
+   "kind": "script",
+   "outputs": [],
+   "run": "python3 -m emet.usage_baseline --json docs/emet/usage-baseline.json"
+  }
+ ]
+}

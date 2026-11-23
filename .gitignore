@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+build/
+*.egg-info/
+.env
+.env.*
+# Re-downloadable third-party content (see sources-manifest.json)
+examples/*/data/articles/
+examples/*/data/fulltext/

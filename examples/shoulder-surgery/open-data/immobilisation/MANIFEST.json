@@ -1,0 +1,88 @@
+{
+ "review": "immobilisation",
+ "schema_version": "0.8.0-draft.1",
+ "methodology_version": "0.7",
+ "licences": {
+  "data": "CC0-1.0",
+  "text": "CC-BY-4.0",
+  "code": "Apache-2.0"
+ },
+ "files": {
+  "README.txt": {
+   "sha256": "4214efe606e071108fd287bfd6f9847002f1c46e0fe77dd613ff3228f7aef9e9",
+   "bytes": 791
+  },
+  "audit.json": {
+   "sha256": "ab686450b2d36785110fe56e46ad3dced2fcfb0cc051b3ec606e6962646fbe8a",
+   "bytes": 4258
+  },
+  "etudes.csv": {
+   "sha256": "cc0a99666a034f926f1371009da48d61933ecd790699a1ccf5c51c6c8b4f4ee9",
+   "bytes": 16152
+  },
+  "execution.json": {
+   "sha256": "49a57086e0d8e6e00e14976d1388f7f1e168be58af02a58d12c887795ffbb888",
+   "bytes": 371
+  },
+  "grade.json": {
+   "sha256": "817a7ed3987e672a25d2ab6787153042efae76fd26fb4ff0b6fe49fe768f4b5b",
+   "bytes": 26923
+  },
+  "prisma-autres-methodes.csv": {
+   "sha256": "c90dcc121185d3867ef94f4f5456199028d8ac22d0449260896a806b29a1107d",
+   "bytes": 98310
+  },
+  "prisma-exclues-eligibilite.csv": {
+   "sha256": "ff4cd5413621c44d08f2f43b3a6c3e8a87469a476d327affaa2f3cd5398b428e",
+   "bytes": 7254
+  },
+  "prisma-exclues-resumes.csv": {
+   "sha256": "c419e4929c468f9b0736bac4cccee03bbc48f9e13ba8019e337be34551388255",
+   "bytes": 97605
+  },
+  "prisma-exclues-titres.csv": {
+   "sha256": "36aa24044f860fc57d79bfd3c48d72ab96f45203792c0eff64ac063c85846af0",
+   "bytes": 430485
+  },
+  "prisma-incluses.csv": {
+   "sha256": "dd4fa5dad884431b26f1eb18e8a938aab4bc3384d4801021f5e342c0a85e809d",
+   "bytes": 13367
+  },
+  "prisma-non-recuperees.csv": {
+   "sha256": "3ead679e755951471c36d873f3315c2edc027714288c0ddfc584bd057a1fd2f7",
+   "bytes": 256
+  },
+  "prisma-notices.csv": {
+   "sha256": "1c38768e337bfd979d886a49a9cc566ab910deb07219a4d378fb0945cb9009f8",
+   "bytes": 548120
+  },
+  "prisma-zone-basse.csv": {
+   "sha256": "03fa280b26fc0c61d942286e5138f49b013a46f5fa3ea731ff8ba4520a1edf75",
+   "bytes": 239228
+  },
+  "protocole.json": {
+   "sha256": "60580b53fb32ea529f3383feddda812031dfb96f1f57f9e53e33ea8bbb1b592b",
+   "bytes": 17079
+  },
+  "review.json": {
+   "sha256": "0246b398f5aac61bc75dbf56ba38b817dae04d63ab71b71ddbe606afca983376",
+   "bytes": 4285607
+  },
+  "risque-biais.csv": {
+   "sha256": "976b39d4af1dd1448257befc834f077be4d1d09248a3e90325d9ed82952dc18f",
+   "bytes": 129646
+  },
+  "schema.json": {
+   "sha256": "5d1bd87c58f5749dd28f5cda5ed2e6723e4a31284a9ae26d4621fdc3fcc09813",
+   "bytes": 5831
+  },
+  "selection.csv": {
+   "sha256": "985bda9140764690ddb918788ef8944d932f30f50a20b9aba69d63f66c00596b",
+   "bytes": 3152514
+  },
+  "strategies-recherche.json": {
+   "sha256": "6edf6027edb931ab43d34b9e6a2b4e9ac1d79207b81d1183fe615156580bf144",
+   "bytes": 8623
+  }
+ }
+}

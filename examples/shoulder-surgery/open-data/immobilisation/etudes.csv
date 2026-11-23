@@ -1,0 +1,79 @@
+etude,libelle,annee,plan,type,source_lue,publications,randomises,criteres,outil_rob,rob_global,reference_page
+S-NCT00891566,Essai NCT00891566,2008,"Fiche de registre, enregistrée comme observationnelle (cas-témoins prospectif) bien que le titre indique un essai randomisé",registry,registry,NCT00891566,,O1,Non évaluable,Non évaluable (fiche de registre sans résultats),R59
+S-19482895,Klintberg · 2009,2009,"Essai randomisé pilote, suivi à 2 ans",primary,abstract,19482895,14,O2 O3 O4,RoB 2,Préoccupations,R64
+S-21624680,Denard · 2011,2011,Revue systématique de niveau IV (études de niveau III et IV) sur la raideur après réparation arthroscopique,systematic_review,abstract,21624680,,O3 O7,AMSTAR 2,Confiance critiquement faible,R58
+S-21478659,Düzgün · 2011,2011,Essai randomisé,primary,abstract,21478659,29,O4,RoB 2,Préoccupations,R67
+S-NCT01383239,Essai NCT01383239,2011,"Essai randomisé en groupes parallèles, évaluateur en aveugle (fiche de registre)",registry,registry,NCT01383239,,O1 O2,Non évaluable,Non évaluable (fiche de registre sans résultats),R17
+S-20970299,Koo · 2011,2011,Cohorte comparative avec témoins historiques (non randomisée),primary,abstract,20970299,,O3 O7,ROBINS-I,Risque élevé (grave),R40
+S-22944392,Arndt · 2012,2012,Essai randomisé prospectif,primary,abstract,22944392,100,O1 O2 O3 O7,RoB 2,Préoccupations,R3
+S-22554876,Cuff · 2012,2012,Essai randomisé,primary,abstract,22554876,68,O1 O2 O3 O5,RoB 2,Préoccupations,R2
+S-NCT01502098,Essai NCT01502098,2012,"Essai randomisé en groupes parallèles, enquêteur en aveugle (fiche de registre)",registry,registry,NCT01502098,,O1,Non évaluable,Non évaluable (fiche de registre sans résultats),R61
+S-22287641,Kim · 2012,2012,Essai randomisé (niveau de preuve 1),primary,abstract,22287641,105,O1 O2 O3 O4,RoB 2,Préoccupations,R1
+S-25127908,Chan · 2014,2014,Revue systématique avec méta-analyse d'essais randomisés (mobilisation retardée contre précoce),systematic_review,abstract,25127908,,O1 O2 O3,AMSTAR 2,Non évaluable avec certitude (résumé seul),R25
+S-25637728,Düzgün · 2014,2014,Essai quasi randomisé,primary,abstract,25637728,40,O3,RoB 2,Risque élevé,R68
+S-NCT02261701,Essai NCT02261701,2014,"Essai randomisé en groupes parallèles, sans aveugle (fiche de registre)",registry,registry,NCT02261701,,O2,Non évaluable,Non évaluable (fiche de registre sans résultats),R60
+S-24382719,Keener · 2014,2014,Essai randomisé,primary,abstract,24382719 NCT00756015,124,O1 O2 O3 O4 O5,RoB 2,Préoccupations,R4
+S-24647511,Koh · 2014,2014,Essai randomisé,primary,abstract,24647511,100,O1 O3 O7,RoB 2,Préoccupations,R18
+S-24813324,Riboh · 2014,2014,Méta-analyse d'essais randomisés (niveau II),systematic_review,abstract,24813324,,O1 O3 O5,AMSTAR 2,Confiance faible,R11
+S-25027677,Shen · 2014,2014,Revue systématique et méta-analyse d'essais randomisés (mobilisation passive précoce contre immobilisation),systematic_review,abstract,25027677,,O1 O2 O3 O4,AMSTAR 2,Non évaluable sur le résumé (AMSTAR 2),R73
+S-25143489,Chang · 2015,2015,Méta-analyse d'essais randomisés,systematic_review,abstract,25143489,,O1 O2 O3 O5,AMSTAR 2,Confiance critiquement faible,R15
+S-26309485,Chen · 2015,2015,Méta-analyse d'essais randomisés,systematic_review,abstract,26309485,,O1 O2 O3,AMSTAR 2,Préoccupations (non évaluable pleinement sur le résumé),R57
+S-26435245,De Roo · 2015,2015,Essai randomisé prospectif,primary,abstract,26435245,130,O1 O3,RoB 2,Préoccupations,R28
+S-25797067,Gallagher · 2015,2015,Revue systématique narrative d'essais de niveau I et II (mobilisation précoce contre retardée),systematic_review,abstract,25797067,,O1 O2 O3 O4 O5,AMSTAR 2,Non évaluable sur le résumé (AMSTAR 2),R74
+S-25296646,Kluczynski · 2015,2015,"Revue systématique et méta-analyse (essais niveau 1, et études niveaux 1 à 4 non comparatives pour la seconde analyse)",systematic_review,abstract,25296646,,O1 O5,AMSTAR 2,Confiance critiquement faible,R31
+S-27582966,Littlewood · 2015,2015,Revue systématique d'essais randomisés avec méta-analyse ou synthèse narrative (délai d'immobilisation et mise en charge),systematic_review,abstract,27582966,,O1 O2,AMSTAR 2,Non évaluable avec certitude (résumé seul),R50
+S-26330594,Sheps · 2015,2015,"Essai randomisé multicentrique, réparation mini-open",primary,abstract,26330594 NCT01741272,189,O2 O3,RoB 2,Préoccupations,R27
+S-26137178,Yi · 2015,2015,"Revue systématique narrative d'essais de niveau 1 ou 2, sans méta-analyse (PubMed seul)",systematic_review,full_text,26137178,,O1 O2 O3 O4,AMSTAR 2,Confiance critiquement faible,R47
+S-CONS:w:86a1cc3c-fc60-43de-a490-698f9194993a,Fawzy · 2016,2016,Étude comparative de deux groupes (plan non précisé dans le résumé),primary,abstract,CONS:w:86a1cc3c-fc60-43de-a490-698f9194993a,,O1 O2 O3 O4,ROBINS-I,Non évaluable en détail (résumé seul),R42
+S-25943112,Kluczynski · 2016,2016,Revue systématique et méta-analyse (résumé seul) : mobilisation active précoce contre retardée,systematic_review,abstract,25943112,,O1 O5,AMSTAR 2,Non évaluable avec le seul résumé ; domaines critiques non rapportés,R33
+S-CONS:w:3e93118b-cc28-4589-b019-8a96f010924b,Essai sur les grandes ruptures · 2017,2017,"Essai randomisé (résumé, méthode de randomisation non décrite)",primary,abstract,CONS:w:3e93118b-cc28-4589-b019-8a96f010924b,132,O1 O2 O3 O4 O5 O7,RoB 2,Préoccupations,R14
+S-28288280,Houck · 2017,2017,Revue systématique de méta-analyses se chevauchant (algorithme de Jadad),systematic_review,abstract,28288280,,O1 O3 O5,AMSTAR 2,Confiance critiquement faible,R52
+S-28111006,Mazzocca · 2017,2017,"Essai randomisé prospectif, évaluateur en aveugle, monocentrique (un chirurgien)",primary,abstract,28111006 EPMC:PMC:PMC4968349 NCT00845715,73,O1 O2,RoB 2,Préoccupations,R5
+S-28619382,Saltzman · 2017,2017,Revue systématique de méta-analyses se chevauchant (mouvement précoce contre retardé après réparation arthroscopique),systematic_review,abstract,28619382,,O1 O2 O3 O5,AMSTAR 2,Confiance critiquement faible,R53
+S-30195953,Jenssen · 2018,2018,Essai randomisé prospectif de non-infériorité,primary,abstract,30195953,120,O1 O2 O7,RoB 2,Préoccupations,R19
+S-29480870,Li · 2018,2018,Revue systématique avec méta-analyse d'essais randomisés (mobilisation passive précoce contre retardée après réparation arthroscopique),systematic_review,full_text,29480870,,O1 O2 O3 O5,AMSTAR 2,Confiance faible,R30
+S-28039127,Mazuquin · 2018,2018,Synthèse de revues systématiques (overview) avec méta-analyse actualisée d'essais randomisés,systematic_review,abstract,28039127,,O1 O2 O3 O4 O5,AMSTAR 2,Préoccupations (non évaluable pleinement sur le résumé),R77
+S-33330218,Choi · 2019,2019,Essai randomisé (méthode de randomisation non décrite ; le texte parle aussi d'étude comparative de cas appariés),primary,full_text,33330218,76,O1 O2 O3 O4 O5,RoB 2,Préoccupations,R6
+S-NCT03913611,Essai NCT03913611,2019,"Essai randomisé en groupes parallèles, évaluateur de la mobilité et radiologue en aveugle (fiche de registre)",registry,registry,NCT03913611,,O1 O2 O3 O4 O6,Non évaluable,Non évaluable (fiche de registre sans résultats),R62
+S-30939497,Hurley · 2019,2019,"Revue systématique de méta-analyses se chevauchant (double rang, plasma riche en plaquettes, mouvement précoce)",systematic_review,abstract,30939497,,O1 O3,AMSTAR 2,Confiance critiquement faible,R78
+S-31344884,Longo · 2019,2019,"Cohorte comparative rétrospective, deux protocoles de rééducation après réparation arthroscopique de coiffe",primary,full_text,31344884,,O2 O3 O4 O7,ROBINS-I,Risque élevé,R65
+S-30827428,Sheps · 2019,2019,"Essai randomisé multicentrique, évaluateur en aveugle",primary,abstract,30827428 NCT01333527,206,O1 O3 O4 O6,RoB 2,Préoccupations,R26
+S-30893230,Tirefort · 2019,2019,Essai randomisé monocentrique (résumé),primary,abstract,30893230 CONS:w:e31e0c63-f8da-42df-bd2b-0418794f983a CONS:w:615d0ea3-dc0a-4494-aefd-36001d95314d CONS:w:57ad82bb-7400-4435-b5d1-06573b862a66 NCT02943005,80,O1 O3 O4 O6,RoB 2,Préoccupations,R43
+S-NCT04458025,Essai NCT04458025,2020,"Essai randomisé sans aveugle, retiré avant inclusion (fiche de registre)",registry,registry,NCT04458025,,,Non évaluable,Non évaluable (fiche de registre sans résultats),R36
+S-34582083,Bandara · 2021,2021,Méta-analyse d'essais randomisés (rééducation conservatrice contre agressive),systematic_review,abstract,34582083,,O1 O2 O3,AMSTAR 2,Confiance critiquement faible,R49
+S-33471547,Kjær · 2021,2021,"Essai randomisé, 2 centres",primary,abstract,33471547,82,O1 O2 O3 O4,RoB 2,Préoccupations,R23
+S-33305619,Littlewood · 2021,2021,"Essai randomisé multicentrique pilote de faisabilité (RaCeR), 5 hôpitaux du NHS",primary,full_text,33305619,73,O1 O3 O4 O7,RoB 2,Risque élevé,R29
+S-34303366,Longo · 2021 (méta-analyse des protocoles),2021,Revue systématique avec méta-analyse d'essais de niveau I-II (réhabilitation accélérée contre conservatrice après réparation arthroscopique),systematic_review,full_text,34303366,,O1 O2 O3 O5,AMSTAR 2,Confiance critiquement faible,R48
+S-34465332,Longo · 2021 (revue de la rerupture),2021,Revue systématique avec méta-analyse (essais de niveau 1 et 2) sur la rerupture et ses facteurs de risque,systematic_review,full_text,34465332,,O1 O5,AMSTAR 2,Confiance critiquement faible,R34
+S-33972488,Matlak · 2021,2021,Revue systématique narrative d'études de niveau de preuve 1 ou 2,systematic_review,abstract,33972488,,O1 O2 O3,AMSTAR 2,Préoccupations (non évaluable pleinement sur le résumé),R75
+S-34048450,Mazuquin · 2021,2021,Revue systématique et méta-analyses d'essais randomisés (PROSPERO CRD42020209330),systematic_review,full_text,34048450,,O1 O2 O3 O4 O5 O6 O7,AMSTAR 2,Confiance modérée à faible,R9
+S-CONS:w:0b6c7e78-6e20-4d10-ac49-f6d31839e3d0,Mazuquin · 2021,2021,Essai randomisé de petite taille (résumé),primary,abstract,CONS:w:0b6c7e78-6e20-4d10-ac49-f6d31839e3d0 EPMC:ETH:797886,20,O1 O3,RoB 2,Préoccupations,R24
+S-33998264,Silveira · 2021,2021,"Revue systématique avec méta-analyse (études comparatives, mouvement actif précoce contre retardé)",systematic_review,abstract,33998264,,O1 O2 O3,AMSTAR 2,Confiance faible,R56
+S-CONS:w:89096b11-418b-4bf7-a62d-510b862f4c93,Yıldız · 2021,2021,Étude comparative de deux groupes (plan non précisé dans le résumé),primary,abstract,CONS:w:89096b11-418b-4bf7-a62d-510b862f4c93,,O1 O2 O4 O7,ROBINS-I,Non évaluable en détail (résumé seul),R66
+S-36152940,Bouché · 2022,2022,Méta-analyse en réseau d'essais randomisés (résumé seul),systematic_review,abstract,36152940,,O1 O2 O3 O7,AMSTAR 2,Non évaluable avec le seul résumé ; domaines critiques non rapportés,R55
+S-34082023,Colasanti · 2022,2022,Méta-analyse en réseau d'essais randomisés croisant technique de réparation et mobilisation précoce ou tardive,systematic_review,abstract,34082023,,O1 O2 O3,AMSTAR 2,Non évaluable sur le résumé (AMSTAR 2),R38
+S-34864154,McBroom · 2022,2022,"Cohorte rétrospective avec témoin historique, appariement par score de propension",primary,abstract,34864154,,O1 O3 O7,ROBINS-I,Risque élevé,R39
+S-35723088,Misir · 2022,2022,Cohorte comparative appariée sur score de propension (caractère rétrospectif non précisé),primary,abstract,35723088,,O3 O6,ROBINS-I,Risque élevé,R72
+S-CONS:w:553c62aa-7063-4a26-8402-a28ac767f9b9,Saber Ahmed · 2022,2022,Essai randomisé en groupes parallèles (résumé seul),primary,abstract,CONS:w:553c62aa-7063-4a26-8402-a28ac767f9b9,30,O3,RoB 2,Préoccupations,R69
+S-35772092,Stillson · 2022,2022,"Cohorte rétrospective sur base de données d'assurance (PearlDiver, Medicare)",primary,abstract,35772092,,O7,ROBINS-I,Risque élevé,R45
+S-37608119,Guity · 2023,2023,Essai randomisé monocentrique en simple aveugle,primary,abstract,37608119,,O1 O2 O3 O4 O5,RoB 2,Préoccupations,R22
+S-38049792,Hu · 2023,2023,Revue systématique et méta-analyse d'essais randomisés (PROSPERO CRD42022312691),systematic_review,full_text,38049792 EPMC:PPR:PPR714024,,O1 O2 O3 O4 O5,AMSTAR 2,Confiance faible,R10
+S-37959210,Paolucci · 2023,2023,"Revue parapluie de revues systématiques (PRIOR), sans estimation poolée propre",systematic_review,full_text,37959210,,O1 O2 O3 O4 O5,AMSTAR 2,Confiance critiquement faible,R54
+S-37522787,Sergienko · 2023,2023,Étude comparative non randomisée (groupes selon la préférence du patient ou la recommandation d'un centre de rééducation),primary,abstract,37522787,,O2,ROBINS-I,Risque élevé,R32
+S-38784392,Chen · 2024,2024,"Revue systématique et méta-analyse d'essais randomisés (RevMan 5.3, PROSPERO)",systematic_review,full_text,38784392,,O1 O2 O3 O4,AMSTAR 2,Confiance critiquement faible,R51
+S-38398267,Lädermann · 2024,2024,"Analyse combinée de deux études ; hydrothérapie contre rééducation à terre randomisée, durée d'immobilisation non randomisée (allocation par centre)",primary,full_text,38398267,,O2 O7,ROBINS-I,Risque élevé,R44
+S-40028412,Pepe · 2024,2024,"Essai randomisé prospectif à 3 groupes, monocentrique (deux hôpitaux), sans imagerie de cicatrisation",primary,full_text,40028412,90,O2 O3 O4 O6,RoB 2,Préoccupations,R16
+S-38428476,Rhee · 2024,2024,"Essai randomisé, réparation arthroscopique avec réacheminement du biceps (ABR)",primary,abstract,38428476,101,O1 O2 O3 O4 O5,RoB 2,Préoccupations,R13
+S-38378128,Stern · 2024,2024,Cohorte rétrospective sur base de données d'assurances (MarketScan),primary,abstract,38378128,,O7,ROBINS-I,Risque élevé,R46
+S-CONS:w:4cf31a95-472a-4c5f-984f-7402ff7d7c56,Yang · 2024,2024,Étude comparative entre deux équipes de rééducation (allocation non décrite dans le résumé),primary,abstract,CONS:w:4cf31a95-472a-4c5f-984f-7402ff7d7c56,,O2 O3 O4 O6,ROBINS-I,Risque sérieux,R35
+S-38469925,Yoo · 2024,2024,"Essai randomisé (niveau de preuve III selon les auteurs), suivi à 5 ans",primary,abstract,38469925,75,O1 O2 O3 O4,RoB 2,"Incertain : résumé seul, aucun domaine évaluable",R21
+S-40026638,Barillas · 2025,2025,"Cohorte rétrospective observationnelle (registre de cliniques de kinésithérapie, 52 cliniques)",primary,full_text,40026638,,O2,ROBINS-I,Risque élevé,R37
+S-40082920,Hao · 2025,2025,"Revue systématique avec méta-analyse d'essais randomisés, protocole INPLASY",systematic_review,full_text,40082920,,O1 O2 O3 O4 O7,AMSTAR 2,Confiance critiquement faible,R12
+S-39732211,Schönweger · 2025,2025,Essai randomisé de non-infériorité (résumé),primary,abstract,39732211,110,O1 O4 O6,RoB 2,Préoccupations,R20
+S-43009963,Abdallah · 2026,2026,"Essai randomisé monocentrique, mobilisation précoce contre retardée après réparation arthroscopique simple rang sans nœud",primary,full_text,43009963,70,O1 O2 O3 O4,RoB 2,Préoccupations,R8
+S-NCT07324174,Essai NCT07324174,2026,"Essai randomisé en groupes parallèles, triple aveugle, pas encore en recrutement (fiche de registre)",registry,registry,NCT07324174,,O1 O2 O3 O4,Non évaluable,Non évaluable (fiche de registre sans résultats),R63
+S-42255867,Hassaan · 2026,2026,Revue systématique narrative sans méta-analyse (10 essais randomisés et 2 cohortes),systematic_review,full_text,42255867,,O1 O2 O3 O4 O5,AMSTAR 2,Confiance critiquement faible,R76
+S-42457075,Kuş · 2026,2026,Essai randomisé,primary,abstract,42457075,30,O2 O3 O4,RoB 2,Préoccupations,R41
+S-41541303,Nikpay · 2026,2026,Essai randomisé (le résumé ne précise pas le nombre de centres),primary,abstract,41541303,120,O1 O3 O4 O5 O7,RoB 2,Préoccupations,R7
+S-41994422,Raizah · 2026,2026,"Cohorte prospective observationnelle monocentrique, comparaison début précoce (≤14 jours) contre tardif (>14 jours) de la kinésithérapie",primary,full_text,41994422,,O3 O4 O5,ROBINS-I,Risque élevé,R71
+S-42855116,Shou · 2026,2026,"Cohorte rétrospective, classement post hoc selon la date de début de rééducation, pondération par probabilité inverse de traitement",primary,abstract,42855116,,O2 O3 O4 O7,ROBINS-I,Risque élevé,R70

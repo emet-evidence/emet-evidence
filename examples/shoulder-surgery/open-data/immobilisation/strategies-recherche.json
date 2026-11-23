@@ -1,0 +1,66 @@
+[
+ {
+  "id": "a",
+  "source": "esearch",
+  "query": "(\"Rotator Cuff\"[Mesh] OR \"Rotator Cuff Injuries\"[Mesh] OR \"rotator cuff\"[tiab] OR supraspinatus[tiab] OR infraspinatus[tiab] OR subscapularis[tiab] OR \"cuff tear\"[tiab] OR \"cuff tears\"[tiab]) AND (repair*[tiab] OR surg*[tiab] OR arthroscop*[tiab] OR postoperative[tiab] OR \"post-operative\"[tiab] OR operative[tiab] OR reconstruct*[tiab]) AND (immobiliz*[tiab] OR immobilis*[tiab] OR sling*[tiab] OR brace*[tiab] OR bracing[tiab] OR orthos*[tiab] OR orthotic*[tiab] OR splint*[tiab] OR \"abduction pillow\"[tiab] OR \"Immobilization\"[Mesh] OR \"Braces\"[Mesh] OR \"Splints\"[Mesh])",
+  "retrieved_at": "2026-11-18T20:50:41.386138+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Rotator+Cuff%22%5BMesh%5D+OR+%22Rotator+Cuff+Injuries%22%5BMesh%5D+OR+%22rotator+cuff%22%5Btiab%5D+OR+supraspinatus%5Btiab%5D+OR+infraspinatus%5Btiab%5D+OR+subscapularis%5Btiab%5D+OR+%22cuff+tear%22%5Btiab%5D+OR+%22cuff+tears%22%5Btiab%5D%29+AND+%28repair%2A%5Btiab%5D+OR+surg%2A%5Btiab%5D+OR+arthroscop%2A%5Btiab%5D+OR+postoperative%5Btiab%5D+OR+%22post-operative%22%5Btiab%5D+OR+operative%5Btiab%5D+OR+reconstruct%2A%5Btiab%5D%29+AND+%28immobiliz%2A%5Btiab%5D+OR+immobilis%2A%5Btiab%5D+OR+sling%2A%5Btiab%5D+OR+brace%2A%5Btiab%5D+OR+bracing%5Btiab%5D+OR+orthos%2A%5Btiab%5D+OR+orthotic%2A%5Btiab%5D+OR+splint%2A%5Btiab%5D+OR+%22abduction+pillow%22%5Btiab%5D+OR+%22Immobilization%22%5BMesh%5D+OR+%22Braces%22%5BMesh%5D+OR+%22Splints%22%5BMesh%5D%29&retmode=json&retmax=9999",
+  "n_results": 511,
+  "file": "data/searches/immobilisation-2026-11-18/a.json"
+ },
+ {
+  "id": "b",
+  "source": "esearch",
+  "query": "(\"Rotator Cuff\"[Mesh] OR \"Rotator Cuff Injuries\"[Mesh] OR \"rotator cuff\"[tiab] OR supraspinatus[tiab] OR infraspinatus[tiab] OR subscapularis[tiab] OR \"cuff tear\"[tiab] OR \"cuff tears\"[tiab]) AND (repair*[tiab] OR surg*[tiab] OR arthroscop*[tiab] OR postoperative[tiab] OR \"post-operative\"[tiab] OR operative[tiab] OR reconstruct*[tiab]) AND (\"early motion\"[tiab] OR \"early mobilization\"[tiab] OR \"early mobilisation\"[tiab] OR \"delayed motion\"[tiab] OR \"delayed mobilization\"[tiab] OR \"delayed mobilisation\"[tiab] OR \"early passive\"[tiab] OR \"delayed passive\"[tiab] OR \"early range of motion\"[tiab] OR \"accelerated rehabilitation\"[tiab] OR \"conservative rehabilitation\"[tiab] OR \"early rehabilitation\"[tiab] OR \"delayed rehabilitation\"[tiab] OR \"Early Ambulation\"[Mesh] OR \"aggressive rehabilitation\"[tiab] OR \"rehabilitation protocol\"[tiab] OR \"rehabilitation protocols\"[tiab] OR \"postoperative rehabilitation\"[tiab] OR \"continuous passive motion\"[tiab])",
+  "retrieved_at": "2026-11-18T20:50:42.380788+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Rotator+Cuff%22%5BMesh%5D+OR+%22Rotator+Cuff+Injuries%22%5BMesh%5D+OR+%22rotator+cuff%22%5Btiab%5D+OR+supraspinatus%5Btiab%5D+OR+infraspinatus%5Btiab%5D+OR+subscapularis%5Btiab%5D+OR+%22cuff+tear%22%5Btiab%5D+OR+%22cuff+tears%22%5Btiab%5D%29+AND+%28repair%2A%5Btiab%5D+OR+surg%2A%5Btiab%5D+OR+arthroscop%2A%5Btiab%5D+OR+postoperative%5Btiab%5D+OR+%22post-operative%22%5Btiab%5D+OR+operative%5Btiab%5D+OR+reconstruct%2A%5Btiab%5D%29+AND+%28%22early+motion%22%5Btiab%5D+OR+%22early+mobilization%22%5Btiab%5D+OR+%22early+mobilisation%22%5Btiab%5D+OR+%22delayed+motion%22%5Btiab%5D+OR+%22delayed+mobilization%22%5Btiab%5D+OR+%22delayed+mobilisation%22%5Btiab%5D+OR+%22early+passive%22%5Btiab%5D+OR+%22delayed+passive%22%5Btiab%5D+OR+%22early+range+of+motion%22%5Btiab%5D+OR+%22accelerated+rehabilitation%22%5Btiab%5D+OR+%22conservative+rehabilitation%22%5Btiab%5D+OR+%22early+rehabilitation%22%5Btiab%5D+OR+%22delayed+rehabilitation%22%5Btiab%5D+OR+%22Early+Ambulation%22%5BMesh%5D+OR+%22aggressive+rehabilitation%22%5Btiab%5D+OR+%22rehabilitation+protocol%22%5Btiab%5D+OR+%22rehabilitation+protocols%22%5Btiab%5D+OR+%22postoperative+rehabilitation%22%5Btiab%5D+OR+%22continuous+passive+motion%22%5Btiab%5D%29&retmode=json&retmax=9999",
+  "n_results": 581,
+  "file": "data/searches/immobilisation-2026-11-18/b.json"
+ },
+ {
+  "id": "c",
+  "source": "esearch",
+  "query": "(\"Rotator Cuff\"[Mesh] OR \"Rotator Cuff Injuries\"[Mesh] OR \"rotator cuff\"[tiab] OR supraspinatus[tiab] OR infraspinatus[tiab] OR subscapularis[tiab] OR \"cuff tear\"[tiab] OR \"cuff tears\"[tiab]) AND (repair*[tiab] OR surg*[tiab] OR arthroscop*[tiab] OR postoperative[tiab] OR \"post-operative\"[tiab] OR operative[tiab] OR reconstruct*[tiab]) AND (rehabilitat*[tiab] OR mobiliz*[tiab] OR mobilis*[tiab] OR \"range of motion\"[tiab] OR physiotherap*[tiab] OR \"physical therapy\"[tiab] OR \"Rehabilitation\"[Mesh] OR \"Physical Therapy Modalities\"[Mesh]) AND (random*[tiab] OR trial[tiab] OR \"Randomized Controlled Trial\"[pt] OR comparative[tiab] OR compar*[tiab] OR versus[tiab] OR systematic[tiab] OR meta-analy*[tiab] OR cohort[tiab])",
+  "retrieved_at": "2026-11-18T20:50:43.544885+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Rotator+Cuff%22%5BMesh%5D+OR+%22Rotator+Cuff+Injuries%22%5BMesh%5D+OR+%22rotator+cuff%22%5Btiab%5D+OR+supraspinatus%5Btiab%5D+OR+infraspinatus%5Btiab%5D+OR+subscapularis%5Btiab%5D+OR+%22cuff+tear%22%5Btiab%5D+OR+%22cuff+tears%22%5Btiab%5D%29+AND+%28repair%2A%5Btiab%5D+OR+surg%2A%5Btiab%5D+OR+arthroscop%2A%5Btiab%5D+OR+postoperative%5Btiab%5D+OR+%22post-operative%22%5Btiab%5D+OR+operative%5Btiab%5D+OR+reconstruct%2A%5Btiab%5D%29+AND+%28rehabilitat%2A%5Btiab%5D+OR+mobiliz%2A%5Btiab%5D+OR+mobilis%2A%5Btiab%5D+OR+%22range+of+motion%22%5Btiab%5D+OR+physiotherap%2A%5Btiab%5D+OR+%22physical+therapy%22%5Btiab%5D+OR+%22Rehabilitation%22%5BMesh%5D+OR+%22Physical+Therapy+Modalities%22%5BMesh%5D%29+AND+%28random%2A%5Btiab%5D+OR+trial%5Btiab%5D+OR+%22Randomized+Controlled+Trial%22%5Bpt%5D+OR+comparative%5Btiab%5D+OR+compar%2A%5Btiab%5D+OR+versus%5Btiab%5D+OR+systematic%5Btiab%5D+OR+meta-analy%2A%5Btiab%5D+OR+cohort%5Btiab%5D%29&retmode=json&retmax=9999",
+  "n_results": 2686,
+  "file": "data/searches/immobilisation-2026-11-18/c.json"
+ },
+ {
+  "id": "ctgov-ctgov-a",
+  "source": "ctgov",
+  "query": "rotator cuff repair AND (immobilization OR sling OR early motion OR early mobilization OR rehabilitation OR brace)",
+  "retrieved_at": "2026-11-18T20:50:58.699341+00:00",
+  "url": null,
+  "n_results": null,
+  "file": "data/searches/immobilisation-2026-11-18/ctgov-ctgov-a.json"
+ },
+ {
+  "id": "d",
+  "source": "esearch",
+  "query": "(\"Rotator Cuff\"[Mesh] OR \"Rotator Cuff Injuries\"[Mesh] OR \"rotator cuff\"[tiab] OR supraspinatus[tiab] OR infraspinatus[tiab] OR subscapularis[tiab] OR \"cuff tear\"[tiab] OR \"cuff tears\"[tiab]) AND (\"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt])",
+  "retrieved_at": "2026-11-18T20:50:44.514846+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Rotator+Cuff%22%5BMesh%5D+OR+%22Rotator+Cuff+Injuries%22%5BMesh%5D+OR+%22rotator+cuff%22%5Btiab%5D+OR+supraspinatus%5Btiab%5D+OR+infraspinatus%5Btiab%5D+OR+subscapularis%5Btiab%5D+OR+%22cuff+tear%22%5Btiab%5D+OR+%22cuff+tears%22%5Btiab%5D%29+AND+%28%22Retracted+Publication%22%5Bpt%5D+OR+%22Retraction+of+Publication%22%5Bpt%5D%29&retmode=json&retmax=9999",
+  "n_results": 20,
+  "file": "data/searches/immobilisation-2026-11-18/d.json"
+ },
+ {
+  "id": "europepmc-europepmc-a",
+  "source": "europepmc",
+  "query": "(TITLE:\"rotator cuff\" OR ABSTRACT:\"rotator cuff\" OR TITLE:supraspinatus OR ABSTRACT:supraspinatus) AND (TITLE:repair OR ABSTRACT:repair OR TITLE:arthroscopic OR ABSTRACT:arthroscopic OR ABSTRACT:postoperative) AND (ABSTRACT:immobilization OR ABSTRACT:immobilisation OR ABSTRACT:sling OR ABSTRACT:brace OR ABSTRACT:\"early motion\" OR ABSTRACT:\"early mobilization\" OR ABSTRACT:\"early mobilisation\" OR ABSTRACT:\"delayed motion\" OR ABSTRACT:\"early passive\" OR ABSTRACT:\"accelerated rehabilitation\" OR ABSTRACT:\"early rehabilitation\" OR ABSTRACT:\"delayed rehabilitation\" OR TITLE:rehabilitation OR TITLE:immobilization OR TITLE:mobilization OR TITLE:sling)",
+  "retrieved_at": "2026-11-18T20:50:57.057395+00:00",
+  "url": null,
+  "n_results": null,
+  "file": "data/searches/immobilisation-2026-11-18/europepmc-europepmc-a.json"
+ },
+ {
+  "id": "consensus",
+  "source": "consensus",
+  "query": null,
+  "retrieved_at": null,
+  "url": null,
+  "n_results": null,
+  "file": "data/searches/immobilisation-2026-11-18/consensus.txt",
+  "note": "requête et date dans le manifeste du sujet ; licence : réponse non redistribuable"
+ }
+]

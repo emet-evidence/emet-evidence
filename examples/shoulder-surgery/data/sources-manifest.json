@@ -1,0 +1,899 @@
+{
+ "note": "Résumés et textes intégraux non redistribués (droits des éditeurs). Retéléchargement : python3 -m emet.pubmed_cache --manifest data/sources-manifest.json --fulltext ; les empreintes SHA-256 permettent de vérifier que le contenu retéléchargé est identique.",
+ "items": [
+  {
+   "kind": "full_text",
+   "pmid": "38312263",
+   "pmcid": "PMC10837736",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10837736/fullTextXML",
+   "retrieved_at": "2026-11-16T14:33:16.609050+00:00",
+   "sha256": "57eca785316ad676bf4d907319bfb5d5b39c4141791c2fd06b76f04b73075720",
+   "licence": "CC BY-NC-ND 4.0"
+  },
+  {
+   "kind": "full_text",
+   "pmid": "41040976",
+   "pmcid": "PMC12484911",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12484911/fullTextXML",
+   "retrieved_at": "2026-11-16T14:32:48.966591+00:00",
+   "sha256": "f445283673213814b47aabc263dc9084b1a7d83ba11450e5f22e51bb4b05f31b",
+   "licence": "CC BY-NC-ND 4.0"
+  },
+  {
+   "kind": "full_text",
+   "pmid": "41852776",
+   "pmcid": "PMC12993126",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12993126/fullTextXML",
+   "retrieved_at": "2026-11-16T14:33:01.356689+00:00",
+   "sha256": "a1473b1493bdcd598b7d37d012504fc9ed3d070e581f1e6bd66d50acc4d0e453",
+   "licence": "CC BY-NC-ND 4.0"
+  },
+  {
+   "kind": "full_text",
+   "pmid": "32238172",
+   "pmcid": "PMC7110715",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7110715/fullTextXML",
+   "retrieved_at": "2026-11-16T21:42:10.830855+00:00",
+   "sha256": "a38c991d3563422a76509de383647b6a5fb3bf3e35f5687729ba243ae1fe5669",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "kind": "full_text",
+   "pmid": "34265255",
+   "pmcid": "PMC8343092",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8343092/fullTextXML",
+   "retrieved_at": "2026-11-16T14:33:26.279073+00:00",
+   "sha256": "44a0d612b98f09f281d98b3f35a55fe40a97a5c1a9c0078d444f986b0af79f95",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "kind": "full_text",
+   "pmid": "35449743",
+   "pmcid": "PMC9017518",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9017518/fullTextXML",
+   "retrieved_at": "2026-11-17T05:43:22.880922+00:00",
+   "sha256": "b152785ed2904a0911c5338c8c3e7a252f23a3ad86f928f932d92a96ab6d48c8",
+   "licence": "open access (licence non identifiée)"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "10471998",
+   "retrieved_at": "2026-11-18T05:55:31.520811+00:00",
+   "sha256": "6a79534b1ea8e257e46c3b7a29779220b8b16bbec35d368658584a283ecb2276"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "11408900",
+   "retrieved_at": "2026-11-18T20:11:10.716823+00:00",
+   "sha256": "521929998f90e8d7c9fa14da5fdee00ab706b1db3ed6c2ec49cf15d3adc144ec"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "19482895",
+   "retrieved_at": "2026-11-18T21:50:19.038322+00:00",
+   "sha256": "e540d20051dd81c1e0f0cf5aeb839ab50599470f0b1cb35c28c14b74d06ecc88"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "20970299",
+   "retrieved_at": "2026-11-18T21:50:19.039487+00:00",
+   "sha256": "727e14e3c21fd4989ef92e7051448d6f251a7aad8db045575b564aba6ba4711b"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "21030274",
+   "retrieved_at": "2026-11-18T05:55:33.042910+00:00",
+   "sha256": "8b85eb6a874ef60bab5e6300156dc9c9dcba1d9aa9a76daf3f04cb1f26592893"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "21084574",
+   "retrieved_at": "2026-11-18T05:55:33.044259+00:00",
+   "sha256": "ddcca619871c327729c7b1aa353ca2f8d552eb7a57ccd0e78f37829bac3b6166"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "21478659",
+   "retrieved_at": "2026-11-18T21:50:19.040450+00:00",
+   "sha256": "5df2a0871e3c1aa93e2eb15547c36c7911aed165ea9ec30545bc99058d775fe8"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "21624680",
+   "retrieved_at": "2026-11-18T21:50:19.041401+00:00",
+   "sha256": "8f6174f01e010feb703e7ac2061f033e242448e110725541d7321cf2ef0ad4bf"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "22036541",
+   "retrieved_at": "2026-11-17T16:49:29.952590+00:00",
+   "sha256": "2b188fc8dd47104300879399872fd1b609346e24fb7614a0c1ac85b9d17eb056"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "22095706",
+   "retrieved_at": "2026-11-18T05:55:33.057295+00:00",
+   "sha256": "331a45f8af4d43eb0e49f6409cabaf68a023704a4e6d85946a2355e2075fa1ca"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "22287641",
+   "retrieved_at": "2026-11-18T21:50:19.042360+00:00",
+   "sha256": "8085f42ec907625761e700f136ca3267436b52a98aeaa8ba794ad39d3887effa"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "22554876",
+   "retrieved_at": "2026-11-18T21:50:19.043575+00:00",
+   "sha256": "5bb74137620b96122832910ae755516b2f212148146442e0e30c8757287d2784"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "22944392",
+   "retrieved_at": "2026-11-18T21:50:19.044714+00:00",
+   "sha256": "e991c117bd5ec392405fdd98f542cc262cf7a85c110e4cebd16df4b58fff4cf8"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "23605079",
+   "retrieved_at": "2026-11-18T20:11:10.725381+00:00",
+   "sha256": "5aa88e0b229027ffaf770c876ab72de65034f25e0f3c3d981ee12361d19cc654"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "24382719",
+   "retrieved_at": "2026-11-18T21:50:19.045685+00:00",
+   "sha256": "2d3876ae3888366f99f04d47fab06ac626f1a65bc84bb921852551bd80bdddab"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "24403741",
+   "retrieved_at": "2026-11-18T05:55:33.079701+00:00",
+   "sha256": "69e48f1bad5de97b50bcf48263b58bb7ae95c138154331f5ea337f5cf0ef52bd"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "24647511",
+   "retrieved_at": "2026-11-18T21:50:19.046711+00:00",
+   "sha256": "01cd76363a68dc30c9b970c857bf6aa6e708eee736aa8727fc100fae623cc397"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "24813324",
+   "retrieved_at": "2026-11-18T21:50:19.047750+00:00",
+   "sha256": "3f2ab1c965e73a474d81ffbb1ee9adfce878ee815999a9bbb015aba09c864c83"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "24859982",
+   "retrieved_at": "2026-11-19T11:53:32.619268+00:00",
+   "sha256": "2f696d84aa1ddf2a3a6995fb0ba1694dbf55881ba1d95774bb278113b6d66305"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "24875019",
+   "retrieved_at": "2026-11-18T05:55:33.088133+00:00",
+   "sha256": "564168f5dd36cf2b709a9f9569936fea76b238543c584b62515da9bee19bfea2"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "25027677",
+   "retrieved_at": "2026-11-18T21:50:19.048814+00:00",
+   "sha256": "486696c7fac694b45874ed26bf69328b0fa254f5ee0ba0e39227ac56561a5fca"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "25127908",
+   "retrieved_at": "2026-11-18T21:50:19.049815+00:00",
+   "sha256": "fa5c1507c78ea1e108c2c5d0ec44cb69a425406acc226a5dbe3b71fca46afce4"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "25143489",
+   "retrieved_at": "2026-11-18T21:50:19.050828+00:00",
+   "sha256": "05ef43e05692476713c4b5dbc5ab55dce1790951a4afbd727c13de41ad8e51c6"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "25296646",
+   "retrieved_at": "2026-11-18T21:50:19.051857+00:00",
+   "sha256": "3165a9f446cbcb2716cf6739fad690e839c8f8216ece547439f446acb01ba771"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "25306517",
+   "retrieved_at": "2026-11-18T21:50:07.086189+00:00",
+   "sha256": "c72b7d0e41fe833e704ecfcd9296f7a194f7a351fcd3b1ee3bb43480395670c0"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "25441568",
+   "retrieved_at": "2026-11-18T05:55:34.586386+00:00",
+   "sha256": "a397b3c5c6c3210f456244ad45d975f5ea5e02a76b77a489c68270c48090684d"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "25637728",
+   "retrieved_at": "2026-11-18T21:50:19.052842+00:00",
+   "sha256": "78f27fd217d8bee393d03927d094277fe580a93379ec3432a9af72d263b280d5"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "25797067",
+   "retrieved_at": "2026-11-18T21:50:19.053727+00:00",
+   "sha256": "7d7c2b91986d30a5627f4809d4df86c1f9624f8f181c78c6479b1a1510cec0fc"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "25943112",
+   "retrieved_at": "2026-11-18T21:50:19.054669+00:00",
+   "sha256": "bd89fbdcdad45fd21722b9c21eb45ef03a1f3a4ebfeb1fa39aad2becfb7dcfd8"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "25944157",
+   "retrieved_at": "2026-11-18T05:55:34.594063+00:00",
+   "sha256": "47588275b0669ea008ef0deca574d27499f1e637b1fa03a722899bc515713404"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "26137178",
+   "retrieved_at": "2026-11-18T21:50:19.055644+00:00",
+   "sha256": "b8efe398599151869bbf3f888d5bab169c0db41c882436bacd22098e06ba6fda"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "26309485",
+   "retrieved_at": "2026-11-18T21:50:19.056693+00:00",
+   "sha256": "655b92be84dd6b70bda24ff43aa24ddf2560f01984de2d8524900132f4d02d71"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "26330594",
+   "retrieved_at": "2026-11-18T21:50:19.057695+00:00",
+   "sha256": "821780b46c4f7009ed825d14a33b2aae2209ea28eed4dda83e627b6f1cfc9ffb"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "26435245",
+   "retrieved_at": "2026-11-18T21:50:19.058625+00:00",
+   "sha256": "438e28d0f2eb9d1b3884e66ff60675c8140f017e44da622de5aa1ea1b61644dc"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "26510584",
+   "retrieved_at": "2026-11-18T21:50:19.059547+00:00",
+   "sha256": "622e19b8bb04d61a62be5cab6d89a59d81e6126991ea8dec139bf9002d677bff"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "27129377",
+   "retrieved_at": "2026-11-19T11:53:32.628822+00:00",
+   "sha256": "c14978ca8a1bb050278c7c088b747bb991572ac9e4b2db9f8c3a4cd37e952f3e"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "27544678",
+   "retrieved_at": "2026-11-16T21:41:37.640979+00:00",
+   "sha256": "5ddba3abdac8e87692a24b6edb1c91dba754b09b6c8b9a30dc061e5f687270f0"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "27582966",
+   "retrieved_at": "2026-11-18T21:50:19.060781+00:00",
+   "sha256": "c67f2faf9af5eb50703674cbc5dd469de4304d953fd988a6e2876339bd3dec4e"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "28039127",
+   "retrieved_at": "2026-11-18T21:50:19.062207+00:00",
+   "sha256": "987bec32165540f9f7e0f2f1e69a791a04c168a96f79b849e04c93b56e963d98"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "28111006",
+   "retrieved_at": "2026-11-18T21:50:19.063910+00:00",
+   "sha256": "fa506b8d96bc5f9fef592ba296374f64a95f718d20d43f8701ec373d0b6e3d79"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "28237073",
+   "retrieved_at": "2026-11-19T11:53:32.631486+00:00",
+   "sha256": "f5ee1571a9f159e5fc4e2796bd53a81e2c5881003471cf24b9a4db2f837805d5"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "28288280",
+   "retrieved_at": "2026-11-18T21:50:19.065469+00:00",
+   "sha256": "2e318e60cc352152b3bd0ac27c947f5e52626e5f8723eeeb65360b946e26ad76"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "28619382",
+   "retrieved_at": "2026-11-18T21:50:19.067105+00:00",
+   "sha256": "6ab43de1fe25e06ff6a7f9a1e1a9d02e2a22b52ab6d9b11771ca68b9db3ec0c3"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "29144771",
+   "retrieved_at": "2026-11-17T16:49:32.016171+00:00",
+   "sha256": "a563e11341267bb93ce489a4251b3cedf5e2fe8edfd2e37c752a3786c219dd42"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "29480870",
+   "retrieved_at": "2026-11-18T21:50:19.069275+00:00",
+   "sha256": "cf792f63199980df5a0c1d56f9d93ad4c876d06f0eb37b20edb40f56fa6eed7a"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "30129777",
+   "retrieved_at": "2026-11-19T11:53:32.634041+00:00",
+   "sha256": "a14cdeddb4b7ad31787290b08aad4ba9eb1a624efb4cdbf4351297876a4ce010"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "30195953",
+   "retrieved_at": "2026-11-18T21:50:19.071079+00:00",
+   "sha256": "151b8a799892373a76581cdada8f39e7563036cb65339e729be18a018dd07b89"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "30383411",
+   "retrieved_at": "2026-11-19T11:53:32.636417+00:00",
+   "sha256": "0c0db705751298d53bb3c821655dfb9e08a69118a3c067886d7cfb8575f8e7ea"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "30555715",
+   "retrieved_at": "2026-11-19T11:53:32.637813+00:00",
+   "sha256": "ba78a0ca8371bd78d723f75b645d0126caf4edc7a7c1e2575e57805ad06f7d19"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "30827428",
+   "retrieved_at": "2026-11-18T21:50:19.072957+00:00",
+   "sha256": "b87e49d5ceb30a699f5296da0638afbbc5f8409a1d7889db4820bf2fdbb9d2e5"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "30893230",
+   "retrieved_at": "2026-11-18T21:50:19.074785+00:00",
+   "sha256": "c66415ea67ee17c7d3d9d81c7eba07d4e4e3646f6665e82c301d32544605a5ba"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "30939497",
+   "retrieved_at": "2026-11-18T21:50:19.076714+00:00",
+   "sha256": "b3b2d86bcff478f45f63f4605f8ce4a023d6fb4ba19b895195ad8f2a5436e27a"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "31279721",
+   "retrieved_at": "2026-11-17T16:49:32.048228+00:00",
+   "sha256": "ce93201f40a725de36422a8b2368592254d1066f489309415dd237b666b9ebb9"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "31344884",
+   "retrieved_at": "2026-11-18T21:50:19.079445+00:00",
+   "sha256": "b595bfae7b2e7f5cf7c384b0809d8ece2535fbe16d89479cc2deb2e15009b992"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "31699267",
+   "retrieved_at": "2026-11-17T16:49:32.053912+00:00",
+   "sha256": "4092abd50aa3d453e048a9ba80c76b101940457a9d037314fa23815c17de2c4f"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "32238172",
+   "retrieved_at": "2026-11-16T21:41:37.646180+00:00",
+   "sha256": "1d6cd5a4377b279b7a6088fa55ccf9296f007d2fde76b909276fbc9c4d49f8c2"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "33280157",
+   "retrieved_at": "2026-11-18T05:55:36.411158+00:00",
+   "sha256": "83afd16c48cf61267e043ba5242cee074dc2a3b7bb6b31ebaf67fbfc0a0862ba"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "33305619",
+   "retrieved_at": "2026-11-18T21:50:19.082184+00:00",
+   "sha256": "19cff75ca1630e0ef6155eb92676c3669c83a03b38430a4db9298bd5ae7701fb"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "33330218",
+   "retrieved_at": "2026-11-18T21:50:19.086035+00:00",
+   "sha256": "9869b19e61d4f6f581438f2cf7c7763e70ed9f6116897d2212c9fbdef3c2c7d2"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "33471547",
+   "retrieved_at": "2026-11-18T21:50:19.088179+00:00",
+   "sha256": "2ca239191c5cd829e2a8009ef55aa80cd960be2245949223427d1fdd162e077c"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "33554170",
+   "retrieved_at": "2026-11-19T11:53:32.659160+00:00",
+   "sha256": "60a92637a3c2b56cb1a357c517019e012c4f06bff76d2082f280b851d3b454e4"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "33869644",
+   "retrieved_at": "2026-11-19T11:53:32.665332+00:00",
+   "sha256": "4540b30f9a1baf23ee29b41c018849870f3f3bc344c7225a16956af0015b651b"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "33972488",
+   "retrieved_at": "2026-11-18T21:50:19.090017+00:00",
+   "sha256": "0710792445c2ff3152b8f299185d6cf2d6873cc74ab722ab4be1063f51ac332c"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "33998264",
+   "retrieved_at": "2026-11-18T21:50:19.092010+00:00",
+   "sha256": "51b40520eab1cbf8ea1ae6269419a721411a510f0c64ea6f49598dd711a23807"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "34048450",
+   "retrieved_at": "2026-11-18T21:50:19.094817+00:00",
+   "sha256": "2cf2e3f44b80202030383ad2f8f413faf09ca85b9d97a6e9afbe071d48596cae"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "34082023",
+   "retrieved_at": "2026-11-18T21:50:19.097082+00:00",
+   "sha256": "cb2fae918011288b2df5556b0f522acda376ac4ce3f9a9f242a39c2d02d5a052"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "34265255",
+   "retrieved_at": "2026-11-16T14:26:17.791475+00:00",
+   "sha256": "8ef9d76500199eb002fc8beb3c3ac42cb332183eff652fe7be85983f7bd2347d"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "34303366",
+   "retrieved_at": "2026-11-18T21:50:19.102081+00:00",
+   "sha256": "4b2cb75e532eaa355a91f0a338e48cc713152ba2ee8c22566fd173b0e703b218"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "34368377",
+   "retrieved_at": "2026-11-19T11:53:32.672475+00:00",
+   "sha256": "b9bf668c3f3590e322d48667b35ef20710abf5d45935ef5e090a188ee27fc9c4"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "34419023",
+   "retrieved_at": "2026-11-19T11:53:32.674750+00:00",
+   "sha256": "b4449664583ab7066884f0fc89e514019128cba031c17112fa186af596180b07"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "34465332",
+   "retrieved_at": "2026-11-18T21:50:19.107122+00:00",
+   "sha256": "befd9c2cc1695aa991e94a3f7fa57316f7cc20d27ec2a4bb887164461dfae3f0"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "34582083",
+   "retrieved_at": "2026-11-18T21:50:19.110527+00:00",
+   "sha256": "b85e4168c0e6132e5791488ec8ad7e9027fd6463bb3bbb7c29a5e5aa7f635401"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "34864154",
+   "retrieved_at": "2026-11-18T21:50:19.112771+00:00",
+   "sha256": "d30713629327fdc5707230546a2d29fc5b3f9648b3802ae31778051a82b27a41"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "35090426",
+   "retrieved_at": "2026-11-19T11:53:32.682907+00:00",
+   "sha256": "0458ef57fcd9f9c49a77df7b787917db5f5fd64de597e8f45991890edea6498a"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "35449743",
+   "retrieved_at": "2026-11-17T05:37:30.254368+00:00",
+   "sha256": "7e65634ab725f57f2c4274f90c8e261b27e102735d2d86717f194770e4df525b"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "35461187",
+   "retrieved_at": "2026-11-18T05:55:38.124834+00:00",
+   "sha256": "b6bb564ec91ef62e6b2e55beedcef943427f4a5da4b0c60be31d3e6ba028d341"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "35593869",
+   "retrieved_at": "2026-11-16T14:26:17.784533+00:00",
+   "sha256": "3bd8db8ca4665689801858c16409066a1af5a5035444e772ed8592758d360cfc"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "35656411",
+   "retrieved_at": "2026-11-18T21:50:07.088651+00:00",
+   "sha256": "c79930093e0d84119ad0cf901c90ebef47b37e28d26c680610a1a646f075bbb1"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "35723088",
+   "retrieved_at": "2026-11-18T21:50:19.114557+00:00",
+   "sha256": "ebe0c43e841fee01be0860b00f1a9df7f86916af84755a3f0e31bdd6693f2391"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "35772092",
+   "retrieved_at": "2026-11-18T21:50:19.116775+00:00",
+   "sha256": "8f8c1c39559c72a969c3e043dd4dd3898d8e7c80e44eb1af0eed7b77d9c48e54"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "36152940",
+   "retrieved_at": "2026-11-18T21:50:19.118905+00:00",
+   "sha256": "0dd140e3fc909c4efcf35b3ea4ae42f5eb98e6e55f99165e322cf09878d83c1c"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "36479013",
+   "retrieved_at": "2026-11-19T11:53:34.058272+00:00",
+   "sha256": "df314fc16ffe6b293f2b735867c879a3c9fb45e116e46c1b109be24bbe7fe94b"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "36579053",
+   "retrieved_at": "2026-11-19T11:53:34.061438+00:00",
+   "sha256": "53c73de7ad791dca07f516b91cbcdcc38c65950a811a176b58c786f0c4a54116"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "36734663",
+   "retrieved_at": "2026-11-19T11:53:34.062886+00:00",
+   "sha256": "651b5014d9a69d874f88a0379a7a5e2b4c2b629fbe4aa0d0d64b8561fda231ea"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "37522787",
+   "retrieved_at": "2026-11-18T21:50:19.120676+00:00",
+   "sha256": "5639f60aefc2bcf3df3d50addadc4c6b3705099109ffa38ffc4ffb9b7d53aa5f"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "37551708",
+   "retrieved_at": "2026-11-19T11:53:34.074146+00:00",
+   "sha256": "108260d703458ae1c8d09ac294fb5524136ae568bc57cfcdb089942de4a60de9"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "37608119",
+   "retrieved_at": "2026-11-18T21:50:19.123453+00:00",
+   "sha256": "8080c6dea9080e706fba82c67f1d0eba8fbca2522fa9d9edc20a06cbdfd363bc"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "37882879",
+   "retrieved_at": "2026-11-18T05:55:38.172789+00:00",
+   "sha256": "7ec37760486399af31f8566580de1be7a67543005efa35b4b0a890525920e912"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "37959210",
+   "retrieved_at": "2026-11-18T21:50:19.126743+00:00",
+   "sha256": "35b7a9adb18eeeafe0e4c9c01c12258d88023d7c6e8f69fd5f27d1437eff1176"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "37976129",
+   "retrieved_at": "2026-11-18T20:11:10.749470+00:00",
+   "sha256": "fdf3ce91632e6a77760ced4de8622ee48f1a886414b7fd39b9bc1207bd47f69c"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "38049792",
+   "retrieved_at": "2026-11-18T21:50:20.204564+00:00",
+   "sha256": "13cab30ee9b2c6c483ded55065f176644d5c7c562b173af2afab60abc94e43c2"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "38312263",
+   "retrieved_at": "2026-11-16T14:26:17.794356+00:00",
+   "sha256": "963427292c663ba27d112fab7252adcb844d133f497d18dc93b2d32ff851ccc4"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "38378128",
+   "retrieved_at": "2026-11-18T21:50:20.206028+00:00",
+   "sha256": "d3c504052742987f0d3251b99a5789207e382de90152ac3118c3abe16ee6337d"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "38398267",
+   "retrieved_at": "2026-11-18T21:50:20.207589+00:00",
+   "sha256": "c49764061e4ea22208b170168afa04986a55885bd9bbf06e324cc72cc76615d6"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "38428476",
+   "retrieved_at": "2026-11-18T21:50:20.208878+00:00",
+   "sha256": "d916171e86075cd33c9122bc4f4c2e2eebac624b8f0accfdd7cd5fa19110d4eb"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "38469925",
+   "retrieved_at": "2026-11-18T21:50:20.210023+00:00",
+   "sha256": "43d1f8f4c6ee0e2c99067d57b5f9fdede87318dfd83b9037e27be59c33ce7709"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "38507504",
+   "retrieved_at": "2026-11-19T11:53:34.082989+00:00",
+   "sha256": "6b5af930f274a11ed50f3b371aff5cea724c28e8420ae8934f6b3d917bb6e212"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "38784392",
+   "retrieved_at": "2026-11-18T21:50:20.212170+00:00",
+   "sha256": "a0f85703210a36d8228ef5b239789f22cf1a6f5457f9b33ba535feb81fe90f14"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "39236102",
+   "retrieved_at": "2026-11-16T14:26:17.795319+00:00",
+   "sha256": "d65d4d546889e29ad7453c7cf3d7ce3c422a77d8e59ff9a1f8256d79f76beafa"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "39552673",
+   "retrieved_at": "2026-11-19T11:53:34.097918+00:00",
+   "sha256": "dca9e084be72a319be73040352643efc377fe56616cf9a4e62254380b910e225"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "39732211",
+   "retrieved_at": "2026-11-18T21:50:20.214354+00:00",
+   "sha256": "bca16d9eb5d8188855bceb5c5a70f5e93a8d10c51f0842bd73580caaa6134e0e"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "40015465",
+   "retrieved_at": "2026-11-16T14:26:17.796240+00:00",
+   "sha256": "d691f8a45fa9a937c91880f0cf3886b8a4fdaab782dd55afae7f4d0f0e6440d5"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "40026638",
+   "retrieved_at": "2026-11-18T21:50:20.216264+00:00",
+   "sha256": "59127b14e426619cf7457f0b20097d9bfac0880d06654d4a5ce2a3c53da4d6be"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "40028412",
+   "retrieved_at": "2026-11-18T21:50:20.217886+00:00",
+   "sha256": "8534742979f4ca7bfa52770c8668694722f1a12f126f18ef997c7269ffa7c8be"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "40053065",
+   "retrieved_at": "2026-11-18T21:50:20.220108+00:00",
+   "sha256": "7d1d29a2fcd3fe4287c8ee14abf31f9b88a93a662a8eb785b1eec5f275b9f2dd"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "40082920",
+   "retrieved_at": "2026-11-18T21:50:20.221664+00:00",
+   "sha256": "aba7fe488fc696508e24c8e22bae83f5804f900ccde6f19acea94087d806fe3e"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "40441405",
+   "retrieved_at": "2026-11-19T11:53:34.113689+00:00",
+   "sha256": "363ffce20e4dd2b6309c6fa0f727e3025f4626d5302799f76e4a8a10584288a3"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "40486784",
+   "retrieved_at": "2026-11-19T11:53:34.115225+00:00",
+   "sha256": "728dc0252b6d269c6206a840b54cf72b5c865632c5b4231feedd4be326c2ca24"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "40591667",
+   "retrieved_at": "2026-11-16T14:26:17.802227+00:00",
+   "sha256": "597941aa7d7c7759f93fdd70d3c57bd5886565b4fdccf4b539bb6f770e7f441d"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "40959000",
+   "retrieved_at": "2026-11-19T11:53:34.122826+00:00",
+   "sha256": "5b50220c51609ea8ac781c470690b4286315cd9b75d845bda55cc420815b1558"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "41040976",
+   "retrieved_at": "2026-11-16T14:26:17.803926+00:00",
+   "sha256": "9a1624bd29c270db18252c71b37c9448b55758cceb2aa6ad9e666c711853a575"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "41110821",
+   "retrieved_at": "2026-11-18T05:55:39.706292+00:00",
+   "sha256": "daa7c9294ea4a70da0428f5cccfdec20c782750f8a40a2a3d82228ca045c6616"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "41298760",
+   "retrieved_at": "2026-11-18T05:55:39.713015+00:00",
+   "sha256": "75ed456ee45bad9fb16b10d9357cc7ef760fc95e90fba2d7833e614fa86b66ce"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "41306375",
+   "retrieved_at": "2026-11-16T14:26:17.805602+00:00",
+   "sha256": "dca401e7d04231fbd0f730cd0a036b57b248a9d5b6f78323b353de5d3cfd01df"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "41311664",
+   "retrieved_at": "2026-11-19T11:53:34.125349+00:00",
+   "sha256": "fe043375b2fdc99900867efe79c720f5ea28030ea6f4a09de1b05628b8e32060"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "41541303",
+   "retrieved_at": "2026-11-18T21:50:20.223161+00:00",
+   "sha256": "f729a071c86b5394379ce449a5c351474d13fcf1821a9c6e5b4db038138df093"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "41692714",
+   "retrieved_at": "2026-11-19T11:53:34.133001+00:00",
+   "sha256": "3acaa967d8085e714b46354a1fc6e8a2a6e23f562957a80fd9e38cba325d54b7"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "41720245",
+   "retrieved_at": "2026-11-19T11:53:34.136301+00:00",
+   "sha256": "0fa9879348c27d50da5fe1beedbecb194922f3ac05be1c9df6a8a97853610ec9"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "41761469",
+   "retrieved_at": "2026-11-19T11:53:34.137808+00:00",
+   "sha256": "6f1390aabad4c1f68281c8d6c48a87de3444fd2797ea796e652ede37e19c6a4c"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "41810221",
+   "retrieved_at": "2026-11-19T11:53:34.139233+00:00",
+   "sha256": "613aa5e063ca06551052de93e7fbbb2e241f09199d6b1a72b35d1b53ab187293"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "41852776",
+   "retrieved_at": "2026-11-16T14:26:17.809494+00:00",
+   "sha256": "98d471e9f5ea2d937611416eeccfed5cf7bab7267edd79a1984f3dd3cacf6f80"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "41953845",
+   "retrieved_at": "2026-11-18T05:55:39.723821+00:00",
+   "sha256": "7cd3a5169aa31ac02e356b8e50bfe330fffc8dc1146d66ec30b98b0c3bbf3ffa"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "41994422",
+   "retrieved_at": "2026-11-18T21:50:20.225220+00:00",
+   "sha256": "de477ca23b238a9b9b87068144c4000c06246b8f809647d3255e7202e1cae2bd"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42052366",
+   "retrieved_at": "2026-11-19T11:53:34.144378+00:00",
+   "sha256": "8614a995ffaaa3c34dc5b7ebecde297aa67a1f95977235bd3525b111d4e01478"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42083620",
+   "retrieved_at": "2026-11-18T05:55:39.725879+00:00",
+   "sha256": "9d5cc2838eb295742206e0483fcf6fa251cdc287d2d3933d6dfb8cf2e52ead22"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42248213",
+   "retrieved_at": "2026-11-16T14:26:17.811575+00:00",
+   "sha256": "be7aa33a556f00d0de874968bac805731531b28c2807c61b01a50c0bd57b5af4"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42255867",
+   "retrieved_at": "2026-11-18T21:50:20.227070+00:00",
+   "sha256": "b53ff30a534c96bfa73eed5195cc09bdfb48cd2a5ceb4b1be6d726b87148e116"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42264320",
+   "retrieved_at": "2026-11-16T14:26:17.812115+00:00",
+   "sha256": "b7038cc632d4d5e2d88804c838aec18c5cfbd288edbad88b067b13a449901995"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42271168",
+   "retrieved_at": "2026-11-18T05:55:39.731025+00:00",
+   "sha256": "add9ee0fd57c05b407f611e683d0bd4e2473ff3f957c336af4e1c4429411ef64"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42326432",
+   "retrieved_at": "2026-11-18T20:11:10.760396+00:00",
+   "sha256": "d354dd6a98acc6e00f7d1b00824533f7dba64f49e31a1201ba45dc07b5ffbccc"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42457075",
+   "retrieved_at": "2026-11-18T21:50:20.228120+00:00",
+   "sha256": "8c71971979dff61eb5072be779c708a879a43881797a7ba8762f3b00bd77e759"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42464545",
+   "retrieved_at": "2026-11-19T11:53:34.156703+00:00",
+   "sha256": "8690e349644d56f6b11aeb8933762b94bf885b433e090feb87b0b5288b9126c1"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42472794",
+   "retrieved_at": "2026-11-16T14:26:17.813603+00:00",
+   "sha256": "8c5db1a8604e22d1401e32ba3fb0fb39c7a4780604a2f23efdd154c5f15ddc5a"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42683435",
+   "retrieved_at": "2026-11-18T20:11:10.762665+00:00",
+   "sha256": "6755b63f3894369d4f773d1193d554ec16b6b412959700f67991a2a20d8adf2a"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42855116",
+   "retrieved_at": "2026-11-18T21:50:20.229050+00:00",
+   "sha256": "52b012ba5df0d373f1bdf04d2ea581b8770b911def41b93a39e7da89d01c918b"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42909187",
+   "retrieved_at": "2026-11-16T14:26:18.955794+00:00",
+   "sha256": "a9b871d785c88e227323814bc8d5732c7871fe3a5500a34589eee7a72ecd2dac"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42976466",
+   "retrieved_at": "2026-11-16T14:26:18.956401+00:00",
+   "sha256": "785041e7a9a45323263d13966bca9603b1877899c7bfd28e4131492354f174b5"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "42976660",
+   "retrieved_at": "2026-11-18T21:50:07.089812+00:00",
+   "sha256": "c637611cb99d7162966ee7e92f1057da963b750ed635e248c487b300aef69200"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "43009963",
+   "retrieved_at": "2026-11-18T21:50:20.230248+00:00",
+   "sha256": "e93edaaa8a091f186066937130c9fde49ad6a65f98577a85f481625ffc2a41ca"
+  },
+  {
+   "kind": "pubmed_record",
+   "pmid": "7856802",
+   "retrieved_at": "2026-11-17T16:49:25.594328+00:00",
+   "sha256": "71a3b6dbe0109ec63183975c7999617b1d5a46afa2c741639ea6101528d1400f"
+  }
+ ]
+}

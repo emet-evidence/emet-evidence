@@ -1,0 +1,43 @@
+{
+ "profile": "enhanced",
+ "methodology_version": "0.75",
+ "inherits": "standard",
+ "description": "Exhaustive dual independent screening and dual extraction with different model families when available, adversarial search for missed studies, independent red team on the conclusion.",
+ "screening": {
+  "titles": {
+   "A": "sonnet",
+   "B": "opus",
+   "disagreements": "adjudicated"
+  },
+  "abstracts": {
+   "A": "sonnet",
+   "B": "opus",
+   "arbiter": "opus"
+  },
+  "eligibility": {
+   "A": "sonnet",
+   "B": "opus",
+   "arbiter": "opus"
+  }
+ },
+ "extraction": {
+  "A": "sonnet",
+  "B": "opus",
+  "double_extraction_coverage": 1.0,
+  "arbiter": "opus"
+ },
+ "grade": {
+  "A": "sonnet",
+  "B": "opus",
+  "arbiter": "opus"
+ },
+ "extra_steps": [
+  "adversarial-search (agent searching for missed studies through previous reviews and citations)",
+  "red-team (structured objections to the conclusion, without prior access to the judgements)"
+ ],
+ "budget": {
+  "max_output_tokens": null,
+  "note": "to be set per project"
+ },
+ "status": "defined, not yet run: the additional steps do not exist yet in pipeline.json"
+}

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use EMET Evidence, please cite it as below."
+title: "EMET Evidence: an open-source framework for autonomous, reproducible and auditable evidence synthesis"
+type: software
+authors:
+  - family-names: Chelli
+    given-names: Mikaël
+license: Apache-2.0
+repository-code: "https://github.com/emet-evidence/emet-evidence"
+version: 0.8.0.dev0
+keywords:
+  - systematic review
+  - evidence synthesis
+  - GRADE
+  - PRISMA
+  - LLM agents

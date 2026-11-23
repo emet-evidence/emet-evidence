@@ -1,0 +1,17 @@
+# Consignes de tri — immobilisation après réparation de la coiffe
+
+Tu es un relecteur indépendant. Ne consulte pas d'autre fichier que ceux indiqués. Lis `data/protocols/immobilisation.json` (question PICO, critères d'inclusion, codes d'exclusion E1–E8, règles de portée).
+
+Question : chez l'adulte opéré d'une réparation de la coiffe des rotateurs, une immobilisation postopératoire (écharpe, attelle, coussin d'abduction sans mobilisation, ou mobilisation retardée) améliore-t-elle la cicatrisation et le résultat clinique par rapport à une mobilisation passive précoce, à l'absence d'écharpe ou à une immobilisation plus courte ? L'effet varie-t-il selon la taille de la rupture, la rétraction, l'infiltration graisseuse, l'âge… ?
+
+Pour chaque notice, rends {"decision": "include"|"exclude", "code": "E1".."E8" (si exclude)}.
+
+## Tri des titres
+Include (doute = include) si le titre peut concerner : la rééducation ou la mobilisation après réparation de coiffe (précoce, retardée, accélérée, conservatrice, agressive, calendrier, protocole) ; l'immobilisation, l'écharpe, l'attelle, l'orthèse ou le coussin d'abduction après réparation (une étude de type d'attelle peut comparer des durées) ; la raideur ou la cicatrisation après réparation en lien possible avec la rééducation ou l'immobilisation ; une revue systématique ou méta-analyse sur la rééducation postopératoire de la coiffe ; un essai enregistré (ClinicalTrials.gov) comparant des protocoles de rééducation ou d'immobilisation après réparation de coiffe ; une étude de facteurs de rerupture ou de cicatrisation incluant le protocole postopératoire.
+Exclure : patients non opérés, autre chirurgie (stabilisation, prothèse, fracture, débridement seul), autre articulation (E1) ; comparaison sans lien possible avec le calendrier d'immobilisation (technique de suture, ancres, renfort biologique, PRP, analgésie, bloc, anesthésie, infiltration) (E2) ; cas clinique (E3) ; éditorial, revue narrative clairement non systématique, enquête de pratique (E4) ; animal, cadavre, biomécanique, in vitro, autre question (E6).
+
+## Tri des résumés
+Include seulement si l'étude (ou revue systématique) porte sur des adultes opérés d'une réparation de coiffe ET compare deux groupes dont le calendrier d'immobilisation ou de mobilisation diffère : mobilisation passive précoce contre immobilisation ou mobilisation retardée ; absence d'écharpe ou écharpe de confort contre immobilisation stricte ; durées d'immobilisation différentes (ex. 3 contre 6 semaines) ; rééducation « accélérée » contre « conservatrice » si le début de la mobilisation diffère. Elle doit rapporter un critère retenu (cicatrisation/rerupture, fonction, mobilité, raideur, douleur, complications). Même calendrier dans les deux groupes (type d'attelle, arthromoteur contre manuel à date égale, supervisée contre domicile, modalité physique) = E2. Série sans groupe témoin = E3. Revue systématique ou méta-analyse sur la mobilisation précoce/retardée ou l'immobilisation après réparation de coiffe = include. Essai enregistré sans publication répondant au PICO = include. Résumé absent ou ambigu mais titre évocateur d'une comparaison de calendrier : include (décision à l'éligibilité sur texte).
+
+Ne pas lire les conclusions d'une page du site ; décider uniquement sur le protocole et la notice.
+Écris un unique fichier JSON {id: {decision, code}} à l'emplacement demandé, en une seule écriture.

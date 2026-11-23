@@ -1,0 +1,40 @@
+{
+ "profile": "exploratory",
+ "methodology_version": "0.75",
+ "inherits": "rapid",
+ "description": "Exploration: must not be presented as a systematic review. Single reviewer at each stage, scripted checks kept.",
+ "public_label": "Exploratory review (not systematic)",
+ "screening": {
+  "titles": {
+   "A": "haiku",
+   "B": null,
+   "disagreements": "not applicable"
+  },
+  "abstracts": {
+   "A": "sonnet",
+   "B": null,
+   "arbiter": null
+  },
+  "eligibility": {
+   "A": "sonnet",
+   "B": null,
+   "arbiter": null
+  }
+ },
+ "extraction": {
+  "A": "sonnet",
+  "B": null,
+  "double_extraction_coverage": 0.0,
+  "always_double": null,
+  "arbiter": null
+ },
+ "grade": {
+  "A": "sonnet",
+  "B": null,
+  "arbiter": null
+ },
+ "budget": {
+  "max_output_tokens": 1000000,
+  "note": "indicative cap; exceeding it = blocking and an explicit decision"
+ }
+}

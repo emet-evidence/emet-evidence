@@ -1,0 +1,505 @@
+{
+ "outcomes": [
+  {
+   "id": "O1",
+   "label": "Rerupture ou défaut de cicatrisation en imagerie : mobilisation précoce contre immobilisation (ou mobilisation retardée), toutes ruptures",
+   "importance": "critique",
+   "evidence": "16 essais randomisés ou quasi randomisés au contraste précoce contre retardé (effectif de R22 non rapporté), dont 3 seulement sur grandes ruptures (R13, 3e93, partiellement R6), 14 lus sur résumé seul ; reruptures par imagerie (échographie, IRM, arthroscanner) de 6 à 15 mois. Soutien : 3 essais de durées différentes, 2 comparaisons de plan non précisé, cohortes avec témoin historique, bases de facturation (substitut : reprise chirurgicale). Revues systématiques utilisées pour vérifier l'exhaustivité et la cohérence, sans compter comme confirmation : Mazuquin 2021 (8 essais), Hu 2023 (5 essais), Longo 2021, Hao 2025, entre autres ; 3 fiches de registre terminées sans résultats (R59, R17, R60) et 1 de statut inconnu (R61).",
+   "references": [
+    "R29",
+    "R13",
+    "R4",
+    "R7",
+    "R22",
+    "R2",
+    "R5",
+    "R21",
+    "R1",
+    "R26",
+    "R3",
+    "R14",
+    "R24",
+    "R6",
+    "R8",
+    "R28"
+   ],
+   "start": "élevé",
+   "domains": {
+    "risk_of_bias": {
+     "rating": -1,
+     "reason": "Sérieux : 14 essais sur 16 lus sur résumé seul, randomisation et aveugle de la lecture d'imagerie rarement rapportés, perdus de vue à l'imagerie (Littlewood 20 retraits sur 73 ; 17 % à 24 mois dans R26) ; pas de downgrade supplémentaire car l'analyse limitée aux essais à faible risque (Mazuquin) donne le même résultat (OR 1,05 ; 0,64-1,75)."
+    },
+    "inconsistency": {
+     "rating": 0,
+     "reason": "Pas de downgrade : estimations poolées toutes nulles (RR/OR 1,01 à 1,46 ; I² 0 % chez Longo 2021), les écarts entre essais (20 % contre 23 % ; 5 contre 1 ; 4 contre 6) restent compatibles avec le hasard ; seuls des effets propres aux grandes ruptures sont suggérés (voir O5b)."
+    },
+    "indirectness": {
+     "rating": -1,
+     "reason": "Sérieux : 12 essais sur 16 limités aux ruptures petites ou moyennes alors que l'énoncé vise toutes les ruptures ; calendriers d'immobilisation et de mobilisation non décrits dans plusieurs essais, contrastes parfois actif contre passif ; délai d'imagerie hétérogène (6 à 15 mois)."
+    },
+    "imprecision": {
+     "rating": -1,
+     "reason": "Sérieux : IC poolés compatibles avec une augmentation cliniquement importante du risque (Mazuquin OR 1,26 ; 0,82-1,93 ; Hu OR 1,44 ; 0,83-2,52 ; Hao RR 1,46 ; 0,78-2,73) et avec une réduction ; reruptures peu nombreuses par essai ; n/N par groupe souvent absents."
+    },
+    "publication_bias": {
+     "rating": 0,
+     "reason": "Non abaissé : 2 essais terminés sans résultats ni publication (R17 27 patients, R60 76) et 1 de statut inconnu (114), soit environ 200 patients (R59, 100 patients, est publié : R18) contre plus de 1 700 publiés ; risque réel mais non démontré, pas de biais d'asymétrie évaluable."
+    }
+   },
+   "upgrades": {
+    "large_effect": {
+     "rating": 0,
+     "reason": "Sans objet : le corpus repose sur des essais randomisés (rehaussements réservés aux études observationnelles)."
+    },
+    "dose_response": {
+     "rating": 0,
+     "reason": "Sans objet : le corpus repose sur des essais randomisés (rehaussements réservés aux études observationnelles)."
+    },
+    "confounding": {
+     "rating": 0,
+     "reason": "Sans objet : le corpus repose sur des essais randomisés (rehaussements réservés aux études observationnelles)."
+    }
+   },
+   "certainty": "très faible",
+   "statement": "Les données sont très incertaines : la mobilisation précoce ne semble pas modifier le risque global de rerupture (OR poolés 1,05 à 1,44), mais les intervalles de confiance n'excluent pas une augmentation cliniquement importante (jusqu'à un doublement), en particulier pour les grandes ruptures.",
+   "n_studies": 16,
+   "n_participants": 1473,
+   "effect_summary": "Aucune différence significative dans chaque revue : OR 1,26 (0,82-1,93 ; 8 essais, 960 patients) chez Mazuquin, 1,05 (0,64-1,75) sur les essais à faible risque, OR 1,44 (0,83-2,52 ; 5 essais) chez Hu, RR 1,46 (0,78-2,73) chez Hao ; reruptures brutes 11,4 % contre 9,5 % (Longo 2021) ; essais individuels de 0 à 5 écarts absolus de quelques points dans les deux sens."
+  },
+  {
+   "id": "O2",
+   "label": "Fonction de l'épaule à 12 mois ou plus : mobilisation précoce contre immobilisation (ou mobilisation retardée), toutes ruptures",
+   "importance": "critique",
+   "evidence": "15 essais randomisés avec fonction à 12 mois ou plus (1 445 patients ; R22 effectif non rapporté en plus) ; 2 en texte intégral (R6, R8). Cohortes non randomisées (R65, R44, R37, R42) concordantes, non comptées.",
+   "references": [
+    "R13",
+    "R4",
+    "R2",
+    "R1",
+    "R23",
+    "R5",
+    "R21",
+    "R14",
+    "R6",
+    "R8",
+    "R41",
+    "R26",
+    "R27",
+    "R3",
+    "R64"
+   ],
+   "start": "élevé",
+   "domains": {
+    "risk_of_bias": {
+     "rating": -1,
+     "reason": "Résumés seuls pour 13 essais sur 15, critères rapportés par le patient (ASES, WORC, SPADI) sans aveugle possible, perdus de vue jusqu'à 17-20 % à 24 mois, randomisation non décrite."
+    },
+    "inconsistency": {
+     "rating": 0,
+     "reason": "Sens concordant (aucune différence importante) ; quelques écarts mineurs (Constant +7,9 en faveur du passif à 15 mois dans R3, ASES légèrement en faveur du retardé dans les méta-analyses) restent sous la différence minimale importante."
+    },
+    "indirectness": {
+     "rating": -1,
+     "reason": "Calendrier d'immobilisation et de mobilisation non décrit dans la plupart des résumés ; contrastes parfois faibles (même orthèse 6 semaines dans R6, début actif R23) ; échelles variées."
+    },
+    "imprecision": {
+     "rating": 0,
+     "reason": "Environ 1 400 patients ; les IC poolés excluent la différence minimale cliniquement importante (Constant -0,77 à 0,63 ; ASES -3,4 à 4,7) : pas d'abaissement."
+    },
+    "publication_bias": {
+     "rating": 0,
+     "reason": "Fiches R17 (WORC à 12 mois, 27 patients) et R60 (Constant, 76) sans résultats : faible effectif, pas d'abaissement."
+    }
+   },
+   "upgrades": {
+    "large_effect": {
+     "rating": 0,
+     "reason": "Non applicable : départ élevé, pas de rehaussement."
+    },
+    "dose_response": {
+     "rating": 0,
+     "reason": "Non applicable."
+    },
+    "confounding": {
+     "rating": 0,
+     "reason": "Non applicable."
+    }
+   },
+   "certainty": "faible",
+   "statement": "La mobilisation précoce pourrait ne pas modifier la fonction à 12 mois ou plus par rapport à l'immobilisation (pas de différence cliniquement importante) ; la certitude est faible.",
+   "n_studies": 15,
+   "n_participants": 1445,
+   "effect_summary": "Pas de différence cliniquement importante : Constant à 12 mois DM -0,07 (-0,77 à 0,63) (R48), -0,41 (-3,37 à 2,56) (R12) ; ASES DM 1,4 (-1,8 à 4,7) (R25), -1,56 (-2,66 à -0,46) en faveur du retardé (R51), -1,66 (-2,76 à -0,55) (R30) ; essais individuels : Constant 88,0 contre 91,0 (R6), 90 contre 89 (R8), ASES 73,3 contre 82,9 p = 0,216 (R1). Tous les IC excluent une différence minimale importante (Constant environ 10, ASES 12-17) sauf les petits essais isolés."
+  },
+  {
+   "id": "O3",
+   "label": "Mobilité et raideur postopératoire à court terme (jusqu'à 3 mois) et à 12 mois : mobilisation précoce contre immobilisation",
+   "importance": "importante",
+   "evidence": "19 essais randomisés avec mobilité ou raideur (effectif de R22 non rapporté) ; la mobilité est évaluée sans aveugle dans la plupart. Cohortes rétrospectives (R39, PMC8562612, R70, R40) dans le même sens mais risque de biais élevé (témoins historiques), non comptées.",
+   "references": [
+    "R13",
+    "R4",
+    "R7",
+    "R22",
+    "R2",
+    "R27",
+    "R21",
+    "R28",
+    "R3",
+    "R1",
+    "R26",
+    "R14",
+    "R24",
+    "R6",
+    "R8",
+    "R41",
+    "R43",
+    "R64",
+    "R69"
+   ],
+   "start": "élevé",
+   "domains": {
+    "risk_of_bias": {
+     "rating": -1,
+     "reason": "Résumés seuls, mesure de la mobilité par évaluateur non aveugle, pas de définition de la raideur, perdus de vue."
+    },
+    "inconsistency": {
+     "rating": 0,
+     "reason": "Direction constante en faveur du précoce à court terme (quelques essais sans différence : R28, R6) ; écarts disparus à 6-12 mois de façon cohérente."
+    },
+    "indirectness": {
+     "rating": -1,
+     "reason": "Contrastes variés (passif contre actif, même orthèse dans certains essais), mesures en degrés de pertinence clinique limitée au-delà de 3 mois, définition de la raideur variable."
+    },
+    "imprecision": {
+     "rating": 0,
+     "reason": "Effectif total supérieur à 1 600 et IC étroits pour la mobilité à 3 mois ; à 12 mois l'effet est précis et proche de zéro."
+    },
+    "publication_bias": {
+     "rating": 0,
+     "reason": "Pas d'indication ; les fiches sans résultats n'avaient pas la mobilité comme critère principal."
+    }
+   },
+   "upgrades": {
+    "large_effect": {
+     "rating": 0,
+     "reason": "Non applicable : départ élevé, pas de rehaussement."
+    },
+    "dose_response": {
+     "rating": 0,
+     "reason": "Non applicable."
+    },
+    "confounding": {
+     "rating": 0,
+     "reason": "Non applicable."
+    }
+   },
+   "certainty": "faible",
+   "statement": "À court terme (jusqu'à 3 mois), la mobilisation précoce améliore probablement la mobilité, mais la certitude globale est faible (risque de biais, caractère indirect) ; à 12 mois elle n'apporte probablement qu'un gain de quelques degrés sans pertinence clinique, et pourrait réduire la raideur postopératoire.",
+   "n_studies": 19,
+   "n_participants": 1670,
+   "effect_summary": "Court terme : la mobilité est meilleure avec la mobilisation précoce, élévation antérieure +14,70° à 3 mois (5,52-23,87) (R11), +12,39° (7,51-17,27) (R12), +8,45° (R9) ; rotation externe +5,41° (1,43-9,39) à 3 mois (R48). À 12 mois : +4,18° (0,36-8,00), +2,59° (0,40-4,77), +1,42° (0,21-2,64), sans pertinence clinique. Raideur : RR 0,34 (0,19-0,60) (R12) ; 36,4 % contre 15,2 % (R14) ; 5 % contre 15 % (R7)."
+  },
+  {
+   "id": "O4",
+   "label": "Douleur postopératoire (court et moyen terme) : mobilisation précoce contre immobilisation",
+   "importance": "importante",
+   "evidence": "15 essais randomisés avec douleur (effectif de R22 non rapporté) ; 2 en texte intégral (R6, R8). Cohortes (R71, R65, R70) non comptées.",
+   "references": [
+    "R7",
+    "R22",
+    "R67",
+    "R41",
+    "R1",
+    "R26",
+    "R43",
+    "R16",
+    "R8",
+    "R6",
+    "R21",
+    "R14",
+    "R23",
+    "R13",
+    "R64"
+   ],
+   "start": "élevé",
+   "domains": {
+    "risk_of_bias": {
+     "rating": -1,
+     "reason": "Critère rapporté par le patient sans aveugle possible, résumés seuls, EVA parfois non détaillée (R29 : SMS ordinal)."
+    },
+    "inconsistency": {
+     "rating": -1,
+     "reason": "Direction discordante entre essais (avantage précoce, absence de différence, avantage immobilisation dans une cohorte) ; délais et échelles différents."
+    },
+    "indirectness": {
+     "rating": 0,
+     "reason": "Critère direct pour le patient ; contrastes hétérogènes déjà pris en compte pour la rerupture, non cumulés ici."
+    },
+    "imprecision": {
+     "rating": -1,
+     "reason": "Peu de données chiffrées et d'IC, essais de 29 à 130 patients, pas de comparaison à une différence minimale importante de la douleur."
+    },
+    "publication_bias": {
+     "rating": 0,
+     "reason": "Pas d'indication."
+    }
+   },
+   "upgrades": {
+    "large_effect": {
+     "rating": 0,
+     "reason": "Non applicable : départ élevé, pas de rehaussement."
+    },
+    "dose_response": {
+     "rating": 0,
+     "reason": "Non applicable."
+    },
+    "confounding": {
+     "rating": 0,
+     "reason": "Non applicable."
+    }
+   },
+   "certainty": "très faible",
+   "statement": "Les données sont très incertaines : la mobilisation précoce pourrait réduire la douleur transitoirement dans certains essais, sans différence nette à moyen terme dans les synthèses.",
+   "n_studies": 15,
+   "n_participants": 1210,
+   "effect_summary": "Différences inconstantes : moindre douleur avec le précoce à 4-6 semaines dans R41 (différence 2,56, p = 0,018 ; 2,73, p = 0,001), R7 (EVA 1,7 contre 2,9 à 6 mois), R22 et R67 ; aucune différence dans R1, R26, R43 (5,2 contre 5,2), R6, R14 ; douleur à 6 semaines meilleure avec l'immobilisation dans R42 (non randomisé). Pas de différence poolée (R12, R9, R51)."
+  },
+  {
+   "id": "O5a",
+   "label": "Rerupture et fonction : ruptures petites ou moyennes (moins de 3 cm) : mobilisation précoce contre immobilisation",
+   "importance": "critique",
+   "evidence": "Source : essais randomisés restreints aux ruptures petites ou moyennes (R4 moins de 30 mm, R2 croissant du supra-épineux, R3 non rétractées, R1, R8, R22) et méta-analyse restreinte à cette catégorie (R11, 5 essais). Aucune analyse de sous-groupe intra-essai ; effet de sous-groupe inter-essais, non prédéfini, sans test d'interaction : crédibilité faible. Effectif 467 patients (R22 sans effectif).",
+   "references": [
+    "R4",
+    "R2",
+    "R3",
+    "R1",
+    "R8",
+    "R22"
+   ],
+   "start": "élevé",
+   "domains": {
+    "risk_of_bias": {
+     "rating": -1,
+     "reason": "Quatre essais sur cinq lus sur résumé seul, effectifs de rerupture et aveugle non rapportés, effectifs inégaux sans méthode de randomisation décrite."
+    },
+    "inconsistency": {
+     "rating": 0,
+     "reason": "Estimations de sens variable mais toutes non significatives, IC larges, pas d'hétérogénéité démontrée."
+    },
+    "indirectness": {
+     "rating": 0,
+     "reason": "Population directement concernée, contraste précoce passif contre immobilisation 4-6 semaines dans les essais restreints."
+    },
+    "imprecision": {
+     "rating": -1,
+     "reason": "Environ 470 patients, peu d'événements ; IC (0,57-1,20) compatible avec une diminution et une augmentation de 20 % ; fonction : IC larges dans les essais isolés."
+    },
+    "publication_bias": {
+     "rating": 0,
+     "reason": "R61 (114 patients, petites ou moyennes ruptures, IRM à 6 mois) sans résultats : à surveiller, non abaissé."
+    }
+   },
+   "upgrades": {
+    "large_effect": {
+     "rating": 0,
+     "reason": "Non applicable : départ élevé, pas de rehaussement."
+    },
+    "dose_response": {
+     "rating": 0,
+     "reason": "Non applicable."
+    },
+    "confounding": {
+     "rating": 0,
+     "reason": "Non applicable."
+    }
+   },
+   "certainty": "faible",
+   "statement": "Dans les ruptures petites ou moyennes, la mobilisation précoce pourrait ne pas augmenter la rerupture et pourrait ne pas modifier la fonction à 12 mois ; la certitude est faible.",
+   "n_studies": 6,
+   "n_participants": 467,
+   "effect_summary": "Rerupture RR 0,82 (0,57-1,20) à 1 an ou plus (16,3 % immobilisation contre 21,1 % précoce, R11) ; cicatrisation 92 % sans différence (R4), 91 % contre 85 % (R2), rerupture 15,4 % contre 23,3 % (R3), défaut de cicatrisation 12 % contre 18 % (R1), 1/35 contre 0/35 (R8). Fonction à 12 mois sans différence (Constant 90 contre 89 ; ASES 73,3 contre 82,9)."
+  },
+  {
+   "id": "O5b",
+   "label": "Rerupture et fonction : ruptures grandes ou massives (3 cm et plus) : mobilisation précoce contre immobilisation",
+   "importance": "critique",
+   "evidence": "Source : (1) deux essais restreints aux grandes ruptures (R13, grandes ruptures semi-rigides avec réacheminement du biceps, 101 patients ; R14, 132 patients, résumés seuls) ; (2) sous-groupe intra-essai non testé (R6 : grandes 1/7 contre 3/10 en précoce contre retardé ; R7 : 3 reruptures toutes chez les grandes avec Goutallier 3 ou plus, sans effectifs) ; (3) méta-analyses stratifiées post hoc : OR 1,93 (1,04-3,60) après exclusion des essais de petites ou moyennes ruptures (R15), OR 2,07 (0,96-4,43) pour la mobilisation passive (R10), RR 0,90 (0,80-1,01) de cicatrisation (R30), indirect RR 2,82 (1,31-6,07) au-delà de 5 cm (R31) et RR 6,00 (1,69-21,26) (R33, résumé tronqué) ; (4) non randomisé : R32 (88). Aucun essai sur ruptures massives seules : aucune donnée. Effectif d'essais 233.",
+   "references": [
+    "R13",
+    "R14"
+   ],
+   "start": "élevé",
+   "domains": {
+    "risk_of_bias": {
+     "rating": -1,
+     "reason": "Deux essais sur résumé seul, randomisation, imagerie et perdus de vue non décrits ; pas d'aveugle."
+    },
+    "inconsistency": {
+     "rating": -1,
+     "reason": "Essais directs sans différence (22,6 contre 20,8 %) contre méta-analyses stratifiées en faveur d'un surrisque (OR 1,9-2,8) ; R6 en sens inverse (1/7 contre 3/10)."
+    },
+    "indirectness": {
+     "rating": -1,
+     "reason": "Réacheminement du biceps (R13), protocoles non décrits, 'grandes' définies de façon variable (3 cm, 5 cm) ; ruptures massives non représentées."
+    },
+    "imprecision": {
+     "rating": -2,
+     "reason": "233 patients et une quarantaine de reruptures ; IC (0,96-4,43) compatible avec aucun effet et avec un quadruplement du risque."
+    },
+    "publication_bias": {
+     "rating": 0,
+     "reason": "R59 (2 à 4 cm, 100 patients) sans résultats déposés mais publié (R18, comparaison de durées) ; pas d'abaissement supplémentaire."
+    }
+   },
+   "upgrades": {
+    "large_effect": {
+     "rating": 0,
+     "reason": "Non applicable : départ élevé, pas de rehaussement."
+    },
+    "dose_response": {
+     "rating": 0,
+     "reason": "Non applicable."
+    },
+    "confounding": {
+     "rating": 0,
+     "reason": "Non applicable."
+    }
+   },
+   "certainty": "très faible",
+   "statement": "Les données sont très incertaines : dans les grandes ruptures, la mobilisation précoce pourrait augmenter le risque de rerupture (méta-analyses entre essais) ou ne pas le modifier (essais directs) ; aucune donnée spécifique pour les ruptures massives.",
+   "n_studies": 2,
+   "n_participants": 233,
+   "effect_summary": "Dans les deux essais directs, pas de différence de rerupture (22,6 % contre 20,8 % ; 6 contre 4) ni de fonction (UCLA, Constant) ; les méta-analyses stratifiées entre essais suggèrent plus de rerupture avec le précoce (OR 1,9-2,1). Crédibilité de l'effet de sous-groupe faible : comparaisons inter-essais, post hoc (exclusion d'essais), sans test d'interaction, concordance seulement partielle avec les essais directs."
+  },
+  {
+   "id": "O6",
+   "label": "Absence d'écharpe ou écharpe de confort contre immobilisation stricte : rerupture, fonction, mobilité",
+   "importance": "importante",
+   "evidence": "4 essais randomisés (écharpe contre pas d'écharpe sous mobilisation passive identique : R43, R16 ; mobilisation active précoce sans écharpe contre écharpe stricte de 6 semaines : R26 ; écharpe de 2 semaines contre orthèse de 6 semaines : R20), ruptures petites ou moyennes pour 2 d'entre eux ; soutien : R19 (3 contre 6 semaines), cohorte fast-track (4cf3), cohorte appariée (R72), R62 sans résultats.",
+   "references": [
+    "R43",
+    "R26",
+    "R16",
+    "R20"
+   ],
+   "start": "élevé",
+   "domains": {
+    "risk_of_bias": {
+     "rating": -1,
+     "reason": "Sérieux : résumés seuls (3 sur 4), perdus de vue de 17 % à 24 mois (R26), aveugle d'imagerie non précisé."
+    },
+    "inconsistency": {
+     "rating": 0,
+     "reason": "Pas de downgrade : reruptures sans différence dans les 3 essais qui les mesurent ; avantage de mobilité précoce disparaissant à 3 à 6 mois dans les 4."
+    },
+    "indirectness": {
+     "rating": 0,
+     "reason": "Pas de downgrade majeur : R16 compare des groupes de même durée de 4 semaines (la question écharpe contre pas d'écharpe seule), R26 inclut aussi une mobilisation active ; ruptures limitées aux petites ou moyennes dans 2 essais."
+    },
+    "imprecision": {
+     "rating": -1,
+     "reason": "Sérieux : reruptures non rapportées en n/N (R43, R26), 5 contre 5 dans R20, 3 essais seulement, pas de IC."
+    },
+    "publication_bias": {
+     "rating": 0,
+     "reason": "Non abaissé : R62 en cours, aucun essai terminé sans résultats sur cette comparaison."
+    }
+   },
+   "upgrades": {
+    "large_effect": {
+     "rating": 0,
+     "reason": "Sans objet : le corpus repose sur des essais randomisés (rehaussements réservés aux études observationnelles)."
+    },
+    "dose_response": {
+     "rating": 0,
+     "reason": "Sans objet : le corpus repose sur des essais randomisés (rehaussements réservés aux études observationnelles)."
+    },
+    "confounding": {
+     "rating": 0,
+     "reason": "Sans objet : le corpus repose sur des essais randomisés (rehaussements réservés aux études observationnelles)."
+    }
+   },
+   "certainty": "faible",
+   "statement": "L'absence d'écharpe pourrait ne pas augmenter la rerupture ni altérer la fonction à 12 mois, avec une mobilité meilleure à court terme ; l'effet reste incertain.",
+   "n_studies": 4,
+   "n_participants": 486,
+   "effect_summary": "Rerupture : p = 0,902 (R43), 30 % contre 33 % (R26, p > 0,8), 5 contre 5 (R20) ; mobilité meilleure sans écharpe à 1,5 et 3 mois (rotation externe 23,5° contre 15,3°, élévation active 139,0° contre 125,8°) ; Constant à 1 an 90,34 contre 90,20 (R16, p = 0,321) ; douleur identique, EVA jour 15 7,6 contre 8,4 en faveur de l'absence d'écharpe (p = 0,008)."
+  },
+  {
+   "id": "O7",
+   "label": "Complications et réinterventions (dont raideur nécessitant une arthrolyse ou une mobilisation sous anesthésie)",
+   "importance": "importante",
+   "evidence": "7 essais randomisés ou de plan non précisé rapportant raideur, capsulite, complications ou réinterventions, avec peu d'événements ; cohortes avec témoins historiques sur la raideur ; deux bases de facturation (reprise chirurgicale substitut de la rerupture ; capsulite) ; aucune donnée de mobilisation sous anesthésie ni d'arthrolyse décrite par groupe.",
+   "references": [
+    "R29",
+    "R18",
+    "R14",
+    "R7",
+    "R19",
+    "R3",
+    "R66"
+   ],
+   "start": "élevé",
+   "domains": {
+    "risk_of_bias": {
+     "rating": -1,
+     "reason": "Sérieux : événements rapportés en critère secondaire, résumés seuls, définition de la raideur non rapportée, suivi parfois court."
+    },
+    "inconsistency": {
+     "rating": -1,
+     "reason": "Sérieux : raideur moindre avec la mobilisation précoce dans 4 essais sur 4 (15 % contre 36 %, 5 % contre 15 %, 18 % contre 38 %, RR 0,34), mais reprises chirurgicales plus fréquentes avec une kinésithérapie dans la semaine (OR 2,09, R45) et sans association dans R46 ; complications plus fréquentes avec l'immobilisation de 30 jours dans R44 mais 4 contre 0 avec l'écharpe de 3 semaines dans R19."
+    },
+    "indirectness": {
+     "rating": -1,
+     "reason": "Sérieux : substituts (reprise chirurgicale, capsulite codée) dans les bases de facturation, aucune donnée d'arthrolyse ni de mobilisation sous anesthésie, raideur définie diversement."
+    },
+    "imprecision": {
+     "rating": -1,
+     "reason": "Sérieux : événements rares (1 contre 1 réintervention dans R29, 4 complications dans R19), pas d'IC."
+    },
+    "publication_bias": {
+     "rating": 0,
+     "reason": "Non abaissé : aucun élément spécifique."
+    }
+   },
+   "upgrades": {
+    "large_effect": {
+     "rating": 0,
+     "reason": "Sans objet : le corpus repose sur des essais randomisés (rehaussements réservés aux études observationnelles)."
+    },
+    "dose_response": {
+     "rating": 0,
+     "reason": "Sans objet : le corpus repose sur des essais randomisés (rehaussements réservés aux études observationnelles)."
+    },
+    "confounding": {
+     "rating": 0,
+     "reason": "Sans objet : le corpus repose sur des essais randomisés (rehaussements réservés aux études observationnelles)."
+    }
+   },
+   "certainty": "très faible",
+   "statement": "Les données sont très incertaines : la mobilisation précoce pourrait réduire la raideur postopératoire, sans augmentation établie des complications ni des réinterventions ; les arthrolyses et mobilisations sous anesthésie ne sont pas rapportées par groupe.",
+   "n_studies": 7,
+   "n_participants": 645,
+   "effect_summary": "Raideur : RR 0,34 (0,19-0,60, Hao) ; 15,15 % contre 36,36 % (3e93), 5 % contre 15 % (R7), 18 % contre 38 % pour 4 contre 8 semaines (R18) ; 0/79 contre 18/231 (R40) ; capsulite sans association avec le délai de rééducation (OR 0,83 à 0,94, 33 841 patients) ; reprise 6,9 % contre 3,6 % dans la première semaine (OR 2,09, Medicare)."
+  }
+ ],
+ "main": {
+  "claim": "Après une réparation de la coiffe des rotateurs, une mobilisation précoce n'augmente pas le risque de rerupture par rapport à une immobilisation.",
+  "certainty": "très faible",
+  "rationale": "Certitude de O1 : les essais ne montrent pas de différence significative de rerupture, mais les estimations poolées sont surtout supérieures à 1 (OR 1,05 à 1,46) avec des IC allant jusqu'à 2 à 2,7, donc incompatibles avec l'affirmation d'une absence d'augmentation : abaissement pour risque de biais (résumés, imagerie non aveugle), caractère indirect (calendriers hétérogènes) et imprécision. L'effet semble dépendre de la taille de la rupture : possible surrisque dans les grandes ruptures (OR 1,9 à 2,1 entre essais, certitude très faible, sans donnée sur les massives), pas de signal clair dans les petites ou moyennes (RR 0,82 ; 0,57-1,20, certitude faible). La mobilisation précoce améliore la mobilité à 3 mois sans bénéfice fonctionnel à 12 mois (certitude faible pour la fonction, modérée pour la mobilité à 3 mois avant prise en compte du caractère indirect).",
+  "references": [
+   "R9",
+   "R10",
+   "R26",
+   "R27",
+   "R4",
+   "R6",
+   "R13",
+   "R3"
+  ]
+ },
+ "date": "2026-11-18",
+ "note": "Évaluation GRADE en double agentique (deux sessions Sonnet indépendantes), arbitrée par la session principale (Opus) : les deux relecteurs aboutissent à la même certitude pour 5 critères sur 9 et notent identiquement 36 domaines sur 40 (écarts : O2 indirectness (0 contre -1) ; O3 indirectness (0 contre -1) ; O4 inconsistency (0 contre -1) ; O5b imprecision (-1 contre -2)). En cas de désaccord, la cotation la plus prudente est retenue (O2, O3, O4 : caractère indirect abaissé ; O4 : incohérence abaissée). Départ élevé pour les essais randomisés et les études évaluées par ROBINS-I. Les revues systématiques recoupent les essais primaires et ne sont pas comptées comme confirmations indépendantes. Rétraction tendineuse, infiltration graisseuse, âge et technique (O5c) : aucune donnée d’interaction, pas de ligne GRADE. Aucune relecture humaine à ce stade."
+}
